@@ -18,5 +18,5 @@ end
 
 get %r{/stylesheets/(screen|mobile)/?} do |filename|
     content_type 'text/css', :charset => 'utf-8'
-    sass filename
+    sass filename.to_sym
 end
