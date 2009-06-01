@@ -5,8 +5,17 @@
     %link{:href => '/stylesheets/screen', :media => 'screen', :rel => 'stylesheet', :type => 'text/css'}
   %body
     %h1
-      %a{:href => '/', :title => "This is The Setup."}
-        The Setup
+      %a{:href => '/', :title => "This is The Setup."}The Setup
       is a bunch of nerdy interviews
     %p What do people use to get the job done?
     = yield
+    %footer
+      This is some sort of 
+      %a{:href => 'http://waferbaby.com/', :title => 'Some website.'}waferbaby
+      rubbish, running on
+      %a{:href => 'http://sinatrarb.com/', :title => 'A lovely little Ruby thingy whatsit.'}Sinatra
+      = Sinatra::VERSION
+      \. Grab 
+      %a{:href => 'http://github.com/waferbaby/usesthis/tree/master', :title => 'View the source code for this site.'}the source
+      if you're so inclined.
+      
