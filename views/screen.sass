@@ -13,25 +13,41 @@ body
     size: 16px
 
 h1
+  padding: 0
+  margin: 0
   text:
     transform: uppercase
   color: #333
   font:
     size: 120%
+
+h1 + p
+  padding: 0 0 15px 0
+  margin: 5px 0 20px 0
+  color: #aaa
+  font:
+    size: 80%
+  border:
+    bottom: solid 1px #222
   
 h2
   padding: 0
   margin: 0 0 20px 0
   color: #DF0174
   font:
-    size: 300%
+    size: 230%
+
+h2.person:after
+  content: " (uses this)"
+  color: #888
   
 h3
   text:
     transform: uppercase
-  color: #2e2e2e
+  color: #555
   font:
-    size: 130%
+    size: 140%
+    weight: normal
 
 img
   border: solid 4px #000
