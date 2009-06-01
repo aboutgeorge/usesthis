@@ -1,5 +1,10 @@
 a
+  text:
+    decoration: none
   color: #444
+
+a:hover
+  color: #888
   
 body
   width: 508px
@@ -12,6 +17,16 @@ body
     family: helvetica
     size: 16px
 
+footer
+  display: block
+  padding: 10px 0
+  margin: 10px 0
+  color: #333
+  font:
+    size: 70%
+  border:
+    top: solid 1px #222
+    
 h1
   padding: 0
   margin: 0
@@ -21,6 +36,10 @@ h1
   font:
     size: 120%
 
+h1:hover a, footer:hover a
+  text:
+    decoration: underline
+    
 h1 + p
   padding: 0 0 15px 0
   margin: 5px 0 20px 0
@@ -33,13 +52,15 @@ h1 + p
 h2
   padding: 0
   margin: 0 0 20px 0
-  color: #DF0174
+  color: #df0174
   font:
     size: 230%
 
-h2.person:after
+h2.name:after
   content: " (uses this)"
   color: #888
+  font:
+    weight: normal
   
 h3
   text:
@@ -57,3 +78,37 @@ img
   
 p
   color: #fff
+
+ul
+  list:
+    style: none
+  padding: 0
+  margin: 0
+
+ul li
+  clear: left
+  padding: 0 0 10px 0
+  margin: 0
+  
+ul li a
+  display: block
+  color: #df0174
+  font:
+    size: 230%
+
+ul li a:hover
+  background:
+    color: #FE2E9A
+  color: #fff
+
+ul li img
+  float: left
+  margin: 0 10px 10px 0
+  
+ul li p.date
+  float: right
+  padding: 15px 15px 0 0
+  margin: 0
+  color: #888
+  font:
+    size: 80%
