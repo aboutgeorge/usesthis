@@ -1,0 +1,17 @@
+%p.date= @interview.created_at.strftime("%d.%m.%Y")
+%h2= @interview.person
+%img{:src => "/images/#{@interview.slug}.jpg", :width => 500, :height => 353, :alt => @interview.person}
+
+%section
+  %article
+    %h3 Who are you and what do you do?
+    = markup(@interview.introduction)
+  %article
+    %h3 What hardware are you using?
+    = markup(@interview.hardware)
+  %article
+    %h3 And what software?
+    = markup(@interview.software)
+  %article
+    %h3 What would be your dream setup?
+    = markup(@interview.dream_setup)
