@@ -2,10 +2,25 @@ a
   text:
     decoration: none
   color: #444
-
+  
 a:hover
   color: #888
+
+article > p
+  padding: 13px 20px
+  margin: 0
+  background:
+    color: #1a1a1a
+  color: #bbb
+  font:
+    size: 85%
+  line:
+    height: 20px
   
+article > p:first-letter:
+  font:
+    size: 200%
+
 body
   width: 508px
   padding: 40px
@@ -36,6 +51,9 @@ h1
   font:
     size: 120%
 
+h1 > a
+  color: #666
+
 h1:hover a, footer:hover a
   text:
     decoration: underline
@@ -56,12 +74,6 @@ h2
   font:
     size: 230%
 
-h2.name:after
-  content: " (uses this)"
-  color: #888
-  font:
-    weight: normal
-  
 h3
   text:
     transform: uppercase
@@ -75,9 +87,14 @@ img
   padding: 4px
   background:
     color: #fff
-  
-p
-  color: #fff
+      
+p.date
+  float: right
+  padding: 5px
+  margin: 10px 10px 0 0
+  color: #ddd
+  font:
+    size: 80%
 
 ul
   list:
@@ -85,30 +102,18 @@ ul
   padding: 0
   margin: 0
 
-ul li
-  clear: left
-  padding: 0 0 10px 0
-  margin: 0
+  li
+    clear: left
+    padding: 0 0 10px 0
+    margin: 0
   
-ul li a
-  display: block
-  color: #df0174
-  font:
-    size: 230%
+    a
+      display: block
+      color: #df0174
+      font:
+        size: 230%
 
-ul li a:hover
-  background:
-    color: #FE2E9A
-  color: #fff
-
-ul li img
-  float: left
-  margin: 0 10px 10px 0
-  
-ul li p.date
-  float: right
-  padding: 15px 15px 0 0
-  margin: 0
-  color: #888
-  font:
-    size: 80%
+    a:hover
+      background:
+        color: #FE2E9A
+      color: #fff
