@@ -29,12 +29,16 @@ end
 
 helpers do    
     def markup(text)
-        RDiscount.new(text).to_html
+        begin
+            RDiscount.new(text).to_html
+        rescue
+            ""
+        end
     end
 end
 
 get '/' do
-    @interviews = Interview.all
+    @interviews = Interview.all(:order => [:created_at.desc])
     haml :index
 end
 
