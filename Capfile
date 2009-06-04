@@ -17,6 +17,11 @@ role :web, "usesthis.com"
 namespace :deploy do  
         desc "Link up the application config file."
         task :after_update_code do
-                run "ln -nfs #{shared_path}/usesthis.yml #{release_path}/usesthis.yml" 
-        end        
+          run "ln -nfs #{shared_path}/usesthis.yml #{release_path}/usesthis.yml" 
+        end
+        
+        desc "Restart usesthis."
+        task :restart, :roles => :app do
+          run "touch /usr/local/www/apps/usesthis/current/restart.txt"
+        end
 end
