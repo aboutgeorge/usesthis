@@ -4,14 +4,4 @@
 
 %section
   %article
-    %h3 Who are you and what do you do?
-    = markup(@interview.introduction)
-  %article
-    %h3 What hardware are you using?
-    = markup(@interview.hardware)
-  %article
-    %h3 And what software?
-    = markup(@interview.software)
-  %article
-    %h3 What would be your dream setup?
-    = markup(@interview.dream_setup)
+    = markup(content_for(@interview), false)
