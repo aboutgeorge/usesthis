@@ -14,8 +14,7 @@ configure do |p|
     begin
         config = YAML.load_file('application.yml')
         
-        DataMapper.setup(:default, config[:datamapper][p.environment])
-        DataMapper::Logger.new(STDOUT, :debug)
+        DataMapper.setup(:default, config[:database][p.environment])
     	
         Dir.glob('lib/*.rb') do |filename|
             require filename
@@ -28,12 +27,34 @@ configure do |p|
 end
 
 helpers do    
-    def markup(text)
-        begin
-            RDiscount.new(text).to_html
-        rescue
-            ""
+    def markup(text, filter_html = true)
+        return "" unless text
+        
+        markdown = RDiscount.new(text)
+        markdown.filter_html = filter_html
+        
+        markdown.to_html
+    end
+    
+    def content_for(interview)
+        content  = "### Who are you and what do you do?\n"
+        content += "#{interview.introduction}\n\n"
+        content += "### What hardware do you use?\n"
+        content += "#{interview.hardware_used}\n\n"
+        content += "### And what software?\n"
+        content += "#{interview.software_used}\n\n"
+        content += "### What would be your dream setup?\n"
+        content += "#{interview.dream_setup}"
+
+        if interview.wares.length > 0
+            content += "\n\n"
+
+            interview.wares.each do |ware|
+                content += "[#{ware.slug}]: #{ware.url} \"#{ware.description}\"\n"
+            end
         end
+
+        content
     end
 end
 
