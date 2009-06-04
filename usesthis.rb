@@ -12,7 +12,7 @@ require 'rdiscount'
 
 configure do |p|    
     begin
-        config = YAML.load_file('application.yml')
+        config = YAML.load_file('usesthis.yml')
         
         DataMapper.setup(:default, config[:database][p.environment])
     	
