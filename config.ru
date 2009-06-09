@@ -1,3 +1,3 @@
-require 'usesthis.rb'
+require 'application.rb'
 
 run Setup::App.new
