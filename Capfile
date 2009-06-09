@@ -11,17 +11,19 @@ set :user,              "daniel"
 set :use_sudo,          false
 
 role :app, "usesthis.com"
-role :db,  "usesthis.com", :primary => true
 role :web, "usesthis.com"
 
-namespace :deploy do  
-        desc "Link up the application config file."
-        task :after_update_code do
-          run "ln -nfs #{shared_path}/usesthis.yml #{release_path}/usesthis.yml" 
-        end
-        
-        desc "Restart usesthis."
-        task :restart, :roles => :app do
-          run "touch /usr/local/www/apps/usesthis/current/restart.txt"
-        end
+namespace :deploy do
+    task :start, :roles => :app do
+        run "cd #{deploy_to}/current && nohup thin -s 3 -R config.ru start"
+    end
+    
+    task :stop, :roles => :app do
+        run "cd #{deploy_to}/current && nohup thin -s 3 -R config.ru stop"
+    end
+    
+    task :restart, :roles => :app do
+        deploy.stop
+        deploy.start
+    end
 end
