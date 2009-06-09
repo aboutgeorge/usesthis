@@ -5,7 +5,6 @@
 
 require 'rubygems'
 require 'sinatra/base'
-require 'datamapper'
 require 'haml'
 require 'sass'
 
