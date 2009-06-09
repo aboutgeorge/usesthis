@@ -2,6 +2,6 @@
   %ul
     - @interviews.each do |interview|
       %li
-        %p.date= interview.created_at.strftime("%d.%m.%Y")
+        %p.date= "#{interview.date[:year]}-#{interview.date[:month]}-#{interview.date[:day]}"
         %a{:href => "/#{interview.slug}/", :title => "View an interview with #{interview.person}."}
           %span= interview.person
