@@ -16,7 +16,7 @@ module Setup
         def self.all
             interviews = []
 
-            Dir.glob(File.join("interviews", "published", "*.markdown")).reverse.each do |path|
+            Dir.glob(File.join("interviews", "published", "*.markdown")).sort.reverse.each do |path|
                 interviews << Setup::Interview.new(path)
             end
 
