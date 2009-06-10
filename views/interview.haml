@@ -1,7 +1,7 @@
-%p.date= @interview.created_at.strftime("%d.%m.%Y")
+%p.date= "#{@interview.date[:year]}-#{@interview.date[:month]}-#{@interview.date[:day]}"
 %h2= @interview.person
 %img{:src => "/images/#{@interview.slug}.jpg", :width => 500, :height => 353, :alt => @interview.person}
 
 %section
   %article
-    = markup(content_for(@interview), false)
+    = markup(@interview.contents)
