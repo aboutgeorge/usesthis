@@ -16,7 +16,7 @@ module Setup
         def self.all
             interviews = []
 
-            Dir.glob(File.join("interviews", "published", "*.markdown")) do |path|
+            Dir.glob(File.join("interviews", "published", "*.markdown")).reverse.each do |path|
                 interviews << Setup::Interview.new(path)
             end
 
@@ -47,7 +47,7 @@ module Setup
     class Publisher
         def self.run
             wares = YAML.load_file(File.join("data", "wares.yml"))
-            
+
             questions = [
                 "Who are you and what do you do?",
                 "What hardware do you use?",
@@ -60,7 +60,7 @@ module Setup
                 contents = File.read(path)
                 
                 unless contents.empty?
-                    contents.gsub!(/### Question (\d):/) do |matches|
+                    contents.gsub!(/### Question (\d)/) do |matches|
                         "### #{questions[$1.to_i-1]}"
                     end
                     
@@ -68,19 +68,16 @@ module Setup
                     
                     links = contents.scan(/\[([^\[\(\)]+)\]\[([a-z0-9\.\-]+)?\]/)
                     links.each do |link|
-                        slug = link[1] ? link[0].downcase : link[1]
-                        
-                        if wares[slug]
-                            contents += "[#{wares[slug]['title']}](#{wares[slug]['url']} \"#{wares[slug]['description']}\")\n"
+                        slug = link[1] ? link[1] : link[0].downcase                        
+                        if wares["#{slug}"]
+                            contents += "[#{slug}]: #{wares[slug]['url']} \"#{wares[slug]['description']}\"\n"
                         end
                     end
                     
                     new_path = File.join("interviews", "published", "#{time.strftime('%Y')}-#{time.strftime('%m')}-#{time.strftime('%d')}-#{File.basename(path)}")
                     File.open(new_path, "w+") do |f|
                         f.write(contents)
-                    end
-                    
-                    File.unlink(path)
+                    end                    
                 end
             end
         end
