@@ -1,274 +1,274 @@
-macbook-pro: {title: "MacBook Pro", description: "The popular Intel-based Mac laptop.", url: "http://www.apple.com/macbookpro/"}
-cinema-display: {title: "Cinema Display", description: "The LCD display line.", url: "http://www.apple.com/displays/cinema/"}
-ilap: {title: "iLap", description: "Laptop stand.", url: "http://www.raindesigninc.com/ilap.html"}
-readynas-nv+: {title: "ReadyNAS NV+", description: "A backup/storage solution.", url: "http://www.readynas.com/?cat=4"}
-time-machine: {title: "Time Machine", description: "Backup software for the masses, included with Mac OS X 10.5.", url: "http://www.apple.com/macosx/features/timemachine.html"}
-iphone: {title: "iPhone", description: "C'mon, you know what this is.", url: "http://www.apple.com/iphone/"}
-se110mpa: {title: "SE110MPA", description: "Sound-isolating headphones.", url: "http://store.shure.com/store/shure/en_US/DisplayProductDetailsPage/productID.106610400"}
-a5: {title: "A5", description: "Tiny but powerful speakers.", url: "http://www.audioengineusa.com/a5_home.php"}
-airport-express: {title: "Airport Express", description: "A small wireless access point.", url: "http://www.apple.com/airportexpress/"}
-wrt54gl: {title: "WRT54GL", description: "A Linux-based Wireless Broadband router.", url: "http://www.linksysbycisco.com/us/en/products/WRT54GL"}
-tomato: {title: "Tomato", description: "Replacement firmware for the Linksys WRT54GL.", url: "http://polarcloud.com/tomato/"}
-textmate: {title: "TextMate", description: "A very popular text editor for the Mac.", url: "http://macromates.com/"}
-backblaze: {title: "Backblaze", description: "Online backup.", url: "http://backblaze.com/internet-backup.html"}
-terminal: {title: "Terminal", description: "The console application for OS X.", url: "http://www.apple.com/macosx/technology/unix.html"}
-safari: {title: "Safari", description: "A fast web browser.", url: "http://www.apple.com/safari/"}
-fluid: {title: "Fluid", description: "A WebKit-based application for creating Site Specific Browsers.", url: "http://fluidapp.com/"}
-gmail: {title: "Gmail", description: "Web-based email.", url: "http://mail.google.com/"}
-safari-adblock: {title: "Safari AdBlock", description: "Just like the name says.", url: "http://burgersoftware.com/en/safariadblock"}
-inquisitor: {title: "Inquisitor", description: "Learning search engine helper.", url: "http://inquisitorx.com/"}
-ichat: {title: "iChat", description: "An AIM/Jabber client included with Mac OS X.", url: "http://www.apple.com/macosx/features/ichat.html"}
-twitterrific: {title: "Twitterrific", description: "A popular Twitter Mac client.", url: "http://iconfactory.com/software/twitterrific"}
-ical: {title: "iCal", description: "Calendaring software included with Mac OS X.", url: "http://www.apple.com/macosx/features/300.html#ical"}
-google-calendar: {title: "Google Calendar", description: "A web-based calendar client.", url: "http://calendar.google.com/"}
-things: {title: "Things", description: "A popular task management application for the Mac.", url: "http://culturedcode.com/things/"}
-macjournal: {title: "MacJournal", description: "A life journal application for the Mac.", url: "http://marinersoftware.com/sitepage.php?page=85"}
-yep: {title: "Yep", description: "A Mac application for storing your PDF documents.", url: "http://yepthat.com/yep/"}
-knox: {title: "Knox", description: "A Mac application for creating and easily mounting secure disk images.", url: "http://knoxformac.com/"}
-textexpander: {title: "TextExpander", description: "A Mac app for adding custom abbreviations for often-used text.", url: "http://smileonmymac.com/TextExpander/"}
-launchbar: {title: "Launchbar", description: "An application launcher and data manager for the Mac.", url: "http://obdev.at/products/launchbar/"}
-growl: {title: "Growl", description: "A notification system for Mac OS X.", url: "http://growl.info/"}
-hardwaregrowler: {title: "HardwareGrowler", description: "A Growl-based utility for notifying you when devices are connected/disconnected.", url: "http://growl.info/documentation/hardwaregrowler.php"}
-istat-pro: {title: "iStat pro", description: "A Mac application for monitoring your CPU, memory, disks and so on.", url: "http://islayer.com/apps/istatpro/"}
-dropbox: {title: "Dropbox", description: "Online syncing and storage.", url: "http://getdropbox.com/"}
-google-apps: {title: "Google Apps", description: "A hosted solution for email, calendaring and more.", url: "http://google.com/apps/intl/en/business/"}
-trac: {title: "Trac", description: "A web-based wiki and issue tracking system for developers.", url: "http://trac.edgewall.org/"}
-review-board: {title: "Review Board", description: "A web-based code review system.", url: "http://www.review-board.org/"}
-git: {title: "Git", description: "A version control system.", url: "http://git-scm.com/"}
-cgit: {title: "cgit", description: "A Git repository viewer.", url: "http://hjemli.net/git/cgit/"}
-itunes: {title: "iTunes", description: "The infamous jukebox application.", url: "http://www.apple.com/itunes/"}
-last.fm: {title: "Last.fm", description: "An online radio/tool for tracking your listening habits.", url: "http://last.fm/"}
-bloom: {title: "Bloom", description: "An ambient musician machine/artwork iPhone application.", url: "http://generativemusic.com/"}
-isolator: {title: "Isolator", description: "A Mac application designed to help you focus on a single task.", url: "http://www.willmore.eu/software/isolator/"}
-instapaper: {title: "Instapaper", description: "A web tool for saving pages to read later.", url: "http://instapaper.com/"}
-google-reader: {title: "Google Reader", description: "A web-based feed reader.", url: "http://reader.google.com/"}
-mac-os-x: {title: "Mac OS X", description: "The operating system for the Mac platform.", url: "http://www.apple.com/macosx/"}
-plan-9: {title: "Plan 9", description: "A distributed operating system.", url: "http://plan9.bell-labs.com/plan9/"}
-caffeine: {title: "Caffeine", description: "A Mac menubar application to keep your computer awake.", url: "http://lightheadsw.com/caffeine/"}
-imac: {title: "iMac", description: "The all-in-one Mac.", url: "http://www.apple.com/imac/"}
-macbook: {title: "MacBook", description: "The consumer Mac laptop.", url: "http://www.apple.com/macbook/"}
-audio-kontrol-1: {title: "AUDIO KONTROL 1", description: "A high-end audio interface.", url: "http://native-instruments.com/?id=audiokontrol1"}
-powershot-sd1000: {title: "Powershot SD1000", description: "A 7.1 megapixel compact digital camera.", url: "http://usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=145&amp;modelid=14901"}
-live: {title: "Live", description: "Musical creation software.", url: "http://ableton.com/live/"}
-mda-vst: {title: "mda-vst", description: "A collection of open source VST/AU plugins.", url: "http://mda.smartelectronix.com/"}
-reason: {title: "Reason", description: "A virtual studio rack for creating music.", url: "http://propellerheads.se/products/reason/"}
-peak: {title: "Peak", description: "A music creation and editing tool.", url: "http://bias-inc.com/products/peakpro6/"}
-final-cut-pro: {title: "Final Cut Pro", description: "A nonlinear video editor.", url: "http://www.apple.com/finalcutstudio/finalcutpro/"}
-motion: {title: "Motion", description: "A 3D motion graphics suite.", url: "http://www.apple.com/finalcutstudio/motion/"}
-flash: {title: "Flash", description: "The editor for the everywhere vector platform.", url: "http://adobe.com/products/flash/"}
-photoshop: {title: "Photoshop", description: "The infamous graphic editor.", url: "http://adobe.com/products/photoshop/"}
-illustrator: {title: "Illustrator", description: "A popular vector graphics editor.", url: "http://adobe.com/products/illustrator/"}
-coda: {title: "Coda", description: "A single-window HTML/web tool.", url: "http://panic.com/coda/"}
-transmit: {title: "Transmit", description: "An FTP/SFTP client for the Mac.", url: "http://panic.com/transmit/"}
-indesign: {title: "InDesign", description: "A desktop/web publishing application.", url: "http://adobe.com/products/indesign/"}
-unison: {title: "Unison", description: "A file syncing tool.", url: "http://www.cis.upenn.edu/~bcpierce/unison/"}
-transmission: {title: "Tranmission", description: "A popular BitTorrent client.", url: "http://transmissionbt.com/"}
-binsearch: {title: "binsearch", description: "An online newsgroup search engine.", url: "http://binsearch.info/"}
-pizzatorrent: {title: "PizzaTorrent", description: "An online meta-search engine for torrent sites.", url: "http://pizzatorrent.com/"}
-oa-desk: {title: "OA Desk", description: "A line of aluminium desks.", url: "http://lian-li.com/v2/en/product/product03.php?cl_index=4&amp;amp;sc_index=21"}
-beyond-tv: {title: "Beyond TV", description: "Software for recording and watching TV.", url: "http://snapstream.com/products/beyondtv/"}
-chrome: {title: "Chrome", description: "A WebKit-based browser, where each tab runs in its own thread.", url: "http://google.com/chrome"}
-fusion: {title: "VMWare Fusion", description: "A PC emulator for the Mac.", url: "http://vmware.com/products/fusion/"}
-wow: {title: "World of Warcraft", description: "A slightly popular fantasy MMORPG.", url: "http://www.worldofwarcraft.com/"}
-intuos: {title: "Intuos", description: "A line of popular input tablets.", url: "http://wacom.com/intuos/"}
-cintiq: {title: "Cintiq", description: "The computer screen you can draw on.", url: "http://wacom.com/cintiq/"}
-firefox: {title: "Firefox", description: "The very popular open source web browser.", url: "http://mozilla.com/firefox/"}
-visual-studio: {title: "Visual Studio", description: "A Windows development environment.", url: "http://msdn.microsoft.com/en-us/vstudio/default.aspx"}
-perforce: {title: "Perforce", description: "A software configuration and deploy suite.", url: "http://perforce.com/perforce/products.html"}
-incredibuild: {title: "IncrediBuild", description: "A grid computing software package.", url: "http://xoreax.com/"}
-bloglines: {title: "Bloglines", description: "A web-based feed reader.", url: "http://bloglines.com/"}
-mac-pro: {title: "Mac Pro", description: "The Intel-based Mac tower computer.", url: "http://www.apple.com/macpro/"}
-macbook-air: {title: "Macbook Air", description: "The super-thin Intel-based Mac laptop.", url: "http://www.apple.com/macbookair/"}
-drobo: {title: "Drobo", description: "A nice hardware-based backup system.", url: "http://drobo.com/Products/drobo.html"}
-apple-tv: {title: "Apple TV", description: "The media station device.", url: "http://www.apple.com/appletv/"}
-xcode: {title: "XCode", description: "An IDE for Mac developers.", url: "http://developer.apple.com/technology/tools.html"}
-mobile-me: {title: "MobileMe", description: "An online 'cloud' service (mail, calendar, etc).", url: "http://www.me.com/"}
-yojimbo: {title: "Yojimbo", description: "Data 'bucket' software for the Mac.", url: "http://barebones.com/products/Yojimbo/"}
-subversion: {title: "Subversion", description: "A popular version control system.", url: "http://subversion.tigris.org/"}
-iconbuilder: {title: "IconBuilder", description: "The icon plugin for Photoshop.", url: "http://iconfactory.com/software/iconbuilder/"}
-candybar: {title: "CandyBar", description: "Software for changing the default icons in OS X.", url: "http://www.panic.com/candybar/"}
-iwork: {title: "iWork", description: "An office suite for the Mac.", url: "http://www.apple.com/iwork/"}
-on-the-job: {title: "On The Job", description: "Job time-tracking software for the Mac.", url: "http://stuntsoftware.com/OnTheJob/"}
-adium: {title: "Adium", description: "The excellent multi-chat-protocol Mac application.", url: "http://adiumx.com/"}
-mail: {title: "Mail", description: "The default Mac OS X mail client.", url: "http://www.apple.com/macosx/features/mail.html"}
-superduper: {title: "SuperDuper!", description: "An excellent Mac backup/cloning application.", url: "http://shirt-pocket.com/SuperDuper/SuperDuperDescription.html"}
-portal: {title: "Portal", description: "An awesome, groundbreaking game.", url: "http://orange.half-life2.com/portal.html"}
-mac-mini: {title: "Mac Mini", description: "The lil' Intel-based Mac.", url: "http://www.apple.com/macmini/"}
-digi-002: {title: "Digi 002", description: "Multitrack studio hardware.", url: "http://digidesign.com/index.cfm?langid=100&amp;navid=105&amp;itemid=23597"}
-376: {title: "376 Tube Channel processor", description: "A channel strip processor.", url: "http://dbxpro.com/376/376.php"}
-pod-pro: {title: "POD", description: "Hardware for creating guitar sounds.", url: "http://line6.com/products/detail/3/"}
-mx200: {title: "MX200", description: "Sound effect/reverb hardware.", url: "http://www.lexiconpro.com/ProductIndex.aspx?ProductID=12"}
-ksm32: {title: "KSM32", description: "A studio microphone.", url: "http://shure.com/ProAudio/Products/WiredMicrophones/us_pro_KSM32-CG_content"}
-sm57: {title: "SM57", description: "An instrument microphone.", url: "http://shure.com/ProAudio/Products/WiredMicrophones/us_pro_SM57-LC_content"}
-tenori-on: {title: "Tenori-on", description: "An awesome Japanese digital instrument.", url: "http://www.global.yamaha.com/tenori-on/index.html"}
-zendrum: {title: "Zendrum", description: "A MIDI triggering controller.", url: "http://www.zendrum.com/"}
-strat: {title: "Stratocaster", description: "The official list of Fender Strats.", url: "http://fender.com/products/search.php?section=guitars&amp;amp;cat=stratocaster"}
-esquire: {title: "Esquire", description: "A classic 50's bass.", url: "http://www.fender.com/products/search.php?partno=0131502303"}
-mahogany-ukulele: {title: "Mahogany Ukulele", description: "The range of Mahogany ukuleles.", url: "http://meleukulele.com/shopdisplayproducts.asp?id=2&amp;cat=Mahogany+Ukuleles"}
-pro-tools-le: {title: "Pro Tools LE", description: "The LE version of the studio system software.", url: "http://digidesign.com/index.cfm?navid=28"}
-gforce-m-tron-pro: {title: "GForce M-Tron Pro", description: "Virtual vintage keyboard software.", url: "http://m-audio.com/products/en_us/GForceMTronPro.html"}
-reel-drums: {title: "Reel Drums", description: "Drum loop samples.", url: "http://reeldrums.com/home.html"}
-bfd: {title: "BFD", description: "'Drum studio in a box' software.", url: "http://fxpansion.com/index.php?page=53"}
-pro-tools-hd: {title: "Pro Tools HD", description: "Very popular, very expensive studio software.", url: "http://www.digidesign.com/index.cfm?navid=24"}
-icurve: {title: "iCurve", description: "A laptop stand.", url: "http://griffintechnology.com/products/icurve/"}
-g1: {title: "G1", description: "The first Google Android phone.", url: "http://www.htc.com/www/product/g1/overview.html"}
-android: {title: "Android", description: "A mobile phone platform.", url: "http://code.google.com/android/"}
-windows-7: {title: "Windows 7", description: "The upcoming revision of Windows.", url: "http://microsoft.com/windows/windows-7/"}
-google-docs: {title: "Google Docs", description: "A web-based office suite.", url: "http://docs.google.com"}
-twitter: {title: "Twitter", description: "An online micro-blogging platform.", url: "http://twitter.com/"}
-editplus: {title: "EditPlus", description: "A text editor for Windows.", url: "http://www.editplus.com/"}
-digsby: {title: "Digsby", description: "An IM, email and social network client.", url: "http://digsby.com/"}
-picasa: {title: "Picasa", description: "A photo client and web service.", url: "http://picasa.google.com/"}
-snagit: {title: "Snagit", description: "Screen capturing software.", url: "http://techsmith.com/screen-capture.asp"}
-camtasia: {title: "Camtasia", description: "Screencasting software.", url: "http://techsmith.com/camtasia.asp"}
-syncback: {title: "SyncBack", description: "Free backup software.", url: "http://2brightsparks.com/freeware/freeware-hub.html"}
-cygwin: {title: "Cygwin", description: "A Linux-like environment for Windows.", url: "http://www.cygwin.com/"}
-smultron: {title: "Smultron", description: "A freeware text editor for the Mac.", url: "http://tuppis.com/smultron/"}
-instantshot: {title: "InstantShot!", description: "Screen capture software for the Mac.", url: "http://projects.digitalwaters.net/index.php?q=instantshot"}
-quicksilver: {title: "Quicksilver", description: "The ultimate data manipulator/launcher for the Mac.", url: "http://code.google.com/p/blacktree-alchemy/"}
-todo.sh: {title: "todo.sh", description: "A command-line interface for your todo.txt file.", url: "http://ginatrapani.github.com/todo.txt-cli/"}
-keepass: {title: "Keepass", description: "A free, open source password manager.", url: "http://keepass.info/"}
-mozy: {title: "Mozy", description: "An online backup solution.", url: "http://mozy.com/"}
-evernote: {title: "Evernote", description: "Online software for capturing notes.", url: "http://evernote.com/"}
-synergy: {title: "Synergy", description: "Software to share a single keyboard and mouse between multiple computers.", url: "http://synergy2.sourceforge.net/"}
-windows-xp: {title: "Windows XP", description: "An operating system for x86 computers.", url: "http://microsoft.com/windows/windows-xp/"}
-office: {title: "Office", description: "The infamous software package.", url: "http://office.microsoft.com/"}
-skitch: {title: "Skitch", description: "An always-on image editor for the Mac.", url: "http://skitch.com/"}
-address-book: {title: "Address Book", description: "The contacts application included with Mac OS X.", url: "http://www.apple.com/macosx/features/addressbook/"}
-markdown: {title: "Markdown", description: "An email-like format for marking up text.", url: "http://daringfireball.net/projects/markdown/"}
-imate: {title: "iMate", description: "An ADB to USB dongle.", url: "http://griffintechnology.com/products/imate/"}
-gr-digital: {title: "GR Digital", description: "An 8 megapixel digital camera.", url: "http://www.ricoh.com/r_dc/gr/gr_digital/"}
-rebel-xt: {title: "Rebel XT", description: "An 8 megapixel digital SLR.", url: "http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=139&amp;modelid=11154"}
-ef-28mm: {title: "EF 28mm Wide-Angle Lens", description: "A lens for SLR cameras.", url: "http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=151&amp;modelid=7302"}
-ef-50mm: {title: "EF 50mm", description: "A lens for SLR cameras.", url: "http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=152&amp;modelid=7307"}
-flip-ultra: {title: "Flip Ultra", description: "A compact digital video recorder.", url: "http://theflip.com/products_flip_ultra.shtml"}
-zi6: {title: "Zi6", description: "A compact digital video recorder.", url: "http://kodak.com/eknec/PageQuerier.jhtml?pq-path=13063"}
-g-raid2: {title: "G-RAID2", description: "A dual-drive RAID system.", url: "http://g-technology.com/products/G-RAID2.cfm"}
-time-capsule: {title: "Time Capsule", description: "A WiFi access point and backup system.", url: "http://www.apple.com/timecapsule/"}
-domehub: {title: "DomeHub", description: "A 7 port USB 2.0 hub.", url: "http://us.kensington.com/html/6495.html"}
-moleskine-soft-cover: {title: "Moleskine Soft Cover", description: "A popular line of paper notebooks (with a soft cover).", url: "http://moleskineus.com/moleskine-softcover-notebook.html"}
-signo-gel-rt: {title: "Signo Gel RT", description: "It's a pen.", url: "http://www.uniball-na.com/main.taf?p=2,2,6"}
-bbedit: {title: "BBEdit", description: "A rather popular text editor for the Mac.", url: "http://barebones.com/products/bbedit/"}
-netnewswire: {title: "NetNewsWire", description: "A popular feed reader for the Mac.", url: "http://newsgator.com/individuals/netnewswire/"}
-netnewswire-iphone: {title: "NetNewsWire (iPhone)", description: "A popular feed reader for the iPhone.", url: "http://newsgator.com/individuals/netnewswireiphone/"}
-tweetie: {title: "Tweetie", description: "A very popular Twitter client for the iPhone.", url: "http://atebits.com/software/tweetie/"}
-numbers: {title: "Numbers", description: "A spreadsheet application for the Mac.", url: "http://www.apple.com/iwork/numbers/"}
-webkit: {title: "Webkit", description: "The nightly built version of Webkit, the web browser/framework.", url: "http://nightly.webkit.org/"}
-keynote: {title: "Keynote", description: "Presentation software for the Mac.", url: "http://www.apple.com/iwork/keynote/"}
-dragthing: {title: "DragThing", description: "A popular dock application for the Mac.", url: "http://dragthing.com/"}
-typeit4me: {title: "TypeIt4Me", description: "A typing shortcut tool for the Mac.", url: "http://ettoresoftware.com/EttoreSoftware/About_TypeIt4Me.html"}
-busysync: {title: "BusySync", description: "A application to sync iCal and Google Calendar, for the Mac.", url: "http://busymac.com/"}
-script-debugger: {title: "Script Debugger", description: "An AppleScript IDE for the Mac.", url: "http://latenightsw.com/sd4/"}
-marsedit: {title: "MarsEdit", description: "A weblog editor for the Mac.", url: "http://red-sweater.com/marsedit/"}
-expandrive: {title: "ExpanDrive", description: "Software that makes remote servers appear as local disks.", url: "http://expandrive.com/"}
-acorn: {title: "Acorn", description: "An image editor for the Mac.", url: "http://flyingmeat.com/acorn/"}
-spamsieve: {title: "SpamSieve", description: "Bayesian spam filtering for Mac mail clients.", url: "http://c-command.com/spamsieve/"}
-fastscripts: {title: "FastScripts", description: "System-wide access to Applescripts, for the Mac.", url: "http://red-sweater.com/fastscripts/"}
-thisservice: {title: "ThisService", description: "Software for creating Mac OS X Services using any programming language.", url: "http://wafflesoftware.net/thisservice/"}
-omnioutliner-pro: {title: "OmniOutliner Pro", description: "The 800lb gorilla of task managers for the Mac.", url: "http://omnigroup.com/applications/omnioutliner/pro/"}
-keyboard-maestro: {title: "Keyboard Maestro", description: "A macro application for the Mac.", url: "http://keyboardmaestro.com/"}
-the-hit-list: {title: "The Hit List", description: "A fancy task manager for the Mac.", url: "http://potionfactory.com/thehitlist/"}
-sound-studio: {title: "Sound Studio", description: "A sound editor for the Mac.", url: "http://freeverse.com/soundstudio/"}
-movable-type: {title: "Movable Type", description: "Weblog publishing software.", url: "http://movabletype.org/"}
-imt: {title: "iMT", description: "An MT plugin that adds an iPhone interface.", url: "http://plugins.movabletype.org/imt/"}
-things-iphone: {title: "Things (iPhone)", description: "A popular task management application for the iPhone.", url: "http://culturedcode.com/things/iphone/"}
-geektool: {title: "GeekTool", description: "A Mac prefpane to show logs, scripts or images right on the desktop.", url: "http://projects.tynsoe.org/en/geektool/"}
-windows-vista: {title: "Windows Vista", description: "A somewhat unpopular OS for x86 computers.", url: "http://microsoft.com/windows/windows-vista/"}
-etherpad: {title: "EtherPad", description: "Online collaborative text editing.", url: "http://etherpad.com/"}
-snipshot: {title: "Snipshot", description: "An online image editor.", url: "http://snipshot.com/"}
-picwing: {title: "Picwing", description: "An online photo sharing service.", url: "http://picwing.com/"}
-small-business: {title: "Small Business", description: "Online retail/merchant services and hosting.", url: "http://smallbusiness.yahoo.com/ecommerce/"}
-mzscheme: {title: "MzScheme", description: "The core virtual machine for the PLT Scheme language.", url: "http://plt-scheme.org/software/mzscheme/"}
-freebsd: {title: "FreeBSD", description: "An open source operating system.", url: "http://freebsd.org/"}
-ipod-touch: {title: "iPod Touch", description: "It's like an iPhone, without the phone bit.", url: "http://www.apple.com/ipodtouch/"}
-l245wp: {title: "L245WP Wide LCD Monitor", description: "An LCD screen.", url: "http://www.lge.com/products/model/detail/l245wp.jhtml"}
-pcalc: {title: "PCalc", description: "A scientific calculator for the Mac.", url: "http://pcalc.com/"}
-pcalc-iphone: {title: "PCalc (iPhone)", description: "A scientific calculator for the iPhone.", url: "http://pcalc.com/iphone/"}
-twitkitteh: {title: "Twitkitteh", description: "An iPhone Twitter client. For cats.", url: "http://twitkitteh.com/"}
-dreamweaver: {title: "Dreamweaver", description: "A WYSIWYG editor.", url: "http://adobe.com/products/dreamweaver/"}
-interarchy: {title: "Interarchy", description: "A FTP/SFTP client for the Mac.", url: "http://nolobe.com/interarchy/"}
-filemaker-pro: {title: "Filemaker Pro", description: "A database application.", url: "http://filemaker.com/products/filemaker-pro/"}
-retrospect: {title: "Retrospect", description: "Backup software.", url: "http://retrospect.com/"}
-fieldrunners: {title: "Fieldrunners", description: "A very popular tower defense-style game for the iPhone.", url: "http://fieldrunners.com/"}
-leopard: {title: "Leopard", description: "Version 10.5 of the operating system for the Mac.", url: "http://www.apple.com/macosx/"}
-tiger: {title: "Tiger", description: "Version 10.4 of the operating system for the Mac.", url: "http://www.apple.com/support/tiger/"}
-eliss: {title: "Eliss", description: "A clever little game for the iPhone.", url: "http://toucheliss.com/"}
-e2007wfp: {title: "E2007WFP", description: "A 20&quot; LCD screen with USB ports.", url: "http://dell.com/content/products/productdetails.aspx/monitor_2007wfp?c=au&amp;l=en&amp;s=bsd&amp;cs=aubsd1"}
-scrivener: {title: "Scrivener", description: "A Mac text editor aimed at writers.", url: "http://literatureandlatte.com/scrivener.html"}
-taskpaper: {title: "TaskPaper", description: "A simple task/to do list application for the Mac.", url: "http://hogbaysoftware.com/products/taskpaper"}
-processing: {title: "Processing", description: "A programming language/environment.", url: "http://processing.org/"}
-scriptographer: {title: "Scriptographer", description: "A plugin for Illustrator to add support for Javascript scripting.", url: "http://scriptographer.com/"}
-tm-git-bundle: {title: "TextMate Git bundle", description: "A bundle for TextMate to add Git support.", url: "http://gitorious.org/projects/git-tmbundle"}
-cssedit: {title: "CSSEdit", description: "A stylesheet editor for the Mac.", url: "http://macrabbit.com/cssedit/"}
-cyberduck: {title: "Cyberduck", description: "An FTP/SFTP client for the Mac.", url: "http://cyberduck.ch/"}
-s3: {title: "S3", description: "Cloud-based Internet storage magic.", url: "http://aws.amazon.com/s3/"}
-app-engine: {title: "Google App Engine", description: "Hosting for web applications.", url: "http://code.google.com/appengine/"}
-app-engine-launcher: {title: "Google App Engine Launcher", description: "An SDK/launcher for the App Engine, for the Mac.", url: "http://code.google.com/appengine/downloads.html"}
-fireworks: {title: "Fireworks", description: "A graphics and work tool for the Mac.", url: "http://adobe.com/products/fireworks/"}
-spaces: {title: "Spaces", description: "Virtual desktop software included with Leopard.", url: "http://www.apple.com/macosx/features/spaces.html"}
-soundtrack-pro: {title: "Soundtrack Pro", description: "A Mac audio editor tailored for movies.", url: "http://www.apple.com/logicstudio/soundtrackpro"}
-audacity: {title: "Audacity", description: "An open-source, cross-platform audio editor.", url: "http://audacity.sourceforge.net/"}
-battery-3: {title: "Battery 3", description: "A drum and percussion sampler.", url: "http://www.native-instruments.com/index.php?id=battery3"}
-pro-53: {title: "Pro-53", description: "Virtual synthesizer software.", url: "http://www.native-instruments.com/index.php?id=pro53"}
-logic-pro: {title: "Logic Pro", description: "A professional audio application for the Mac.", url: "http://www.apple.com/logicstudio/logicpro/"}
-sk-10: {title: "SK-10", description: "A toy music keyboards.", url: "http://www.casiosk1.com/sk10.cfm"}
-keyboard: {title: "Keyboard", description: "The slim keyboard for Macs.", url: "http://www.apple.com/keyboard/"}
-mighty-mouse: {title: "Mighty Mouse", description: "The wireless mouse with the nipple.", url: "http://www.apple.com/mightymouse/"}
-mx-revolution: {title: "MX Revolution", description: "A popular wireless laser mouse.", url: "http://www.logitech.com/index.cfm/mice_pointers/mice/devices/130&amp;cl=us,en"}
-companion-3: {title: "Companion 3", description: "Three-piece stereo speakers for computers.", url: "http://www.bose.com/controller?url=/shop_online/speakers/computer_speakers/companion_3/index.jsp"}
-ego: {title: "Ego", description: "An iPhone applications for checking web statistics.", url: "http://www.ego-app.com/"}
-airport-extreme: {title: "Airport Extreme", description: "A wireless access point.", url: "http://www.apple.com/airportextreme/"}
-xpad: {title: "xPad", description: "A flexible notepad for the Mac.", url: "http://www.getxpad.com/"}
-mbox: {title: "Mbox", description: "A USB-powered audio/MIDI production system.", url: "http://www.digidesign.com/index.cfm?langid=100&amp;navid=29&amp;itemid=4893"}
-ag-hvx200a: {title: "AG-HVX200A", description: "A HD video camera.", url: "http://catalog2.panasonic.com/webapp/wcs/stores/servlet/ModelDetail?storeId=11201&amp;catalogId=13051&amp;itemId=243668&amp;surfModel=AG-HVX200A"}
-d90: {title: "D90", description: "A 12.3 megapixel digital SLR camera.", url: "http://www.nikonusa.com/Find-Your-Nikon/Product/Digital-SLR/25446/D90.html"}
-newsfire: {title: "NewsFire", description: "A popular feed reader for the Mac.", url: "http://www.newsfirex.com/"}
-grabup: {title: "GrabUp", description: "A screenshot sharing service.", url: "http://www.grabup.com/"}
-af-50mm: {title: "AF 50mm", description: "A lens for SLR cameras.", url: "http://www.nikonusa.com/Find-Your-Nikon/ProductDetail.page?pid=2137"}
-af-28mm: {title: "AF 28mm", description: "A lens for SLR cameras.", url: "http://www.nikonusa.com/Find-Your-Nikon/Product/Camera-Lenses/1922/AF-NIKKOR-28mm-f%252F2.8D.html"}
-iphoto: {title: "iPhoto", description: "Photo management software for the Mac.", url: "http://www.apple.com/ilife/iphoto/"}
-lightroom: {title: "Photoshop Lightroom", description: "Photo management and editing software.", url: "http://www.adobe.com/products/photoshoplightroom/"}
-tumblr: {title: "Tumblr", description: "An online personal publishing platform.", url: "http://www.tumblr.com/"}
-podcast-maker: {title: "Podcast Maker", description: "A podcast feed creation application for the Mac.", url: "http://www.lemonzdream.com/podcastmaker/"}
-horror-vacui: {title: "Horror Vacui", description: "A two-player abstract strategy board game for the iPhone.", url: "http://www.shauninman.com/horrorvacui/"}
-coversutra: {title: "CoverSutra", description: "An iTunes controller for the Mac.", url: "http://www.coversutra.com/"}
-groceries: {title: "Groceries", description: "A smart shopping list for the iPhone.", url: "http://www.groceriesapp.com/"}
-tipulator: {title: "Tipulator", description: "A tipping calculator for the iPhone.", url: "http://www.tipulatorapp.com/"}
-littlesnapper: {title: "LittleSnapper", description: "A screen capture and collection tool for the Mac.", url: "http://www.realmacsoftware.com/littlesnapper/"}
-wallet: {title: "Wallet", description: "A secure data bucket application for the Mac.", url: "http://www.acrylicapps.com/wallet/"}
-fontcase: {title: "Fontcase", description: "A font management tool for the Mac.", url: "http://www.bohemiancoding.com/fontcase/"}
-bluebird: {title: "Bluebird", description: "A fresh Twitter client for the Mac.", url: "http://www.bluebirdapp.com/"}
-ipod: {title: "iPod", description: "The infamous music player.", url: "http://www.apple.com/ipod/"}
-soundsticks: {title: "Soundsticks", description: "Swanky-looking computer speakers.", url: "http://www.harmankardon.com/product_detail.aspx?Region=USA&amp;Country=US&amp;Language=ENG&amp;cat=MME&amp;prod=SOUNDSTICKSII&amp;sType=C"}
-e207wfp: {title: "E207WFP", description: "A 20&quot; LCD screen.", url: "http://72.14.235.132/search?q=cache:kFKRQ5VywckJ:us.dell.com/sna/productdetail.aspx%3Fc%3Dus%26cs%3D19%26l%3Den%26s%3Ddhs%26sku%3D320-5123+e207wfp"}
-github: {title: "GitHub", description: "A Git code repository service.", url: "http://www.github.com/"}
-wii: {title: "Wii", description: "A unique gaming console.", url: "http://www.wii.com/"}
-xbox-360: {title: "Xbox 360", description: "A popular gaming console.", url: "http://www.xbox.com/en-US/hardware/"}
-eee-pc-901: {title: "EEE PC 901", description: "A 9&quot; netbook.", url: "http://www.asus.com/product.aspx?P_ID=1sRO7tW9B0OdR9yz"}
-friendfeed: {title: "FriendFeed", description: "Web-based social aggregation.", url: "http://www.friendfeed.com/"}
-flickr: {title: "Flickr", description: "Possibly the best photo-sharing website, like, evar.", url: "http://www.flickr.com/"}
-omnigraffle: {title: "OmniGraffle", description: "Diagramming software for the Mac.", url: "http://www.omnigroup.com/applications/omnigraffle/"}
-textedit: {title: "TextEdit", description: "The default text editor included with Mac OS X.", url: "http://support.apple.com/kb/HT2523"}
-skype: {title: "Skype", description: "Voice and video chat software.", url: "http://www.skype.com/"}
-spreedly: {title: "Spreedly", description: "A web-based service for collecting subscription payments for anything.", url: "http://www.spreedly.com/"}
-weewar: {title: "Weewar", description: "A popular web-based strategy game.", url: "http://www.weewar.com/"}
-no-kahuna: {title: "No Kahuna", description: "A web-based project/collaboration service.", url: "http://www.nokahuna.com/"}
-permatime: {title: "Permatime", description: "A web-based temporal headache massager.", url: "http://www.permatime.com/"}
-openbsd: {title: "OpenBSD", description: "An open-source operating system emphasising security and cryptography.", url: "http://www.openbsd.org/"}
-pf: {title: "PF", description: "A TCP packet filter included with OpenBSD.", url: ""}
-openssh: {title: "OpenSSH", description: "A popular collection of SSH tools.", url: "http://www.openssh.com/"}
-opencv: {title: "OpenCV", description: "A programming library for working with real-time computer vision.", url: "http://opencv.willowgarage.com/wiki/"}
-ec2: {title: "EC2", description: "A web service for virtualised processing.", url: "http://aws.amazon.com/ec2/"}
-macports: {title: "MacPorts", description: "A collection of *nix software ported to Mac OS X.", url: "http://www.macports.org/"}
-colloquy: {title: "Colloquy", description: "A popular IRC client for the Mac.", url: "http://www.colloquy.info/"}
-merb: {title: "Merb", description: "A lightweight but powerful Ruby framework.", url: "http://www.merbivore.com/"}
-vi: {title: "vi", description: "A popular command-line text editor.", url: "http://en.wikipedia.org/wiki/Vi"}
-mapserver: {title: "MapServer", description: "An open-source map platform.", url: "http://www.mapserver.org/"}
-yahoo-pipes: {title: "Yahoo! Pipes", description: "A service for mixing up web content.", url: "http://pipes.yahoo.com/"}
-compass-597: {title: "Compass 597 EVDO", description: "A USB device for EVDO access.", url: "http://www.sierrawireless.com/product/compass_597.aspx"}
-textwrangler: {title: "TextWrangler", description: "A free, powerful text editor for the Mac.", url: "http://www.barebones.com/products/textwrangler/"}
-carbon-emacs: {title: "Emacs (Carbon)", description: "A Mac-friendly version of GNU Emacs.", url: "http://homepage.mac.com/zenitani/emacs-e.html"}
-eclipse: {title: "Eclipse", description: "A flexible, open-source IDE.", url: "http://www.eclipse.org/"}
-openoffice: {title: "OpenOffice", description: "An open-source office suite.", url: "http://www.openoffice.org/"}
-fontforge: {title: "FontForge", description: "An open-source font editor.", url: "http://fontforge.sourceforge.net/"}
-hex-fiend: {title: "Hex Fiend", description: "An open-source hex editor for the Mac.", url: "http://www.ridiculousfish.com/hexfiend/"}
+"macbook-pro": {title: "MacBook Pro", description: "The popular Intel-based Mac laptop.", url: "http://www.apple.com/macbookpro/"}
+"cinema-display": {title: "Cinema Display", description: "The LCD display line.", url: "http://www.apple.com/displays/cinema/"}
+"ilap": {title: "iLap", description: "Laptop stand.", url: "http://www.raindesigninc.com/ilap.html"}
+"readynas-nv-plus": {title: "ReadyNAS NV+", description: "A backup/storage solution.", url: "http://www.readynas.com/?cat=4"}
+"time-machine": {title: "Time Machine", description: "Backup software for the masses, included with Mac OS X 10.5.", url: "http://www.apple.com/macosx/features/timemachine.html"}
+"iphone": {title: "iPhone", description: "C'mon, you know what this is.", url: "http://www.apple.com/iphone/"}
+"se110mpa": {title: "SE110MPA", description: "Sound-isolating headphones.", url: "http://store.shure.com/store/shure/en_US/DisplayProductDetailsPage/productID.106610400"}
+"a5": {title: "A5", description: "Tiny but powerful speakers.", url: "http://www.audioengineusa.com/a5_home.php"}
+"airport-express": {title: "Airport Express", description: "A small wireless access point.", url: "http://www.apple.com/airportexpress/"}
+"wrt54gl": {title: "WRT54GL", description: "A Linux-based Wireless Broadband router.", url: "http://www.linksysbycisco.com/us/en/products/WRT54GL"}
+"tomato": {title: "Tomato", description: "Replacement firmware for the Linksys WRT54GL.", url: "http://polarcloud.com/tomato/"}
+"textmate": {title: "TextMate", description: "A very popular text editor for the Mac.", url: "http://macromates.com/"}
+"backblaze": {title: "Backblaze", description: "Online backup.", url: "http://backblaze.com/internet-backup.html"}
+"terminal": {title: "Terminal", description: "The console application for OS X.", url: "http://www.apple.com/macosx/technology/unix.html"}
+"safari": {title: "Safari", description: "A fast web browser.", url: "http://www.apple.com/safari/"}
+"fluid": {title: "Fluid", description: "A WebKit-based application for creating Site Specific Browsers.", url: "http://fluidapp.com/"}
+"gmail": {title: "Gmail", description: "Web-based email.", url: "http://mail.google.com/"}
+"safari-adblock": {title: "Safari AdBlock", description: "Just like the name says.", url: "http://burgersoftware.com/en/safariadblock"}
+"inquisitor": {title: "Inquisitor", description: "Learning search engine helper.", url: "http://inquisitorx.com/"}
+"ichat": {title: "iChat", description: "An AIM/Jabber client included with Mac OS X.", url: "http://www.apple.com/macosx/features/ichat.html"}
+"twitterrific": {title: "Twitterrific", description: "A popular Twitter Mac client.", url: "http://iconfactory.com/software/twitterrific"}
+"ical": {title: "iCal", description: "Calendaring software included with Mac OS X.", url: "http://www.apple.com/macosx/features/300.html#ical"}
+"google-calendar": {title: "Google Calendar", description: "A web-based calendar client.", url: "http://calendar.google.com/"}
+"things": {title: "Things", description: "A popular task management application for the Mac.", url: "http://culturedcode.com/things/"}
+"macjournal": {title: "MacJournal", description: "A life journal application for the Mac.", url: "http://marinersoftware.com/sitepage.php?page=85"}
+"yep": {title: "Yep", description: "A Mac application for storing your PDF documents.", url: "http://yepthat.com/yep/"}
+"knox": {title: "Knox", description: "A Mac application for creating and easily mounting secure disk images.", url: "http://knoxformac.com/"}
+"textexpander": {title: "TextExpander", description: "A Mac app for adding custom abbreviations for often-used text.", url: "http://smileonmymac.com/TextExpander/"}
+"launchbar": {title: "Launchbar", description: "An application launcher and data manager for the Mac.", url: "http://obdev.at/products/launchbar/"}
+"growl": {title: "Growl", description: "A notification system for Mac OS X.", url: "http://growl.info/"}
+"hardwaregrowler": {title: "HardwareGrowler", description: "A Growl-based utility for notifying you when devices are connected/disconnected.", url: "http://growl.info/documentation/hardwaregrowler.php"}
+"istat-pro": {title: "iStat pro", description: "A Mac application for monitoring your CPU, memory, disks and so on.", url: "http://islayer.com/apps/istatpro/"}
+"dropbox": {title: "Dropbox", description: "Online syncing and storage.", url: "http://getdropbox.com/"}
+"google-apps": {title: "Google Apps", description: "A hosted solution for email, calendaring and more.", url: "http://google.com/apps/intl/en/business/"}
+"trac": {title: "Trac", description: "A web-based wiki and issue tracking system for developers.", url: "http://trac.edgewall.org/"}
+"review-board": {title: "Review Board", description: "A web-based code review system.", url: "http://www.review-board.org/"}
+"git": {title: "Git", description: "A version control system.", url: "http://git-scm.com/"}
+"cgit": {title: "cgit", description: "A Git repository viewer.", url: "http://hjemli.net/git/cgit/"}
+"itunes": {title: "iTunes", description: "The infamous jukebox application.", url: "http://www.apple.com/itunes/"}
+"last.fm": {title: "Last.fm", description: "An online radio/tool for tracking your listening habits.", url: "http://last.fm/"}
+"bloom": {title: "Bloom", description: "An ambient musician machine/artwork iPhone application.", url: "http://generativemusic.com/"}
+"isolator": {title: "Isolator", description: "A Mac application designed to help you focus on a single task.", url: "http://www.willmore.eu/software/isolator/"}
+"instapaper": {title: "Instapaper", description: "A web tool for saving pages to read later.", url: "http://instapaper.com/"}
+"google-reader": {title: "Google Reader", description: "A web-based feed reader.", url: "http://reader.google.com/"}
+"mac-os-x": {title: "Mac OS X", description: "The operating system for the Mac platform.", url: "http://www.apple.com/macosx/"}
+"plan-9": {title: "Plan 9", description: "A distributed operating system.", url: "http://plan9.bell-labs.com/plan9/"}
+"caffeine": {title: "Caffeine", description: "A Mac menubar application to keep your computer awake.", url: "http://lightheadsw.com/caffeine/"}
+"imac": {title: "iMac", description: "The all-in-one Mac.", url: "http://www.apple.com/imac/"}
+"macbook": {title: "MacBook", description: "The consumer Mac laptop.", url: "http://www.apple.com/macbook/"}
+"audio-kontrol-1": {title: "AUDIO KONTROL 1", description: "A high-end audio interface.", url: "http://native-instruments.com/?id=audiokontrol1"}
+"powershot-sd1000": {title: "Powershot SD1000", description: "A 7.1 megapixel compact digital camera.", url: "http://usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=145&amp;modelid=14901"}
+"live": {title: "Live", description: "Musical creation software.", url: "http://ableton.com/live/"}
+"mda-vst": {title: "mda-vst", description: "A collection of open source VST/AU plugins.", url: "http://mda.smartelectronix.com/"}
+"reason": {title: "Reason", description: "A virtual studio rack for creating music.", url: "http://propellerheads.se/products/reason/"}
+"peak": {title: "Peak", description: "A music creation and editing tool.", url: "http://bias-inc.com/products/peakpro6/"}
+"final-cut-pro": {title: "Final Cut Pro", description: "A nonlinear video editor.", url: "http://www.apple.com/finalcutstudio/finalcutpro/"}
+"motion": {title: "Motion", description: "A 3D motion graphics suite.", url: "http://www.apple.com/finalcutstudio/motion/"}
+"flash": {title: "Flash", description: "The editor for the everywhere vector platform.", url: "http://adobe.com/products/flash/"}
+"photoshop": {title: "Photoshop", description: "The infamous graphic editor.", url: "http://adobe.com/products/photoshop/"}
+"illustrator": {title: "Illustrator", description: "A popular vector graphics editor.", url: "http://adobe.com/products/illustrator/"}
+"coda": {title: "Coda", description: "A single-window HTML/web tool.", url: "http://panic.com/coda/"}
+"transmit": {title: "Transmit", description: "An FTP/SFTP client for the Mac.", url: "http://panic.com/transmit/"}
+"indesign": {title: "InDesign", description: "A desktop/web publishing application.", url: "http://adobe.com/products/indesign/"}
+"unison": {title: "Unison", description: "A file syncing tool.", url: "http://www.cis.upenn.edu/~bcpierce/unison/"}
+"transmission": {title: "Tranmission", description: "A popular BitTorrent client.", url: "http://transmissionbt.com/"}
+"binsearch": {title: "binsearch", description: "An online newsgroup search engine.", url: "http://binsearch.info/"}
+"pizzatorrent": {title: "PizzaTorrent", description: "An online meta-search engine for torrent sites.", url: "http://pizzatorrent.com/"}
+"oa-desk": {title: "OA Desk", description: "A line of aluminium desks.", url: "http://lian-li.com/v2/en/product/product03.php?cl_index=4&amp;amp;sc_index=21"}
+"beyond-tv": {title: "Beyond TV", description: "Software for recording and watching TV.", url: "http://snapstream.com/products/beyondtv/"}
+"chrome": {title: "Chrome", description: "A WebKit-based browser, where each tab runs in its own thread.", url: "http://google.com/chrome"}
+"fusion": {title: "VMWare Fusion", description: "A PC emulator for the Mac.", url: "http://vmware.com/products/fusion/"}
+"wow": {title: "World of Warcraft", description: "A slightly popular fantasy MMORPG.", url: "http://www.worldofwarcraft.com/"}
+"intuos": {title: "Intuos", description: "A line of popular input tablets.", url: "http://wacom.com/intuos/"}
+"cintiq": {title: "Cintiq", description: "The computer screen you can draw on.", url: "http://wacom.com/cintiq/"}
+"firefox": {title: "Firefox", description: "The very popular open source web browser.", url: "http://mozilla.com/firefox/"}
+"visual-studio": {title: "Visual Studio", description: "A Windows development environment.", url: "http://msdn.microsoft.com/en-us/vstudio/default.aspx"}
+"perforce": {title: "Perforce", description: "A software configuration and deploy suite.", url: "http://perforce.com/perforce/products.html"}
+"incredibuild": {title: "IncrediBuild", description: "A grid computing software package.", url: "http://xoreax.com/"}
+"bloglines": {title: "Bloglines", description: "A web-based feed reader.", url: "http://bloglines.com/"}
+"mac-pro": {title: "Mac Pro", description: "The Intel-based Mac tower computer.", url: "http://www.apple.com/macpro/"}
+"macbook-air": {title: "Macbook Air", description: "The super-thin Intel-based Mac laptop.", url: "http://www.apple.com/macbookair/"}
+"drobo": {title: "Drobo", description: "A nice hardware-based backup system.", url: "http://drobo.com/Products/drobo.html"}
+"apple-tv": {title: "Apple TV", description: "The media station device.", url: "http://www.apple.com/appletv/"}
+"xcode": {title: "XCode", description: "An IDE for Mac developers.", url: "http://developer.apple.com/technology/tools.html"}
+"mobile-me": {title: "MobileMe", description: "An online 'cloud' service (mail, calendar, etc).", url: "http://www.me.com/"}
+"yojimbo": {title: "Yojimbo", description: "Data 'bucket' software for the Mac.", url: "http://barebones.com/products/Yojimbo/"}
+"subversion": {title: "Subversion", description: "A popular version control system.", url: "http://subversion.tigris.org/"}
+"iconbuilder": {title: "IconBuilder", description: "The icon plugin for Photoshop.", url: "http://iconfactory.com/software/iconbuilder/"}
+"candybar": {title: "CandyBar", description: "Software for changing the default icons in OS X.", url: "http://www.panic.com/candybar/"}
+"iwork": {title: "iWork", description: "An office suite for the Mac.", url: "http://www.apple.com/iwork/"}
+"on-the-job": {title: "On The Job", description: "Job time-tracking software for the Mac.", url: "http://stuntsoftware.com/OnTheJob/"}
+"adium": {title: "Adium", description: "The excellent multi-chat-protocol Mac application.", url: "http://adiumx.com/"}
+"mail": {title: "Mail", description: "The default Mac OS X mail client.", url: "http://www.apple.com/macosx/features/mail.html"}
+"superduper": {title: "SuperDuper!", description: "An excellent Mac backup/cloning application.", url: "http://shirt-pocket.com/SuperDuper/SuperDuperDescription.html"}
+"portal": {title: "Portal", description: "An awesome, groundbreaking game.", url: "http://orange.half-life2.com/portal.html"}
+"mac-mini": {title: "Mac Mini", description: "The lil' Intel-based Mac.", url: "http://www.apple.com/macmini/"}
+"digi-002": {title: "Digi 002", description: "Multitrack studio hardware.", url: "http://digidesign.com/index.cfm?langid=100&amp;navid=105&amp;itemid=23597"}
+"376": {title: "376 Tube Channel processor", description: "A channel strip processor.", url: "http://dbxpro.com/376/376.php"}
+"pod-pro": {title: "POD", description: "Hardware for creating guitar sounds.", url: "http://line6.com/products/detail/3/"}
+"mx200": {title: "MX200", description: "Sound effect/reverb hardware.", url: "http://www.lexiconpro.com/ProductIndex.aspx?ProductID=12"}
+"ksm32": {title: "KSM32", description: "A studio microphone.", url: "http://shure.com/ProAudio/Products/WiredMicrophones/us_pro_KSM32-CG_content"}
+"sm57": {title: "SM57", description: "An instrument microphone.", url: "http://shure.com/ProAudio/Products/WiredMicrophones/us_pro_SM57-LC_content"}
+"tenori-on": {title: "Tenori-on", description: "An awesome Japanese digital instrument.", url: "http://www.global.yamaha.com/tenori-on/index.html"}
+"zendrum": {title: "Zendrum", description: "A MIDI triggering controller.", url: "http://www.zendrum.com/"}
+"strat": {title: "Stratocaster", description: "The official list of Fender Strats.", url: "http://fender.com/products/search.php?section=guitars&amp;amp;cat=stratocaster"}
+"esquire": {title: "Esquire", description: "A classic 50's bass.", url: "http://www.fender.com/products/search.php?partno=0131502303"}
+"mahogany-ukulele": {title: "Mahogany Ukulele", description: "The range of Mahogany ukuleles.", url: "http://meleukulele.com/shopdisplayproducts.asp?id=2&amp;cat=Mahogany+Ukuleles"}
+"pro-tools-le": {title: "Pro Tools LE", description: "The LE version of the studio system software.", url: "http://digidesign.com/index.cfm?navid=28"}
+"gforce-m-tron-pro": {title: "GForce M-Tron Pro", description: "Virtual vintage keyboard software.", url: "http://m-audio.com/products/en_us/GForceMTronPro.html"}
+"reel-drums": {title: "Reel Drums", description: "Drum loop samples.", url: "http://reeldrums.com/home.html"}
+"bfd": {title: "BFD", description: "'Drum studio in a box' software.", url: "http://fxpansion.com/index.php?page=53"}
+"pro-tools-hd": {title: "Pro Tools HD", description: "Very popular, very expensive studio software.", url: "http://www.digidesign.com/index.cfm?navid=24"}
+"icurve": {title: "iCurve", description: "A laptop stand.", url: "http://griffintechnology.com/products/icurve/"}
+"g1": {title: "G1", description: "The first Google Android phone.", url: "http://www.htc.com/www/product/g1/overview.html"}
+"android": {title: "Android", description: "A mobile phone platform.", url: "http://code.google.com/android/"}
+"windows-7": {title: "Windows 7", description: "The upcoming revision of Windows.", url: "http://microsoft.com/windows/windows-7/"}
+"google-docs": {title: "Google Docs", description: "A web-based office suite.", url: "http://docs.google.com"}
+"twitter": {title: "Twitter", description: "An online micro-blogging platform.", url: "http://twitter.com/"}
+"editplus": {title: "EditPlus", description: "A text editor for Windows.", url: "http://www.editplus.com/"}
+"digsby": {title: "Digsby", description: "An IM, email and social network client.", url: "http://digsby.com/"}
+"picasa": {title: "Picasa", description: "A photo client and web service.", url: "http://picasa.google.com/"}
+"snagit": {title: "Snagit", description: "Screen capturing software.", url: "http://techsmith.com/screen-capture.asp"}
+"camtasia": {title: "Camtasia", description: "Screencasting software.", url: "http://techsmith.com/camtasia.asp"}
+"syncback": {title: "SyncBack", description: "Free backup software.", url: "http://2brightsparks.com/freeware/freeware-hub.html"}
+"cygwin": {title: "Cygwin", description: "A Linux-like environment for Windows.", url: "http://www.cygwin.com/"}
+"smultron": {title: "Smultron", description: "A freeware text editor for the Mac.", url: "http://tuppis.com/smultron/"}
+"instantshot": {title: "InstantShot!", description: "Screen capture software for the Mac.", url: "http://projects.digitalwaters.net/index.php?q=instantshot"}
+"quicksilver": {title: "Quicksilver", description: "The ultimate data manipulator/launcher for the Mac.", url: "http://code.google.com/p/blacktree-alchemy/"}
+"todo.sh": {title: "todo.sh", description: "A command-line interface for your todo.txt file.", url: "http://ginatrapani.github.com/todo.txt-cli/"}
+"keepass": {title: "Keepass", description: "A free, open source password manager.", url: "http://keepass.info/"}
+"mozy": {title: "Mozy", description: "An online backup solution.", url: "http://mozy.com/"}
+"evernote": {title: "Evernote", description: "Online software for capturing notes.", url: "http://evernote.com/"}
+"synergy": {title: "Synergy", description: "Software to share a single keyboard and mouse between multiple computers.", url: "http://synergy2.sourceforge.net/"}
+"windows-xp": {title: "Windows XP", description: "An operating system for x86 computers.", url: "http://microsoft.com/windows/windows-xp/"}
+"office": {title: "Office", description: "The infamous software package.", url: "http://office.microsoft.com/"}
+"skitch": {title: "Skitch", description: "An always-on image editor for the Mac.", url: "http://skitch.com/"}
+"address-book": {title: "Address Book", description: "The contacts application included with Mac OS X.", url: "http://www.apple.com/macosx/features/addressbook/"}
+"markdown": {title: "Markdown", description: "An email-like format for marking up text.", url: "http://daringfireball.net/projects/markdown/"}
+"imate": {title: "iMate", description: "An ADB to USB dongle.", url: "http://griffintechnology.com/products/imate/"}
+"gr-digital": {title: "GR Digital", description: "An 8 megapixel digital camera.", url: "http://www.ricoh.com/r_dc/gr/gr_digital/"}
+"rebel-xt": {title: "Rebel XT", description: "An 8 megapixel digital SLR.", url: "http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=139&amp;modelid=11154"}
+"ef-28mm": {title: "EF 28mm Wide-Angle Lens", description: "A lens for SLR cameras.", url: "http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=151&amp;modelid=7302"}
+"ef-50mm": {title: "EF 50mm", description: "A lens for SLR cameras.", url: "http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=152&amp;modelid=7307"}
+"flip-ultra": {title: "Flip Ultra", description: "A compact digital video recorder.", url: "http://theflip.com/products_flip_ultra.shtml"}
+"zi6": {title: "Zi6", description: "A compact digital video recorder.", url: "http://kodak.com/eknec/PageQuerier.jhtml?pq-path=13063"}
+"g-raid2": {title: "G-RAID2", description: "A dual-drive RAID system.", url: "http://g-technology.com/products/G-RAID2.cfm"}
+"time-capsule": {title: "Time Capsule", description: "A WiFi access point and backup system.", url: "http://www.apple.com/timecapsule/"}
+"domehub": {title: "DomeHub", description: "A 7 port USB 2.0 hub.", url: "http://us.kensington.com/html/6495.html"}
+"moleskine-soft-cover": {title: "Moleskine Soft Cover", description: "A popular line of paper notebooks (with a soft cover).", url: "http://moleskineus.com/moleskine-softcover-notebook.html"}
+"signo-gel-rt": {title: "Signo Gel RT", description: "It's a pen.", url: "http://www.uniball-na.com/main.taf?p=2,2,6"}
+"bbedit": {title: "BBEdit", description: "A rather popular text editor for the Mac.", url: "http://barebones.com/products/bbedit/"}
+"netnewswire": {title: "NetNewsWire", description: "A popular feed reader for the Mac.", url: "http://newsgator.com/individuals/netnewswire/"}
+"netnewswire-iphone": {title: "NetNewsWire (iPhone)", description: "A popular feed reader for the iPhone.", url: "http://newsgator.com/individuals/netnewswireiphone/"}
+"tweetie": {title: "Tweetie", description: "A very popular Twitter client for the iPhone.", url: "http://atebits.com/software/tweetie/"}
+"numbers": {title: "Numbers", description: "A spreadsheet application for the Mac.", url: "http://www.apple.com/iwork/numbers/"}
+"webkit": {title: "Webkit", description: "The nightly built version of Webkit, the web browser/framework.", url: "http://nightly.webkit.org/"}
+"keynote": {title: "Keynote", description: "Presentation software for the Mac.", url: "http://www.apple.com/iwork/keynote/"}
+"dragthing": {title: "DragThing", description: "A popular dock application for the Mac.", url: "http://dragthing.com/"}
+"typeit4me": {title: "TypeIt4Me", description: "A typing shortcut tool for the Mac.", url: "http://ettoresoftware.com/EttoreSoftware/About_TypeIt4Me.html"}
+"busysync": {title: "BusySync", description: "A application to sync iCal and Google Calendar, for the Mac.", url: "http://busymac.com/"}
+"script-debugger": {title: "Script Debugger", description: "An AppleScript IDE for the Mac.", url: "http://latenightsw.com/sd4/"}
+"marsedit": {title: "MarsEdit", description: "A weblog editor for the Mac.", url: "http://red-sweater.com/marsedit/"}
+"expandrive": {title: "ExpanDrive", description: "Software that makes remote servers appear as local disks.", url: "http://expandrive.com/"}
+"acorn": {title: "Acorn", description: "An image editor for the Mac.", url: "http://flyingmeat.com/acorn/"}
+"spamsieve": {title: "SpamSieve", description: "Bayesian spam filtering for Mac mail clients.", url: "http://c-command.com/spamsieve/"}
+"fastscripts": {title: "FastScripts", description: "System-wide access to Applescripts, for the Mac.", url: "http://red-sweater.com/fastscripts/"}
+"thisservice": {title: "ThisService", description: "Software for creating Mac OS X Services using any programming language.", url: "http://wafflesoftware.net/thisservice/"}
+"omnioutliner-pro": {title: "OmniOutliner Pro", description: "The 800lb gorilla of task managers for the Mac.", url: "http://omnigroup.com/applications/omnioutliner/pro/"}
+"keyboard-maestro": {title: "Keyboard Maestro", description: "A macro application for the Mac.", url: "http://keyboardmaestro.com/"}
+"the-hit-list": {title: "The Hit List", description: "A fancy task manager for the Mac.", url: "http://potionfactory.com/thehitlist/"}
+"sound-studio": {title: "Sound Studio", description: "A sound editor for the Mac.", url: "http://freeverse.com/soundstudio/"}
+"movable-type": {title: "Movable Type", description: "Weblog publishing software.", url: "http://movabletype.org/"}
+"imt": {title: "iMT", description: "An MT plugin that adds an iPhone interface.", url: "http://plugins.movabletype.org/imt/"}
+"things-iphone": {title: "Things (iPhone)", description: "A popular task management application for the iPhone.", url: "http://culturedcode.com/things/iphone/"}
+"geektool": {title: "GeekTool", description: "A Mac prefpane to show logs, scripts or images right on the desktop.", url: "http://projects.tynsoe.org/en/geektool/"}
+"windows-vista": {title: "Windows Vista", description: "A somewhat unpopular OS for x86 computers.", url: "http://microsoft.com/windows/windows-vista/"}
+"etherpad": {title: "EtherPad", description: "Online collaborative text editing.", url: "http://etherpad.com/"}
+"snipshot": {title: "Snipshot", description: "An online image editor.", url: "http://snipshot.com/"}
+"picwing": {title: "Picwing", description: "An online photo sharing service.", url: "http://picwing.com/"}
+"small-business": {title: "Small Business", description: "Online retail/merchant services and hosting.", url: "http://smallbusiness.yahoo.com/ecommerce/"}
+"mzscheme": {title: "MzScheme", description: "The core virtual machine for the PLT Scheme language.", url: "http://plt-scheme.org/software/mzscheme/"}
+"freebsd": {title: "FreeBSD", description: "An open source operating system.", url: "http://freebsd.org/"}
+"ipod-touch": {title: "iPod Touch", description: "It's like an iPhone, without the phone bit.", url: "http://www.apple.com/ipodtouch/"}
+"l245wp": {title: "L245WP Wide LCD Monitor", description: "An LCD screen.", url: "http://www.lge.com/products/model/detail/l245wp.jhtml"}
+"pcalc": {title: "PCalc", description: "A scientific calculator for the Mac.", url: "http://pcalc.com/"}
+"pcalc-iphone": {title: "PCalc (iPhone)", description: "A scientific calculator for the iPhone.", url: "http://pcalc.com/iphone/"}
+"twitkitteh": {title: "Twitkitteh", description: "An iPhone Twitter client. For cats.", url: "http://twitkitteh.com/"}
+"dreamweaver": {title: "Dreamweaver", description: "A WYSIWYG editor.", url: "http://adobe.com/products/dreamweaver/"}
+"interarchy": {title: "Interarchy", description: "A FTP/SFTP client for the Mac.", url: "http://nolobe.com/interarchy/"}
+"filemaker-pro": {title: "Filemaker Pro", description: "A database application.", url: "http://filemaker.com/products/filemaker-pro/"}
+"retrospect": {title: "Retrospect", description: "Backup software.", url: "http://retrospect.com/"}
+"fieldrunners": {title: "Fieldrunners", description: "A very popular tower defense-style game for the iPhone.", url: "http://fieldrunners.com/"}
+"leopard": {title: "Leopard", description: "Version 10.5 of the operating system for the Mac.", url: "http://www.apple.com/macosx/"}
+"tiger": {title: "Tiger", description: "Version 10.4 of the operating system for the Mac.", url: "http://www.apple.com/support/tiger/"}
+"eliss": {title: "Eliss", description: "A clever little game for the iPhone.", url: "http://toucheliss.com/"}
+"e2007wfp": {title: "E2007WFP", description: "A 20&quot; LCD screen with USB ports.", url: "http://dell.com/content/products/productdetails.aspx/monitor_2007wfp?c=au&amp;l=en&amp;s=bsd&amp;cs=aubsd1"}
+"scrivener": {title: "Scrivener", description: "A Mac text editor aimed at writers.", url: "http://literatureandlatte.com/scrivener.html"}
+"taskpaper": {title: "TaskPaper", description: "A simple task/to do list application for the Mac.", url: "http://hogbaysoftware.com/products/taskpaper"}
+"processing": {title: "Processing", description: "A programming language/environment.", url: "http://processing.org/"}
+"scriptographer": {title: "Scriptographer", description: "A plugin for Illustrator to add support for Javascript scripting.", url: "http://scriptographer.com/"}
+"tm-git-bundle": {title: "TextMate Git bundle", description: "A bundle for TextMate to add Git support.", url: "http://gitorious.org/projects/git-tmbundle"}
+"cssedit": {title: "CSSEdit", description: "A stylesheet editor for the Mac.", url: "http://macrabbit.com/cssedit/"}
+"cyberduck": {title: "Cyberduck", description: "An FTP/SFTP client for the Mac.", url: "http://cyberduck.ch/"}
+"s3": {title: "S3", description: "Cloud-based Internet storage magic.", url: "http://aws.amazon.com/s3/"}
+"app-engine": {title: "Google App Engine", description: "Hosting for web applications.", url: "http://code.google.com/appengine/"}
+"app-engine-launcher": {title: "Google App Engine Launcher", description: "An SDK/launcher for the App Engine, for the Mac.", url: "http://code.google.com/appengine/downloads.html"}
+"fireworks": {title: "Fireworks", description: "A graphics and work tool for the Mac.", url: "http://adobe.com/products/fireworks/"}
+"spaces": {title: "Spaces", description: "Virtual desktop software included with Leopard.", url: "http://www.apple.com/macosx/features/spaces.html"}
+"soundtrack-pro": {title: "Soundtrack Pro", description: "A Mac audio editor tailored for movies.", url: "http://www.apple.com/logicstudio/soundtrackpro"}
+"audacity": {title: "Audacity", description: "An open-source, cross-platform audio editor.", url: "http://audacity.sourceforge.net/"}
+"battery-3": {title: "Battery 3", description: "A drum and percussion sampler.", url: "http://www.native-instruments.com/index.php?id=battery3"}
+"pro-53": {title: "Pro-53", description: "Virtual synthesizer software.", url: "http://www.native-instruments.com/index.php?id=pro53"}
+"logic-pro": {title: "Logic Pro", description: "A professional audio application for the Mac.", url: "http://www.apple.com/logicstudio/logicpro/"}
+"sk-10": {title: "SK-10", description: "A toy music keyboards.", url: "http://www.casiosk1.com/sk10.cfm"}
+"keyboard": {title: "Keyboard", description: "The slim keyboard for Macs.", url: "http://www.apple.com/keyboard/"}
+"mighty-mouse": {title: "Mighty Mouse", description: "The wireless mouse with the nipple.", url: "http://www.apple.com/mightymouse/"}
+"mx-revolution": {title: "MX Revolution", description: "A popular wireless laser mouse.", url: "http://www.logitech.com/index.cfm/mice_pointers/mice/devices/130&amp;cl=us,en"}
+"companion-3": {title: "Companion 3", description: "Three-piece stereo speakers for computers.", url: "http://www.bose.com/controller?url=/shop_online/speakers/computer_speakers/companion_3/index.jsp"}
+"ego": {title: "Ego", description: "An iPhone applications for checking web statistics.", url: "http://www.ego-app.com/"}
+"airport-extreme": {title: "Airport Extreme", description: "A wireless access point.", url: "http://www.apple.com/airportextreme/"}
+"xpad": {title: "xPad", description: "A flexible notepad for the Mac.", url: "http://www.getxpad.com/"}
+"mbox": {title: "Mbox", description: "A USB-powered audio/MIDI production system.", url: "http://www.digidesign.com/index.cfm?langid=100&amp;navid=29&amp;itemid=4893"}
+"ag-hvx200a": {title: "AG-HVX200A", description: "A HD video camera.", url: "http://catalog2.panasonic.com/webapp/wcs/stores/servlet/ModelDetail?storeId=11201&amp;catalogId=13051&amp;itemId=243668&amp;surfModel=AG-HVX200A"}
+"d90": {title: "D90", description: "A 12.3 megapixel digital SLR camera.", url: "http://www.nikonusa.com/Find-Your-Nikon/Product/Digital-SLR/25446/D90.html"}
+"newsfire": {title: "NewsFire", description: "A popular feed reader for the Mac.", url: "http://www.newsfirex.com/"}
+"grabup": {title: "GrabUp", description: "A screenshot sharing service.", url: "http://www.grabup.com/"}
+"af-50mm": {title: "AF 50mm", description: "A lens for SLR cameras.", url: "http://www.nikonusa.com/Find-Your-Nikon/ProductDetail.page?pid=2137"}
+"af-28mm": {title: "AF 28mm", description: "A lens for SLR cameras.", url: "http://www.nikonusa.com/Find-Your-Nikon/Product/Camera-Lenses/1922/AF-NIKKOR-28mm-f%252F2.8D.html"}
+"iphoto": {title: "iPhoto", description: "Photo management software for the Mac.", url: "http://www.apple.com/ilife/iphoto/"}
+"lightroom": {title: "Photoshop Lightroom", description: "Photo management and editing software.", url: "http://www.adobe.com/products/photoshoplightroom/"}
+"tumblr": {title: "Tumblr", description: "An online personal publishing platform.", url: "http://www.tumblr.com/"}
+"podcast-maker": {title: "Podcast Maker", description: "A podcast feed creation application for the Mac.", url: "http://www.lemonzdream.com/podcastmaker/"}
+"horror-vacui": {title: "Horror Vacui", description: "A two-player abstract strategy board game for the iPhone.", url: "http://www.shauninman.com/horrorvacui/"}
+"coversutra": {title: "CoverSutra", description: "An iTunes controller for the Mac.", url: "http://www.coversutra.com/"}
+"groceries": {title: "Groceries", description: "A smart shopping list for the iPhone.", url: "http://www.groceriesapp.com/"}
+"tipulator": {title: "Tipulator", description: "A tipping calculator for the iPhone.", url: "http://www.tipulatorapp.com/"}
+"littlesnapper": {title: "LittleSnapper", description: "A screen capture and collection tool for the Mac.", url: "http://www.realmacsoftware.com/littlesnapper/"}
+"wallet": {title: "Wallet", description: "A secure data bucket application for the Mac.", url: "http://www.acrylicapps.com/wallet/"}
+"fontcase": {title: "Fontcase", description: "A font management tool for the Mac.", url: "http://www.bohemiancoding.com/fontcase/"}
+"bluebird": {title: "Bluebird", description: "A fresh Twitter client for the Mac.", url: "http://www.bluebirdapp.com/"}
+"ipod": {title: "iPod", description: "The infamous music player.", url: "http://www.apple.com/ipod/"}
+"soundsticks": {title: "Soundsticks", description: "Swanky-looking computer speakers.", url: "http://www.harmankardon.com/product_detail.aspx?Region=USA&amp;Country=US&amp;Language=ENG&amp;cat=MME&amp;prod=SOUNDSTICKSII&amp;sType=C"}
+"e207wfp": {title: "E207WFP", description: "A 20&quot; LCD screen.", url: "http://72.14.235.132/search?q=cache:kFKRQ5VywckJ:us.dell.com/sna/productdetail.aspx%3Fc%3Dus%26cs%3D19%26l%3Den%26s%3Ddhs%26sku%3D320-5123+e207wfp"}
+"github": {title: "GitHub", description: "A Git code repository service.", url: "http://www.github.com/"}
+"wii": {title: "Wii", description: "A unique gaming console.", url: "http://www.wii.com/"}
+"xbox-360": {title: "Xbox 360", description: "A popular gaming console.", url: "http://www.xbox.com/en-US/hardware/"}
+"eee-pc-901": {title: "EEE PC 901", description: "A 9&quot; netbook.", url: "http://www.asus.com/product.aspx?P_ID=1sRO7tW9B0OdR9yz"}
+"friendfeed": {title: "FriendFeed", description: "Web-based social aggregation.", url: "http://www.friendfeed.com/"}
+"flickr": {title: "Flickr", description: "Possibly the best photo-sharing website, like, evar.", url: "http://www.flickr.com/"}
+"omnigraffle": {title: "OmniGraffle", description: "Diagramming software for the Mac.", url: "http://www.omnigroup.com/applications/omnigraffle/"}
+"textedit": {title: "TextEdit", description: "The default text editor included with Mac OS X.", url: "http://support.apple.com/kb/HT2523"}
+"skype": {title: "Skype", description: "Voice and video chat software.", url: "http://www.skype.com/"}
+"spreedly": {title: "Spreedly", description: "A web-based service for collecting subscription payments for anything.", url: "http://www.spreedly.com/"}
+"weewar": {title: "Weewar", description: "A popular web-based strategy game.", url: "http://www.weewar.com/"}
+"no-kahuna": {title: "No Kahuna", description: "A web-based project/collaboration service.", url: "http://www.nokahuna.com/"}
+"permatime": {title: "Permatime", description: "A web-based temporal headache massager.", url: "http://www.permatime.com/"}
+"openbsd": {title: "OpenBSD", description: "An open-source operating system emphasising security and cryptography.", url: "http://www.openbsd.org/"}
+"pf": {title: "PF", description: "A TCP packet filter included with OpenBSD.", url: ""}
+"openssh": {title: "OpenSSH", description: "A popular collection of SSH tools.", url: "http://www.openssh.com/"}
+"opencv": {title: "OpenCV", description: "A programming library for working with real-time computer vision.", url: "http://opencv.willowgarage.com/wiki/"}
+"ec2": {title: "EC2", description: "A web service for virtualised processing.", url: "http://aws.amazon.com/ec2/"}
+"macports": {title: "MacPorts", description: "A collection of *nix software ported to Mac OS X.", url: "http://www.macports.org/"}
+"colloquy": {title: "Colloquy", description: "A popular IRC client for the Mac.", url: "http://www.colloquy.info/"}
+"merb": {title: "Merb", description: "A lightweight but powerful Ruby framework.", url: "http://www.merbivore.com/"}
+"vi": {title: "vi", description: "A popular command-line text editor.", url: "http://en.wikipedia.org/wiki/Vi"}
+"mapserver": {title: "MapServer", description: "An open-source map platform.", url: "http://www.mapserver.org/"}
+"yahoo-pipes": {title: "Yahoo! Pipes", description: "A service for mixing up web content.", url: "http://pipes.yahoo.com/"}
+"compass-597": {title: "Compass 597 EVDO", description: "A USB device for EVDO access.", url: "http://www.sierrawireless.com/product/compass_597.aspx"}
+"textwrangler": {title: "TextWrangler", description: "A free, powerful text editor for the Mac.", url: "http://www.barebones.com/products/textwrangler/"}
+"carbon-emacs": {title: "Emacs (Carbon)", description: "A Mac-friendly version of GNU Emacs.", url: "http://homepage.mac.com/zenitani/emacs-e.html"}
+"eclipse": {title: "Eclipse", description: "A flexible, open-source IDE.", url: "http://www.eclipse.org/"}
+"openoffice": {title: "OpenOffice", description: "An open-source office suite.", url: "http://www.openoffice.org/"}
+"fontforge": {title: "FontForge", description: "An open-source font editor.", url: "http://fontforge.sourceforge.net/"}
+"hex-fiend": {title: "Hex Fiend", description: "An open-source hex editor for the Mac.", url: "http://www.ridiculousfish.com/hexfiend/"}
