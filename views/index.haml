@@ -3,5 +3,5 @@
     - @interviews.each do |interview|
       %li
         %p.date= "#{interview.date[:year]}-#{interview.date[:month]}-#{interview.date[:day]}"
-        %a{:href => "/#{interview.slug}/", :title => "View an interview with #{interview.person}."}
+        %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}."}
           %span= interview.person
