@@ -11,36 +11,36 @@ require 'sass'
 
 module Setup
     class Interview
-        attr_accessor :person, :slug, :contents, :date
+        attr_accessor :person, :slug, :contents, :created_at, :updated_at
         
         def self.all
             interviews = []
 
-            Dir.glob(File.join("interviews", "published", "*.markdown")).sort.reverse.each do |path|
+            Dir.glob(File.join("interviews", "published", "*.markdown")).each do |path|
                 interviews << Setup::Interview.new(path)
             end
 
-            interviews
+            interviews.sort{ |a, b| b.created_at <=> a.created_at }
         end
         
         def self.with_slug(slug)
-            files = Dir.glob(File.join("interviews", "published", "*#{slug}.markdown"))
-            return nil unless files.length == 1
+            file = File.join("interviews", "published", "#{slug}.markdown")
+            return nil unless File.exist?(file)
 
-            Setup::Interview.new(files[0])
+            Setup::Interview.new(file)
         end
         
         def initialize(path)
-            matches = %r(/(\d{4,})-(\d{2,})-(\d{2,})-(.+)\.markdown$).match(path)
-            return unless matches
-            
             contents = File.read(path)
             return if contents.empty?
             
-            @person     = contents.slice!(/^(.+)\r?\n\r?\n/).strip
-            @contents   = contents            
-            @slug       = matches[4].downcase
-            @date       = {:year => matches[1], :month => matches[2], :day => matches[3]}
+            details = contents.slice!(/^(.+)\r?\n\r?\n/).split(" @ ")
+            
+            @person     = details[0]
+            @slug       = File.basename(path, ".markdown")
+            @contents   = contents
+            @created_at = DateTime.parse(details[1])
+            @updated_at = DateTime.parse(File.mtime(path).to_s)
         end
     end
     
@@ -56,28 +56,30 @@ module Setup
             ]
             
             Dir.glob(File.join("interviews", "drafts", "*.markdown")) do |path|
-                time = Time.now
                 contents = File.read(path)
                 
                 unless contents.empty?
-                    contents.gsub!(/### Question (\d)/) do |matches|
-                        "### #{questions[$1.to_i-1]}"
-                    end
-                    
-                    contents += "\n\n"
+                    contents.sub!(/^(.+)\r\n\r\n/, '\1' + " @ #{DateTime.now.to_s}\r\n\r\n")
+                    contents.gsub!(/### Question (\d)/, "### #{questions[$1.to_i-1]}")                    
                     
                     links = contents.scan(/\[([^\[\(\)]+)\]\[([a-z0-9\.\-]+)?\]/)
-                    links.each do |link|
-                        slug = link[1] ? link[1] : link[0].downcase                        
-                        if wares["#{slug}"]
-                            contents += "[#{slug}]: #{wares[slug]['url']} \"#{wares[slug]['description']}\"\n"
+                    if links.length > 0
+                        contents += "\n\n"
+                        
+                        links.each do |link|
+                            slug = link[1] ? link[1] : link[0].downcase                        
+                            if wares["#{slug}"]
+                                contents += "[#{slug}]: #{wares[slug]['url']} \"#{wares[slug]['description']}\"\n"
+                            end
                         end
                     end
                     
-                    new_path = File.join("interviews", "published", "#{time.strftime('%Y')}-#{time.strftime('%m')}-#{time.strftime('%d')}-#{File.basename(path)}")
+                    new_path = File.join("interviews", "published", File.basename(path))
                     File.open(new_path, "w+") do |f|
                         f.write(contents)
-                    end                    
+                    end 
+                    
+                    File.unlink(path)
                 end
             end
         end
