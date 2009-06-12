@@ -1,0 +1,50 @@
+Sophia Teutschler @ 2009-04-07T19:09:52+10:00
+
+### What would be your dream setup?
+
+I'm Sophia Teutschler and I run [Sophiestication Software](http://sophiestication.com "Sophia's software website.") where I make simply beautiful Mac and iPhone apps. So far I released applications like [CoverSutra][] for Mac OS X and [Groceries][] and [Tipulator][] for the iPhone.
+
+### What would be your dream setup?
+
+I currently settled on an 24" [iMac][] and a 15 [MacBook Pro][macbook-pro] model from march 2008. The iMac is obviously my main computer where I host all of my sensitive project files and other indispensable files like photos and such. It's also hocked up to a 1TB [Time Capsule][time-capsule] for extra safety. I usually use the MacBook when I'm working on the couch or from out of a café. It's also the one computer where I run pre-release software like the new iPhone 3.0 SDK.
+
+I actually don't use much additional hardware. What got are the Harman Kardon [Sound Sticks][soundsticks] that are in use since 2001 and a crappy HP printer/scanner that I absolutely can't recommend.
+
+I have to admit that I collected more [iPods][ipod] then I need over the years, which includes my beloved first generation 5GB model. I didn't bought them for listening music but for software testing purposes ;-).
+
+### What would be your dream setup?
+
+I obviously use [Xcode][] for developing my Mac and iPhone software. I'm totally into [Coda][] and [CSSEdit][] for web related work and use [TextMate][] for various heavy text editing. [LittleSnapper][], [Wallet][] and [Fontcase][] are also three app gems that I use every day. 
+
+I'm a [total twitter addict](http://twitter.com/sophiestication "Sophia on Twitter.") and use that service more and more for announcements and development insights instead of regular blog posts. So it's no surprise that [Twitterrific][] is a heavy used app. Though I occasionally use a still in development version of [Bluebird][] which sports some very interesting UI concepts.
+
+My other daily use apps are the usual suspects like [iChat][] for chats, [Mail][] for mails and [Safari][] to go on safari, erm, browsing the web. It's surely no surprise that [iTunes][] and [CoverSutra][] are running all the time too.
+
+### What would be your dream setup?
+
+I'm pretty happy with my current configuration. A nice to have would be some sort of "Private Cloud" that keeps all of my files and such in a central place. I currently use [MobileMe][mobile-me] to achieve that but it's still far too slow and limited for my likes. It would be also great if I could have a [Mighty Mouse][mighty-mouse] that has a scroll nipple that I would not need to clean every morning... sigh.
+
+[coversutra]: http://www.coversutra.com/ "An iTunes controller for the Mac."
+[groceries]: http://www.groceriesapp.com/ "A smart shopping list for the iPhone."
+[tipulator]: http://www.tipulatorapp.com/ "A tipping calculator for the iPhone."
+[imac]: http://www.apple.com/imac/ "The all-in-one Mac."
+[macbook-pro]: http://www.apple.com/macbookpro/ "The popular Intel-based Mac laptop."
+[time-capsule]: http://www.apple.com/timecapsule/ "A WiFi access point and backup system."
+[soundsticks]: http://www.harmankardon.com/product_detail.aspx?Region=USA&amp;Country=US&amp;Language=ENG&amp;cat=MME&amp;prod=SOUNDSTICKSII&amp;sType=C "Swanky-looking computer speakers."
+[ipod]: http://www.apple.com/ipod/ "The infamous music player."
+[xcode]: http://developer.apple.com/technology/tools.html "An IDE for Mac developers."
+[coda]: http://panic.com/coda/ "A single-window HTML/web tool."
+[cssedit]: http://macrabbit.com/cssedit/ "A stylesheet editor for the Mac."
+[textmate]: http://macromates.com/ "A very popular text editor for the Mac."
+[littlesnapper]: http://www.realmacsoftware.com/littlesnapper/ "A screen capture and collection tool for the Mac."
+[wallet]: http://www.acrylicapps.com/wallet/ "A secure data bucket application for the Mac."
+[fontcase]: http://www.bohemiancoding.com/fontcase/ "A font management tool for the Mac."
+[twitterrific]: http://iconfactory.com/software/twitterrific "A popular Twitter Mac client."
+[bluebird]: http://www.bluebirdapp.com/ "A fresh Twitter client for the Mac."
+[ichat]: http://www.apple.com/macosx/features/ichat.html "An AIM/Jabber client included with Mac OS X."
+[mail]: http://www.apple.com/macosx/features/mail.html "The default Mac OS X mail client."
+[safari]: http://www.apple.com/safari/ "A fast web browser."
+[itunes]: http://www.apple.com/itunes/ "The infamous jukebox application."
+[coversutra]: http://www.coversutra.com/ "An iTunes controller for the Mac."
+[mobile-me]: http://www.me.com/ "An online 'cloud' service (mail, calendar, etc)."
+[mighty-mouse]: http://www.apple.com/mightymouse/ "The wireless mouse with the nipple."
