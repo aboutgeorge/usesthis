@@ -86,6 +86,8 @@ module Setup
     end
     
     class App < Sinatra::Base
+        set :haml, { :format => :html5 }
+        
         helpers do
             def markup(string)
                 markdown = RDiscount.new(string)
@@ -120,6 +122,11 @@ module Setup
         end
 
         not_found do
+            haml :error, :locals => { :message => "Sorry, but I can't seem to find what you're looking for!" }
+        end
+        
+        error do
+            haml :error, :locals => { :message => "Something bad happened. It's not you, it's me." }
         end
     end
 end
