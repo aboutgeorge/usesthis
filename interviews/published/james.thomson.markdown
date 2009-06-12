@@ -1,10 +1,10 @@
 James Thomson @ 2009-03-23T16:04:01+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 I'm James Thomson, an indie iPhone and Mac developer best known for [DragThing][], [PCalc][], and now [Twitkitteh][] - the leading iPhone Twitter client designed for cats. I work at home with my wife in Glasgow, Scotland, and together we are TLA Systems. Ten years ago we both used to work at Apple, and I was writing the Mac OS X Dock as part of the Finder team. But let's never mention that again.
 
-### What would be your dream setup?
+### What hardware are you using?
 
 My main development machine is a last-gen 8-core 3GHz [Mac Pro][mac-pro] with... [looks in System Profiler] ...1.5GB of memory. Wait... what? I was sure that had at least 2GB. Sounds like I should buy some more RAM. I think I meant to place an order for some 3rd-party stuff after I ordered the base config, but clearly I forgot in my excitement of having a new machine, and never looked in the "About This Mac" window again. Thanks, that explains a lot! Actually, it's hard to notice in truth, because the thing is just so fast. I'm using that with an 24" LG [L245WP][] LCD screen with one stuck bright blue pixel right in the middle of it, which annoys me on a daily basis.
 
@@ -14,7 +14,7 @@ All my email and general non-coding is done on a very busted white [MacBook][] 2
 
 I also have a recently acquired second-hand 8GB [iPhone][] 2G which is my first toe in the waters of using an iPhone on a day-to-day basis.
 
-### What would be your dream setup?
+### And what software?
 
 The two apps I run the most for work, bar none, are [Xcode][] and [Photoshop][]. Xcode for the coding parts obviously, and Photoshop for doing UI mockups and general graphics like logos and icons. A lot of my apps have a graphical component to them, so I tend to have both open at once.
 

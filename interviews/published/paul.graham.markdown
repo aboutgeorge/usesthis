@@ -1,14 +1,14 @@
 Paul Graham @ 2009-03-14T18:53:12+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 Paul Graham. I [write essays](http://www.paulgraham.com/articles.html "Paul's collective essays."), work for [Y Combinator](http://ycombinator.com/ "A new-age venture firm.") funding and advising startups, work on a new [Lisp](http://www.paulgraham.com/lisp.html "Paul's page on the Lisp language.") dialect called [Arc](http://arclanguage.org/ "A new dialect of the Lisp language."), and administer a site called [Hacker News](http://news.ycombinator.com/ "News for hackers."), which is written in it.
 
-### What would be your dream setup?
+### What hardware are you using?
 
 What I actually sit in front of is a [MacBook Air][macbook-air] and a 23" [Cinema HD display][cinema-display]. I also have a server running [FreeBSD][] on the east coast, but that's going away soon.
 
-### What would be your dream setup?
+### And what software?
 
 I use surprisingly little client software. All I really use on my Mac is [Firefox][] and [Terminal][]. I use the usual Unix utilities (vi for editing). I use Arc for programming, which in turn runs on top of [MzScheme][]. I use [Dropbox][] for syncing. Online I use [Gmail][], [Google Calendar][google-calendar], [Etherpad][], [Snipshot][], [Picwing][], and, believe it or not, [Yahoo Store][small-business] for managing my site.
 

@@ -1,14 +1,14 @@
 Gina Trapani @ 2009-02-20T19:22:23+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 I'm [Gina Trapani](http://ginatrapani.org "Gina's own site."), and I'm a [blogger](http://smarterware.org "Smart software.") and web developer. I work mostly online, but sometimes I publish things on actual paper like [books](http://lifehackerbook.com "The Lifehacker book.") and magazine articles. I'm the one who started [Lifehacker.com](http://lifehacker.com "Lifehacker.").
 
-### What would be your dream setup?
+### What hardware are you using?
 
 I use one laptop and one desktop computer to get my work done: a 15-inch [MacBook Pro][macbook-pro], and a PC that I [built myself from parts](http://lifehacker.com/5151369/the-first+timers-guide-to-building-a-computer-from-scratch "Lifehacker article on building a PC from scratch."). I've got both connected to a widescreen monitor I got on sale a few years back. I use one of those crazy-shaped ergonomic keyboards (which I miss terribly when I'm on the road) and a run-of-the-mill optical mouse, plus a few external hard drives for backup, and [iCurve laptop stand][icurve], and one of those wonderfully modular and customizable (but discontinued) [Ikea Jerker](http://adam.pra.to/content/jerker/ "A fansite for the Jerker.") desks. I just [switched](http://smarterware.org/184/why-i-switched-to-android-from-the-iphone "Why Gina switched to an Android.") from an iPhone to an [HTC G1 phone][g1] running [Android][], which I use when my back is tired from hauling around my laptop.
 
-### What would be your dream setup?
+### And what software?
 
 Since I write about software for a living, I need to stay conversant on both Mac and Windows, so I split my time between them. I'm triple-booting [XP][windows-xp], [Vista][windows-vista], and the [Windows 7 beta][windows-7] on my PC, but primarily I use XP and just switch to the others to test software or make comparisons. On the Mac I'm running [Leopard][leopard].
 

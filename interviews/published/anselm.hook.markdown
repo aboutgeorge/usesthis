@@ -1,6 +1,6 @@
 Anselm Hook @ 2009-04-22T19:00:07+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 Today I like to think of myself as doing "heavy lifting" and as a technically competent creative. I try to aspire to be playful, artistic and innovative. I'm committed to open source for good work. My own site at [http://hook.org](http://hook.org/ "Anselm's website.") I hope reflects an integrity and commitment that side-steps banal concerns of say making dollars and the like. My small group of maker peers at [http://blog.makerlab.org](http://blog.makerlab.org/ "MakerLab's weblog.") also aspire to the same aesthetic. The fundamental quest and interest is new work, new ideas and innovation.
 
@@ -8,7 +8,7 @@ In my day job I am CTO at [Meedan](http://meedan.net/ "A digital town square.").
 
 Personally I grew up programming and spent most of my career developing video games such as [Dragon's Lair](http://www.gamespot.com/3do/action/dragonslair/index.html "Information on Dragon's Lair."). Making video games is a young man's sport. It is intense, long hours, highly multi-disciplinary, in environments where failing to ship on time would bankrupt the company. This has given me strong technical skills. In some senses I stand in a place that is the future and I look back at the ongoing web 2.0 phenomena. I see how the web is moving towards the place where I and other game developers already were years ago. Practices like "many participant", "agile development", "customer driven design" were internalized a long time ago in the (unfortunately hermetic) video game developer community.
 
-### What would be your dream setup?
+### What hardware are you using?
 
 There are three loves I have:
 
@@ -18,7 +18,7 @@ There are three loves I have:
 
 3) Third is my [iPhone][] - again a spectacular device that has literally changed my life.
 
-### What would be your dream setup?
+### And what software?
 
 This is a long one.
 

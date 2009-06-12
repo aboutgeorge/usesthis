@@ -1,14 +1,14 @@
 David Lanham @ 2009-01-28T11:55:36+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 I'm [David Lanham](http://dlanham.com/ "David's personal site.") and I make drawings. I do fun drawings for myself, professional drawings at [the Iconfactory](http://iconfactory.com/ "The Iconfactory make free and commercial icons of kick ass-ness.") and random drawings for strangers.
 
-### What would be your dream setup?
+### What hardware are you using?
 
 Big screens and dark rooms seem to work out best. I'm on a [Mac Pro][mac-pro] dual core at home and 8-core at work, both with 4GB of RAM. For design and icon illustration I use a 6"x8" [Wacom Intuos][intuos] tablet and two monitors: a 20" and a 30". For drawing and other illustration I use a 21" [Cintiq monitor][cintiq]. Before I use any computer hardware I work most of it out on pen and paper in my sketchbook. My recent pens of choice have been the Foray .5mm and a Zebra brush pen.
 
-### What would be your dream setup?
+### And what software?
 
 Most of my software time is spent in [Adobe Illustrator][illustrator] with [Photoshop][] running a close second. All the icons I create with the [Iconbuilder][] plugin and then organized using [Candybar][]. Client and office documents are generally opened in [iWork][]. I track my time with [On the Job][on-the-job] and I've been using [Things][] to manage tasks. [Adium][] or [iChat][] keep in touch with most people and others I follow/stalk on Twitter with [Twitterrific][]. [Apple Mail][mail] handles my email and [iTunes][] is nearly always playing music in the background. Other than that, I let [SuperDuper!][superduper] and [Time Machine][time-machine] take care of my backups.
 

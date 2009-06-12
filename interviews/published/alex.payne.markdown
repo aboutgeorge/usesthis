@@ -1,12 +1,12 @@
 Alex Payne @ 2009-01-02T20:59:40+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 I'm [Alex Payne](http://al3x.net/ "Alex's website."). I go by [al3x](http://twitter.com/al3x "Alex's Twitter account.") around the Interwho. I work at [Twitter](http://twitter.com/ "Micro-blogging FTW.") in San Francisco as their [API](http://apiwiki.twitter.com/ "The Twitter API Wiki.") Lead. Our API is how we expose the things you can do with Twitter in a way that programmers can use in their own applications and websites. Part of my workday is spent writing code to make the API go, and part is spent helping developers out with their questions and suggestions.
 
 In my free time, I'm working on a book about the [Scala](http://scala-lang.org/ "The Scala language.") programming language. I geek out on programming languages, economics, culture, and theory. I [DJ](http://seriousdjs.net/ "Alex and Craig are serious.") with a friend once a month.
 
-### What would be your dream setup?
+### What hardware are you using?
 
 I have a 15" [MacBook Pro][macbook-pro], one of the final revisions before the current black-bordered unibody design. It's got a 2.6 GHz Core 2 Duo processor and 4 GB of memory. I hook it up to a 30" [Cinema Display][cinema-display] when I'm at work, and I prop it up on Rain Design [iLap][] when I'm at home. I type [Dvorak](http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard "The Dvorak keyboard layout."), but I leave my keycaps in their factory default QWERTY layout.
 
@@ -14,7 +14,7 @@ Instrumental to having just one machine is a good networked storage and backup s
 
 I always have my original (pre-3G) 8 GB [iPhone][] with me. I listen to Shure [SE110MPA][] headphones on the go and Audioengine [A5][] speakers over an [AirPort Express][airport-express] at home. My home network is tied together by a Linksys [WRT54GL][] wireless router running the [Tomato][] firmware.
 
-### What would be your dream setup?
+### And what software?
 
 I spend most of my day flipping between [TextMate][], [Terminal][], [Safari][], and a [Fluid][] app for [Gmail][]. I write Scala and Ruby code in TextMate, run tests and such in Terminal, and answer hell of email with Gmail. I keep Safari mostly ad-free with [Safari AdBlock][safari-adblock] and speed up searching with [Inquisitor][].
 

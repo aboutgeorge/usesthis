@@ -1,14 +1,14 @@
 Gabe Newell @ 2009-01-17T12:09:39+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 My name is Gabe Newell. I'm the co-founder and president of [Valve](http://www.valvesoftware.com/ "They made a little game called 'Half Life'.'"), a videogame developer.
 
-### What would be your dream setup?
+### What hardware are you using?
 
 I have an overclocked quad-core Intel CPU, SLI NVIDIA graphics cards, an ancient Microsoft ergonomic keyboard I refuse to give up, and a [Razer gaming mouse](http://www2.razerzone.com/MouseGuide/index.html "Razer make gaming peripherals.") on a Valve mouse pad. My desk is an all aluminum [Lian-Li][oa-desk], and I have a Panasonic 42" HD TV as my monitor. I have an over the air HD receiver, and use Snapstream's [BeyondTV][beyond-tv] as a PVR.
 
-### What would be your dream setup?
+### And what software?
 
 I've downgraded to [Windows XP][windows-xp] and [Office 2003][office]. I've tried [Chrome][], and gone back to [Firefox][]. In addition to [MS DevStudio][visual-studio], we use [Perforce][] and [IncrediBuild][]. For RSS, I use [Bloglines.com][bloglines]. And we have a bunch of tools we have created ourselves.
 

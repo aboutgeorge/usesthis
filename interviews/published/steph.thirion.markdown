@@ -1,10 +1,10 @@
 Steph Thirion @ 2009-03-27T22:09:03+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 I'm [Steph Thirion](http://trsp.net "Steph's website."). Since recently I've been designing iPhone toys. I've just made my number one release, a game called [Eliss][]; which in a way sums up most of what I do, as it assembles user interfaces, code graphics, sound and music. And I sometimes [teach](http://www.trsp.net/teaching/gamemod/) how to get creative with code without necessarily understanding it.
 
-### What would be your dream setup?
+### What hardware are you using?
 
 My workstation is a [MacBook Pro][macbook-pro] from summer 2007, 15' with a Core 2 Duo with 2.2 GHz and 2GB of RAM, and a mate display. She's still a beast. When at my desk, I connect her to a 20.1' LCD screen by Dell, the uh... [E2007WFP][]. It can be flipped in any orientation, and it's got all kinds of connectors; I can borrow a PS2 or a Wii and play in all their pixel goodness.
 
@@ -14,7 +14,7 @@ I also have a first generation 8GB [iPod touch][ipod-touch] that I use mainly fo
 
 Then I have this little toy synth, a [Casio SK-10][sk-10], which I sometimes use to sketch melodies, and is one of my favorite gadgets. Amazingly, I found it for 1 euro in a flea market here in Barcelona.
 
-### What would be your dream setup?
+### And what software?
 
 For all my notes, task management and writing, I use [Scrivener][] (I'm using its full-screen mode as I write). It's not really meant for all those things, but its tree structure and flexibility just works for me. I like [TaskPaper][] a lot, but it also taught me that a task manager doesn't really have to be more complex than a text editor, so I stopped using it and integrated that idea into Scrivener - I prefer to have it all in one place, like a big notebook. I use [iCal][] to log what I do and how long I spend doing it. And [Apple Mail][mail] to, uh, mail. For browsing I use both [Safari][] 4 and [Firefox][] 3. I wish Firefox was fast, and I wish Safari had add-ons (maybe there's a correlation?).
 

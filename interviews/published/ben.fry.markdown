@@ -1,6 +1,6 @@
 Ben Fry @ 2009-05-02T20:05:45+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 I'm a designer who works with data. In the past I did [grad school](http://acg.media.mit.edu/ "The Aesthetics and computation group at MIT.") to support my data habit, then did some teaching (as a visiting professor/lecturer at Harvard and Carnegie Mellon), then wrote a [book about visualization](http://www.oreilly.com/catalog/9780596514556/ "Ben's book, 'Visualizing Data'.").
 
@@ -8,7 +8,7 @@ I recently started a [visualization lab](http://phyllotaxis.net/ "They map data 
 
 In my spare time (and to support our own work), [Casey Reas](http://reas.com/ "Casey's website.") and I develop [Processing][], which we describe as "an open source programming language and environment for people who want to program images, animation, and interactions." We're trying to make it easier for artists, designers and architects to work with code; and to get computer scientists and engineers thinking about art and design concepts. (We wrote a book about it [as well](http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&tid=11251 "Ben and Casey's Processing book.")).
 
-### What would be your dream setup?
+### What hardware are you using?
 
 Most of my time is spent on a 15" [MacBook Pro][macbook-pro] and a 30" [Cinema Display][cinema-display]. I got the Cinema Display for myself after some particularly tedious client work a few years back.
 
@@ -18,7 +18,7 @@ I have a cheapie Dell machine that serves as a Linux server at home. I spent $40
 
 My apartment is also littered with lots of other machines that I use to test Processing. Things get messy because we support Mac/Windows/Linux (times an OS or architecture or two for each). My wife doesn't like it when I travel, fearing that the machines will rise up in my absence.
 
-### What would be your dream setup?
+### And what software?
 
 Most of my time is spent with [Emacs][carbon-emacs], [Processing][], [Eclipse][], Adobe [Illustrator][] and [Photoshop][] CS3.
 

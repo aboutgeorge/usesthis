@@ -1,10 +1,10 @@
 Garrett Murray @ 2009-04-01T21:15:56+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 I'm Garrett Murray. I make [films](http://foreversnotsolong.com/ "Official site for the movie 'Forever's Not So Long'."), [websites](http://pinchzoom.com/ "Garrett and Brian make websites.") and, recently, [iPhone apps][ego]. I guess I'm what you might call a workaholic. Years ago I wrote [xPad][].
 
-### What would be your dream setup?
+### What hardware are you using?
 
 My current setup is a 15-inch Unibody [MacBook Pro][macbook-pro] (2.53, 4GB RAM) connected to a 24-inch [LED Cinema Display][cinema-display]. I leave the MBP closed most times, unless I'm editing audio or video, then I use it for spill-over. And I can't imagine my life without the [Apple Keyboard][keyboard] (full-size, please--I like my big arrow keys and number pad). I use a corded [Mighty Mouse][mighty-mouse], which I absolutely hated at first but have gotten used to, although I really wish they made a left-handed version of the [Logitech MX Revolution][mx-revolution], since everyone raves about it. I listen to music all day using the first version of the [Bose Companion 3 speaker system][companion-3].
 
@@ -14,7 +14,7 @@ I record the [podcast](http://maniacalragepodcast.com/ "A podcast by Garrett and
 
 Oh, and I've always got my 16GB [iPhone][] 3G with me.
 
-### What would be your dream setup?
+### And what software?
 
 I spend most of my time in [TextMate][]. It has been my friend and companion for years now and I couldn't live without it. I love [CSSEdit][] and use [Transmit][] daily. I check Twitter with [Twitterrific][] (probably too much). My primary browser is [Safari][] (currently the version 4 public beta, which I'm still trying to get used to visually), and I try to avoid opening [Firefox][] except when I need it for testing. I use [NewsFire][] for feed reading (which I have managed to cut down in the past few years). And I don't think I could live without [Dropbox][] and [Grabup][]. When it comes to common tasks, I use common tools: I use Apple [Mail][], [iChat][], [Terminal][], etc. I also spend a ton of time in [Photoshop CS4][photoshop].
 

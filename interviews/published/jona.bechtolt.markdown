@@ -1,10 +1,10 @@
 Jona Bechtolt @ 2009-01-09T17:42:36+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 My name is [Jona Bechtolt](http://teamyacht.com/ "The official YACHT homepage.") and I am a being of light and darkness. I deliver vibrations with my person and computers. My body is based in the Pacific Northwest of the United States of America, but through the internet I am universal.
 
-### What would be your dream setup?
+### What hardware are you using?
 
 I have two computers -- three if you count the [iPhone][], which you probably should. The first computer is a 24" aluminum [iMac][] that has been taken apart twice by a mildly sweaty, mouth-breathing man from El Paso, Texas. I use this computer when I'm at home, which hasn't been very often over the past year since I bought it. The other computer I use is a new aluminum [MacBook][] with the light-up keyboard. It's my very favorite laptop I've owned thus far, and I've had every small-sized laptop Apple has made since the original white G3 iBook. This includes a 12" PowerBook G4, a 12" iBook G4, an original Core Duo white MacBook, a revision A MacBook Air, and, lastly, a Penryn black MacBook.
 
@@ -12,7 +12,7 @@ I've never had the luxury of exceptional audio hardware, for one reason or anoth
 
 For video and photo documentation, I've used point-and-shoot Canon cameras for the past four years. Right now I have a [PowerShot SD1000][powershot-sd1000]. I've always liked the video quality these little cameras spit out for making tour videos, etc. This most recent model has my favorite shape and size yet.
 
-### What would be your dream setup?
+### And what software?
 
 For making music I use [Ableton Live 7][live], free AU and VST plugins by various [Smartelectronix](http://www.smartelectronix.com/ "A collection of music plugin developers.") developers. I've been using the [mda plugins][mda-vst] since I've been using Live. I also really like [Audio Damage](http://www.audiodamage.com/ "Creators of Automatron, Rough Rider Pro and other music plugins.") plugins, which I've pirated. Sorry guys! I think I bought one a while ago? Sometimes I use [Reason 4][reason] for certain soft-synths, or sampled keyboards I downloaded a long time ago. I also stole Reason. I used to use [Peak][] for stereo editing and mastering, but it got harder and harder to find a crack for it. While I was working on "[Magic](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=251734935&s=143441 "YACHT's album on iTunes.")" my cracked version of Live stopped working and I finally had to buy it.
 

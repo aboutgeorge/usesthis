@@ -1,10 +1,10 @@
 John Gruber @ 2009-01-22T12:40:30+10:00
 
-### What would be your dream setup?
+### Who are you and what do you do?
 
 I'm John Gruber. I write a web site called [Daring Fireball](http://daringfireball.net/ "John's website."). A few years ago I created [Markdown][].
 
-### What would be your dream setup?
+### What hardware are you using?
 
 My sole work computer is a 15-inch 2.5 GHz [MacBook Pro][macbook-pro] with 4 GB of RAM and a 250 GB hard drive. I got it in March 2008, so it's not one of the new ones with the black keyboard. Mine has a matte display. At my desk in my office, I connect it to a 20-inch Apple [Cinema Display][cinema-display], Harmon Kardon SoundSticks, and an [Apple Extended Keyboard II](http://www.flickr.com/photos/gruber/sets/72157604797968156/ "Gruber's photos of his keyboard.") (by way of a Griffin [iMate][] ADB-to-USB adapter).
 
@@ -14,7 +14,7 @@ Miscellaneous other hardware that might qualify as work-related, roughly in orde
 
 I carry a paper notebook and pen with me everywhere. Currently: an unlined [soft cover Moleskine][moleskine-soft-cover] and a [0.38mm Uni-ball Signo RT][signo-gel-rt] (black).
 
-### What would be your dream setup?
+### And what software?
 
 On my Mac, again roughly in order of affection: [Yojimbo][] for storing and tagging notes, bookmarks, passwords, and etc. -- at this writing I have 4,675 items in my Yojimbo library. [BBEdit][] for writing and coding. After several years of switching back and forth between [Quicksilver][] and [LaunchBar][] every few weeks, I settled on LaunchBar about a year ago. [NetNewsWire][] for feed reading. My main web browser is the nightly build of [WebKit][]. [BusySync][] is a wonderful tool for sharing iCal calendars with my wife. If Twitter counts as work-related, and I suppose it does insofar as I often find stuff to link to from it, [Twitterrific][]. [Script Debugger][script-debugger] for AppleScript scripting. [Numbers][] for spreadsheets and the occasional graph. Every night I use [SuperDuper][] to clone my MacBook Pro's internal drive to one of the two aforementioned Lacie hard drives. [Sound Studio][sound-studio] for podcast recording.
 
