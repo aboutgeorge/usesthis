@@ -60,7 +60,9 @@ module Setup
                 
                 unless contents.empty?
                     contents.sub!(/^(.+)\r\n\r\n/, '\1' + " @ #{DateTime.now.to_s}\r\n\r\n")
-                    contents.gsub!(/### Question (\d)/, "### #{questions[$1.to_i-1]}")                    
+                    contents.gsub!(/### Question (\d)/) do |match|
+                        "### #{questions[$1.to_i-1]}"
+                    end
                     
                     links = contents.scan(/\[([^\[\(\)]+)\]\[([a-z0-9\.\-]+)?\]/)
                     if links.length > 0
@@ -107,6 +109,10 @@ module Setup
         end
 
         get '/feed/?' do
+            content_type 'application/atom+xml', :charset => 'utf-8'
+            
+            @interviews = Interview.all
+            haml :feed, :layout => false
         end
 
         get '/:slug/?' do |slug|
