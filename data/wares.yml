@@ -272,3 +272,8 @@
 "openoffice": {title: "OpenOffice", description: "An open-source office suite.", url: "http://www.openoffice.org/"}
 "fontforge": {title: "FontForge", description: "An open-source font editor.", url: "http://fontforge.sourceforge.net/"}
 "hex-fiend": {title: "Hex Fiend", description: "An open-source hex editor for the Mac.", url: "http://www.ridiculousfish.com/hexfiend/"}
+"area-51": {title: "Alienware Area-51 Desktop",  description: "A souped-up gaming PC computer.", url: "http://www.alienware.com/products/area-51-desktop.aspx"}
+"acer-ferrari-5000": {title: "Acer Ferrari 5000-5832", description: "A co-branded PC laptop.", url: "http://www.amazon.com/Acer-Ferrari-5000-5832-Processor-Ultimate/dp/B000LO8ZPM"}
+"photoshop-elements": {title: "Photoshop Elements", description: "A cut-down version of the popular image editor.", url: "http://www.adobe.com/products/photoshopel/"}
+"morae": {title: "Morae", description: "Software to record and monitor users during testing.", url: "http://www.techsmith.com/morae.asp"}
+"3007wfp": {title: "Dell 30 inch UltraSharp monitor", description: "Dell's 30 inch widescreen LCD monitor.", url: "http://accessories.us.dell.com/sna/products/Monitors/productdetail.aspx?sku=222-7175"}
