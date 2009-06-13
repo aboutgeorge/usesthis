@@ -4,16 +4,17 @@ a
 a:hover
   color: #888
 
-article > p
-  padding: 13px 20px
-  margin: 0
-  background:
-    color: #1a1a1a
-  color: #bbb
-  font:
-    size: 85%
-  line:
-    height: 20px
+article
+  p, ul
+    padding: 12px 20px
+    margin: 0
+    background:
+      color: #1a1a1a
+    color: #bbb
+    font:
+      size: 85%
+    line:
+      height: 20px
   
 body
   width: 508px
@@ -90,6 +91,11 @@ p.date
     size: 80%
 
 ul
+  list:
+    style: 
+      position: inside
+  
+ul#interviews
   list:
     style: none
   padding: 0
