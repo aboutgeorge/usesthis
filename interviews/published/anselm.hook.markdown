@@ -47,7 +47,7 @@ As far as actual development of new software - the tools are getting much better
 [macbook-pro]: http://www.apple.com/macbookpro/ "The popular Intel-based Mac laptop."
 [iphone]: http://www.apple.com/iphone/ "C'mon, you know what this is."
 [openbsd]: http://www.openbsd.org/ "An open-source operating system emphasising security and cryptography."
-[pf]:  "A TCP packet filter included with OpenBSD."
+[pf]: http://www.openbsd.org/faq/pf/filter.html "A TCP packet filter included with OpenBSD."
 [openssh]: http://www.openssh.com/ "A popular collection of SSH tools."
 [mac-os-x]: http://www.apple.com/macosx/ "The operating system for the Mac platform."
 [macports]: http://www.macports.org/ "A collection of *nix software ported to Mac OS X."
