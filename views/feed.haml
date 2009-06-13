@@ -7,7 +7,7 @@
   %updated= @interviews[0].created_at
   %author
     %name Daniel Bogan
-  
+
   - @interviews.each do |interview|
     %entry
       %title= interview.person
@@ -16,4 +16,5 @@
       %published= interview.created_at
       %updated= interview.updated_at
       %content{:type => "xhtml"}
-        = markup(interview.contents)
+        %div{:xmlns => "http://www.w3.org/1999/xhtml"}
+          = markup(interview.contents)
