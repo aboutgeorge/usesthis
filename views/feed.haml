@@ -17,4 +17,6 @@
       %updated= interview.updated_at
       %content{:type => "xhtml"}
         %div{:xmlns => "http://www.w3.org/1999/xhtml"}
+          %p
+            %img{:src => "/images/#{interview.slug}.jpg", :width => 500, :height => 335, :alt => interview.person}
           = markup(interview.contents)
