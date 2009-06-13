@@ -1,5 +1,5 @@
 - if @interviews.length > 0
-  %ul
+  %ul#interviews
     - @interviews.each do |interview|
       %li
         %p.date= interview.created_at.strftime("%Y-%m-%d")
