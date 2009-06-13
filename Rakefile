@@ -36,7 +36,7 @@ task :publish do
                 f.write(contents)
             end 
         
-            #File.unlink(path)
+            File.unlink(path)
         end
     end
 end
