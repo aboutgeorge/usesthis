@@ -45,7 +45,7 @@ module Setup
     end
     
     class App < Sinatra::Base
-        set :haml, { :format => :html5 }
+        set :haml, {:format => :html5}
         
         helpers do
             def markup(string)
@@ -69,7 +69,7 @@ module Setup
             content_type 'application/atom+xml', :charset => 'utf-8'
             
             @interviews = Interview.all
-            haml :feed, :layout => false
+            haml :feed, {:format => :xhtml, :layout => false}
         end
 
         get '/:slug/?' do |slug|
