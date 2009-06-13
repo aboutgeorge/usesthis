@@ -255,7 +255,7 @@
 "no-kahuna": {title: "No Kahuna", description: "A web-based project/collaboration service.", url: "http://www.nokahuna.com/"}
 "permatime": {title: "Permatime", description: "A web-based temporal headache massager.", url: "http://www.permatime.com/"}
 "openbsd": {title: "OpenBSD", description: "An open-source operating system emphasising security and cryptography.", url: "http://www.openbsd.org/"}
-"pf": {title: "PF", description: "A TCP packet filter included with OpenBSD.", url: ""}
+"pf": {title: "PF", description: "A TCP packet filter included with OpenBSD.", url: "http://www.openbsd.org/faq/pf/filter.html"}
 "openssh": {title: "OpenSSH", description: "A popular collection of SSH tools.", url: "http://www.openssh.com/"}
 "opencv": {title: "OpenCV", description: "A programming library for working with real-time computer vision.", url: "http://opencv.willowgarage.com/wiki/"}
 "ec2": {title: "EC2", description: "A web service for virtualised processing.", url: "http://aws.amazon.com/ec2/"}
