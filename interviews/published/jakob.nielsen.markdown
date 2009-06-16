@@ -40,7 +40,7 @@ Right now, I am not urgently interested in faster Internet connectivity. In fact
 
 For travel use, I still want a laptop with a full-sized keyboard and a big screen, and a 15-inch display seems to be as much as I can fit into my carry-on bag, so that's what I'll keep using. But I want it to be thin (half an inch) and weigh at most one pound. Also, a much smaller and lighter power brick. Consider the total user experience, which requires business travelers to bring both the laptop and its power supply, so it's the combination that counts.
 
-For mobile, either an iPhone with a European-quality carrier, or a mobile phone from another vendor with a great Web-browsing user experience. In the user testing we have done (http://www.useit.com/alertbox/mobile-usability.html), most other phones had lousy Web-browsing support, even when they had nice, big touch screens.
+For mobile, either an iPhone with a European-quality carrier, or a mobile phone from another vendor with a great Web-browsing user experience. In [the user testing we have done](http://www.useit.com/alertbox/mobile-usability.html "Jakob's mobile usability tests."), most other phones had lousy Web-browsing support, even when they had nice, big touch screens.
 
 [area-51]: http://www.alienware.com/products/area-51-desktop.aspx "A souped-up gaming PC computer."
 [3007wfp]: http://accessories.us.dell.com/sna/products/Monitors/productdetail.aspx?sku=222-7175 "Dell's 30 inch widescreen LCD monitor."
