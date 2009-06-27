@@ -24,7 +24,7 @@ I also use Textmate for all non-iPhone programming tasks, which usually means Py
 
 Safari 4 is my web browser. I used to use Firefox, but I got tired of its [Mac OS X][mac-os-x] weirdness, and I don't use any extensions other than Firebug. I use [Mail.app][mail], [Tweetie][], and [iChat][]. My photos are managed in [Lightroom][] and my videos in [iMovie '09][imovie]. I have a bunch of [Fluid][] apps, mainly for various media players, like Pandora, MLB.tv, and ESPN Radio.
 
-On my iPhone, my most used apps are [Instapaper][instapaper-iphone], [Quadcamera][], [Yelp][yelp-iphone], [MLB At Bat][mlb-at-bat], [Pandora][pandora-iphone], [Kindle][kindle-iphone], [Twitterrific][twitterrific-iphone], and (of course) [Facebook][facebook-iphone]. However, the main thing I do with my iPhone is not actually an app, but the web-based [Google Reader][google-reader].
+On my iPhone, my most used apps are [Instapaper][instapaper-iphone], [QuadCamera][], [Yelp][yelp-iphone], [MLB At Bat][mlb-at-bat], [Pandora][pandora-iphone], [Kindle][kindle-iphone], [Twitterrific][twitterrific-iphone], and (of course) [Facebook][facebook-iphone]. However, the main thing I do with my iPhone is not actually an app, but the web-based [Google Reader][google-reader].
 
 ### What would be your dream setup?
 
