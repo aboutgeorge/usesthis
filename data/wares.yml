@@ -277,3 +277,19 @@
 "photoshop-elements": {title: "Photoshop Elements", description: "A cut-down version of the popular image editor.", url: "http://www.adobe.com/products/photoshopel/"}
 "morae": {title: "Morae", description: "Software to record and monitor users during testing.", url: "http://www.techsmith.com/morae.asp"}
 "3007wfp": {title: "Dell 30 inch UltraSharp monitor", description: "Dell's 30 inch widescreen LCD monitor.", url: "http://accessories.us.dell.com/sna/products/Monitors/productdetail.aspx?sku=222-7175"}
+"firebug": {title: "Firebug", description: "A Firefox addon for web development.", url: "http://getfirebug.com/"}
+"path-finder": {title: "Path Finder", description: "A replacement for OS X's Finder file browser.", url: "http://www.cocoatech.com/"}
+"5d-mark-ii": {title: "5D Mark II", description: "A 21 megapixel DSLR.", url: "http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&fcategoryid=139&modelid=17662"}
+"xscope": {title: "xScope", description: "A Mac tool for on-screen measuring and aligning.", url: "http://iconfactory.com/software/xscope"}
+"layers": {title: "Layers", description: "A Mac screen-capture tool that saves files as a layered .psd file.", url: "http://layersapp.com/"}
+"screenflow": {title: "ScreenFlow", description: "A screencasting studio for the Mac.", url: "http://www.telestream.net/screen-flow/overview.htm"}
+"instapaper-iphone": {title: "Instapaper (iPhone)", description: "An iPhone app for reading Instapaper saved pages.", url: "http://www.instapaper.com/iphone"}
+"yelp-iphone": {title: "Yelp (iPhone)", description: "An iPhone app for access Yelp reviews.", url: "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=284910350&mt=8"}
+"mlb-at-bat": {title: "MLB at Bat", description: "An iPhone baseball app for viewing scores and streaming matches.", url: "http://mlb.mlb.com/mobile/iphone/"}
+"imovie": {title: "iMovie", description: "An OS X video editor, included in iLife.", url: "http://www.apple.com/ilife/imovie/"}
+"facebook": {title: "Facebook", description: "A popular social networking site.", url: "http://facebook.com/"}
+"pandora-iphone": {title: "Pandora (iPhone)", description: "An iPhone app for streaming your personal Pandora radio station.", url: "http://www.pandora.com/on-the-iphone"}
+"kindle-iphone": {title: "Kindle (iPhone)", description: "An iPhone app for accessing Kindle content from Amazon.", url: "http://www.amazon.com/gp/feature.html?docId=1000301301"}
+"twitterrific-iphone": {title: "Twitterrific (iPhone)", description: "A popular Twitter Mac client for the iPhone.", url: "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=284540316&mt=8"}
+"facebook-iphone": {title: "Facebook (iPhone)", description: "An iPhone app for accessing the social network.", url: "http://www.facebook.com/apps/application.php?id=6628568379"}
+"quadcamera": {title: "QuadCamera", description: "An iPhone app for taking four photos at once.", url: "http://artandmobile.com/quadcamera/"}
