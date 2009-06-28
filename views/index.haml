@@ -2,5 +2,7 @@
   %ul#interviews
     - @interviews.each do |interview|
       %li
-        %p.date= interview.created_at.strftime("%Y-%m-%d")
-        %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}."}= interview.person
+        %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}."}
+          %p.date= interview.created_at.strftime("%Y-%m-%d")
+          %h2= interview.person
+          %p.summary= interview.summary
