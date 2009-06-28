@@ -1,4 +1,4 @@
-Joe Hewitt @ 2009-06-28T01:39:01+10:00
+Joe Hewitt: Creator of Firebug, iPhone developer for Facebook - 2009-06-28T01:39:01+10:00
 
 ### Who are you and what do you do?
 

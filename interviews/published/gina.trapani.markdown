@@ -1,4 +1,4 @@
-Gina Trapani @ 2009-02-20T19:22:23+10:00
+Gina Trapani: Writer, blogger, creator of smarterware.org - 2009-02-20T19:22:23+10:00
 
 ### Who are you and what do you do?
 

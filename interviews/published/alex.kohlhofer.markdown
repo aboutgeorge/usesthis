@@ -1,4 +1,4 @@
-Alexander Kohlhofer @ 2009-04-14T19:09:20+10:00
+Alexander Kohlhofer: Creator of Weewar, Spreedly, No Kahuna - 2009-04-14T19:09:20+10:00
 
 ### Who are you and what do you do?
 

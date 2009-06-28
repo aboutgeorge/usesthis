@@ -1,4 +1,4 @@
-Alex Payne @ 2009-01-02T20:59:40+10:00
+Alex Payne: Developer, API bitch at Twitter - 2009-01-02T20:59:40+10:00
 
 ### Who are you and what do you do?
 

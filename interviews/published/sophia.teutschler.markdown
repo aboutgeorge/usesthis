@@ -1,4 +1,4 @@
-Sophia Teutschler @ 2009-04-07T19:09:52+10:00
+Sophia Teutschler: Indie Mac developer (CoverSutra, Groceries, Tipiulator) - 2009-04-07T19:09:52+10:00
 
 ### Who are you and what do you do?
 

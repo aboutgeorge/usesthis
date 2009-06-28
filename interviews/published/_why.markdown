@@ -1,4 +1,4 @@
-_why the lucky stiff @ 2009-02-13T21:09:40+10:00
+_why the lucky stiff: Internet rodent - 2009-02-13T21:09:40+10:00
 
 ### Who are you and what do you do?
 

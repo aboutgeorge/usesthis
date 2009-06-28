@@ -1,4 +1,4 @@
-Garrett Murray @ 2009-04-01T21:15:56+10:00
+Garrett Murray: Film maker, creator of Ego - 2009-04-01T21:15:56+10:00
 
 ### Who are you and what do you do?
 

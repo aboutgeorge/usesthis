@@ -1,4 +1,4 @@
-Steven Frank @ 2009-01-17T12:27:42+10:00
+Steven Frank: Indie Mac developer, co-founder of Panic - 2009-01-17T12:27:42+10:00
 
 ### Who are you and what do you do?
 

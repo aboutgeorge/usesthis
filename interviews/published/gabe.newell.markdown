@@ -1,4 +1,4 @@
-Gabe Newell @ 2009-01-17T12:09:39+10:00
+Gabe Newell: Co-founder of Valve - 2009-01-17T12:09:39+10:00
 
 ### Who are you and what do you do?
 

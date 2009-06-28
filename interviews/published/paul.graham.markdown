@@ -1,4 +1,4 @@
-Paul Graham @ 2009-03-14T18:53:12+10:00
+Paul Graham: Head of YCombinator, creator of the Arc language - 2009-03-14T18:53:12+10:00
 
 ### Who are you and what do you do?
 

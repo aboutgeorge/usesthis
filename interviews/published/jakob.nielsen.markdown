@@ -1,4 +1,4 @@
-Jakob Nielsen @ 2009-06-13T23:18:53+10:00
+Jakob Nielsen: UX expert for Nielsen Group - 2009-06-13T23:18:53+10:00
 
 ### Who are you and what do you do?
 

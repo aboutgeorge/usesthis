@@ -1,4 +1,4 @@
-David Lanham @ 2009-01-28T11:55:36+10:00
+David Lanham: Visual artist, iconographer for The Iconfactory - 2009-01-28T11:55:36+10:00
 
 ### Who are you and what do you do?
 

@@ -1,4 +1,4 @@
-Steph Thirion @ 2009-03-27T22:09:03+10:00
+Steph Thirion: Indie game developer, creator of Eliss - 2009-03-27T22:09:03+10:00
 
 ### Who are you and what do you do?
 

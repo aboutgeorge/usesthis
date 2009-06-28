@@ -1,4 +1,4 @@
-Ben Fry @ 2009-05-02T20:05:45+10:00
+Ben Fry: Data designer, co-creator of Processing - 2009-05-02T20:05:45+10:00
 
 ### Who are you and what do you do?
 

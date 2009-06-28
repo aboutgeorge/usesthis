@@ -1,4 +1,4 @@
-Jonathan Coulton @ 2009-02-10T19:59:13+10:00
+Jonathan Coulton: Internet musical superstar - 2009-02-10T19:59:13+10:00
 
 ### Who are you and what do you do?
 

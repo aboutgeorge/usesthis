@@ -1,4 +1,4 @@
-Jona Bechtolt @ 2009-01-09T17:42:36+10:00
+Jona Bechtolt: One half of the band YACHT - 2009-01-09T17:42:36+10:00
 
 ### Who are you and what do you do?
 

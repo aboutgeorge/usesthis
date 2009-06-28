@@ -1,4 +1,4 @@
-James Thomson @ 2009-03-23T16:04:01+10:00
+James Thomson: Indie Mac developer (DragThing, PCalc) - 2009-03-23T16:04:01+10:00
 
 ### Who are you and what do you do?
 

@@ -1,4 +1,4 @@
-Anselm Hook @ 2009-04-22T19:00:07+10:00
+Anselm Hook: MakerLab hacker, CTO of Meedan - 2009-04-22T19:00:07+10:00
 
 ### Who are you and what do you do?
 
