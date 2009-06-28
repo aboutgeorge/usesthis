@@ -11,7 +11,7 @@ require 'sass'
 
 module Setup
     class Interview
-        attr_accessor :person, :slug, :contents, :created_at, :updated_at
+        attr_accessor :person, :summary, :slug, :contents, :created_at, :updated_at
         
         def self.all
             interviews = []
@@ -33,13 +33,14 @@ module Setup
         def initialize(path)
             contents = File.read(path)
             return if contents.empty?
-            
-            details = contents.slice!(/^(.+)\r?\n\r?\n/).split(" @ ")
-            
-            @person     = details[0]
+ 
+            contents.slice!(/^(.+): (.+) - (.+)/)
+
+            @person     = $1
+            @summary    = $2
             @slug       = File.basename(path, ".markdown")
             @contents   = contents
-            @created_at = DateTime.parse(details[1])
+            @created_at = DateTime.parse($3)
             @updated_at = DateTime.parse(File.mtime(path).to_s)
         end
     end
@@ -76,7 +77,7 @@ module Setup
             @interview = Interview.with_slug(slug)
             raise not_found unless @interview
             
-            haml :interview
+            haml :interview, :locals => {:title => "TEST"}
         end
 
         get '/stylesheets/:filename/?' do |filename|
