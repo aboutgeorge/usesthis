@@ -55,7 +55,6 @@ h1
 h1 + p
   padding: 0 0 15px 0
   margin: 5px 0 20px 0
-  color: #aaa
   font:
     size: 80%
   border:
@@ -63,11 +62,17 @@ h1 + p
   
 h2
   padding: 0
-  margin: 0 0 20px 0
+  margin: 0
+  background: transparent
   color: #df0174
   font:
     size: 230%
 
+h2 + p
+  margin: 5px 0 30px 0
+  font:
+    size: 85%
+    
 h3
   text:
     transform: uppercase
@@ -81,15 +86,22 @@ img
   padding: 4px
   background:
     color: #fff
-      
-p.date
-  float: right
-  padding: 5px
-  margin: 10px 10px 0 0
-  color: #ddd
+
+p.summary
   font:
     size: 80%
+  margin: 5px 0 30px 0
+  color: #666
 
+p.date
+  float: right
+  text:
+    align: right
+  padding: 0
+  margin: 17px
+  font:
+    size: 110%
+  
 ul
   list:
     style: 
@@ -103,19 +115,38 @@ ul#interviews
 
   li
     clear: left
-    padding: 0 0 10px 0
+    padding: 0
     margin: 0
   
     a
       display: block
-      padding: 2px 5px
+      padding: 0
+      margin: 0 0 15px 0
+      
       text:
         decoration: none
-      color: #df0174
-      font:
-        size: 230%
-
+      
+      
+      h2
+        font:
+          weight: normal
+      
+      p.date
+        color: #111
+      
+      p.summary
+        margin: 0
+    
     a:hover
       background:
         color: #fe2e9a
       color: #fff
+      
+      h2
+        color: #fff
+      
+      p.date
+        color: #df0174
+        
+      p.summary
+        color: #ddd
