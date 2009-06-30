@@ -291,5 +291,5 @@
 "pandora-iphone": {title: "Pandora (iPhone)", description: "An iPhone app for streaming your personal Pandora radio station.", url: "http://www.pandora.com/on-the-iphone"}
 "kindle-iphone": {title: "Kindle (iPhone)", description: "An iPhone app for accessing Kindle content from Amazon.", url: "http://www.amazon.com/gp/feature.html?docId=1000301301"}
 "twitterrific-iphone": {title: "Twitterrific (iPhone)", description: "A popular Twitter Mac client for the iPhone.", url: "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=284540316&mt=8"}
-"facebook-iphone": {title: "Facebook (iPhone)", description: "An iPhone app for accessing the social network.", url: "http://www.facebook.com/apps/application.php?id=6628568379"}
+"facebook-iphone": {title: "Facebook (iPhone)", description: "An iPhone app for accessing Facebook.", url: "http://www.facebook.com/apps/application.php?id=6628568379"}
 "quadcamera": {title: "QuadCamera", description: "An iPhone app for taking four photos at once.", url: "http://artandmobile.com/quadcamera/"}
