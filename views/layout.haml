@@ -1,7 +1,7 @@
 !!! Strict
 %html{html_attrs}
   %head
-    %title The Setup
+    %title= "#{@interview.person + " on " if @interview}The Setup"
     %link{:href => '/stylesheets/screen', :media => 'screen', :rel => 'stylesheet', :type => 'text/css'}
     %link{:href => '/stylesheets/mobile', :media => 'only screen and (max-device-width: 480px)', :rel => 'stylesheet', :type => 'text/css'}
     %link{:href => 'http://usesthis.com/feed', :type => 'application/atom+xml', :rel => 'alternate', :title => "Atom feed"}
