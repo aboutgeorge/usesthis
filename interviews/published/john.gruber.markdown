@@ -1,4 +1,4 @@
-John Gruber: Writer, Daring Fireball - 2009-01-22T12:40:30+10:00
+John Gruber: Writer, Daring Fireball (Credit: Portrait by [George Del Barrio](http://superbiate.com/ "George's website.")) - 2009-01-22T12:40:30+10:00
 
 ### Who are you and what do you do?
 
