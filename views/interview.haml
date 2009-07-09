@@ -2,6 +2,8 @@
 %h2= @interview.person
 %p.summary= @interview.summary
 %img{:src => "/images/#{@interview.slug}.jpg", :width => 500, :height => 335, :alt => @interview.person}
+- if @interview.credit
+  = markup(@interview.credit)
 
 %section
   %article
