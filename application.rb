@@ -11,7 +11,7 @@ require 'sass'
 
 module Setup
     class Interview
-        attr_accessor :person, :summary, :slug, :contents, :created_at, :updated_at
+        attr_accessor :person, :summary, :credit, :slug, :contents, :created_at, :updated_at
         
         def self.all
             interviews = []
@@ -34,8 +34,12 @@ module Setup
             contents = File.read(path)
             return if contents.empty?
  
+            if contents.slice!(/ \(Credit: (.+)\)/)
+              @credit = $1
+            end
+ 
             contents.slice!(/^(.+): (.+) - (.+)/)
-
+            
             @person     = $1
             @summary    = $2
             @slug       = File.basename(path, ".markdown")
