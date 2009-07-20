@@ -241,6 +241,8 @@
 "pod-pro": {title: "POD", description: "Hardware for creating guitar sounds.", url: "http://line6.com/products/detail/3/"}
 "podcast-maker": {title: "Podcast Maker", description: "A podcast feed creation application for the Mac.", url: "http://www.lemonzdream.com/podcastmaker/"}
 "portal": {title: "Portal", description: "An awesome, groundbreaking game.", url: "http://orange.half-life2.com/portal.html"}
+"power-mac-g5": {title: "Power Mac G5", description: "A desktop Mac with an IBM PowerPC G5 CPU.", url: "http://en.wikipedia.org/wiki/Power_Mac_G5"}
+"powerbook-g4": {title: "PowerBook G4", description: "An older, popular Mac laptop with the PowerPC G4 CPU.", url: "http://en.wikipedia.org/wiki/PowerBook_G4"}
 "powershot-sd1000": {title: "Powershot SD1000", description: "A 7.1 megapixel compact digital camera.", url: "http://usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=145&amp;modelid=14901"}
 "pro-53": {title: "Pro-53", description: "Virtual synthesizer software.", url: "http://www.native-instruments.com/index.php?id=pro53"}
 "pro-tools-hd": {title: "Pro Tools HD", description: "Very popular, very expensive studio software.", url: "http://www.digidesign.com/index.cfm?navid=24"}
@@ -261,6 +263,7 @@
 "safari-adblock": {title: "Safari AdBlock", description: "Just like the name says.", url: "http://burgersoftware.com/en/safariadblock"}
 "safari-iphone": {title: "Safari (iPhone)", description: "The iPhone version of Safari.", url: "http://www.apple.com/iphone/iphone-3g/safari.html"}
 "screenflow": {title: "ScreenFlow", description: "A screencasting studio for the Mac.", url: "http://www.telestream.net/screen-flow/overview.htm"}
+"scribbles": {title: "Scribbles", description: "A simple drawing program for the Mac.", url: "http://www.atebits.com/scribbles/"}
 "script-debugger": {title: "Script Debugger", description: "An AppleScript IDE for the Mac.", url: "http://latenightsw.com/sd4/"}
 "scriptographer": {title: "Scriptographer", description: "A plugin for Illustrator to add support for Javascript scripting.", url: "http://scriptographer.com/"}
 "scrivener": {title: "Scrivener", description: "A Mac text editor aimed at writers.", url: "http://literatureandlatte.com/scrivener.html"}
@@ -285,6 +288,7 @@
 "strat": {title: "Stratocaster", description: "The official list of Fender Strats.", url: "http://fender.com/products/search.php?section=guitars&amp;amp;cat=stratocaster"}
 "stylus-1050-sw": {title: "Stylus 1050 SW", description: "A 10.1MP shock and waterproof digital camera.", url:"http://www.olympusamerica.com/cpg_section/product.asp?product=1395"}
 "stylus-cx7800": {title: "Stylus CX7800", description: "An all-in-one printer/copier/scanner.", url: "http://www.epson.com/cgi-bin/Store/consumer/consDetail.jsp?BV_UseBVCookie=yes&oid=56291070&modeloid=58773&infoType=Overview"}
+"stylus-pro-7800": {title: "Stylus Pro 7800", description: "A 24 inch wide format printer.", url: "http://www.epson.com/cgi-bin/Store/WideFormat/WideFormatDetail.jsp?oid=-12803"}
 "subversion": {title: "Subversion", description: "A popular version control system.", url: "http://subversion.tigris.org/"}
 "superduper": {title: "SuperDuper!", description: "An excellent Mac backup/cloning application.", url: "http://shirt-pocket.com/SuperDuper/SuperDuperDescription.html"}
 "syncback": {title: "SyncBack", description: "Free backup software.", url: "http://2brightsparks.com/freeware/freeware-hub.html"}
@@ -311,6 +315,7 @@
 "transmission": {title: "Tranmission", description: "A popular BitTorrent client.", url: "http://transmissionbt.com/"}
 "transmit": {title: "Transmit", description: "An FTP/SFTP client for the Mac.", url: "http://panic.com/transmit/"}
 "tumblr": {title: "Tumblr", description: "An online personal publishing platform.", url: "http://www.tumblr.com/"}
+"tweetdeck": {title: "TweetDeck", description: "A popular multi-column Twitter client.", url: "http://tweetdeck.com/"}
 "tweetie": {title: "Tweetie", description: "A very popular Twitter client for the iPhone.", url: "http://atebits.com/software/tweetie/"}
 "twitkitteh": {title: "Twitkitteh", description: "An iPhone Twitter client. For cats.", url: "http://twitkitteh.com/"}
 "twitter": {title: "Twitter", description: "An online micro-blogging platform.", url: "http://twitter.com/"}
