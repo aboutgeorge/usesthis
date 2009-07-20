@@ -2,7 +2,7 @@ Sam Brown: Illustrator, Exploding Dog - 2009-07-20T12:46:54+10:00
 
 ### Who are you and what do you do?
 
-I am Sam Brown, I draw stick figures at [Explodingdog](http://www.explodingdog.com/ "Sam's stick figures."), draw the comic [Dog Hates Me](http://www/doghatesme.com "Sam's comic."), and put some doodles up on the internet at [http://explodingdog.tumblr.com](http://explodingdog.tumblr.com "Sam's doodles.").
+I am Sam Brown, I draw stick figures at [Explodingdog](http://www.explodingdog.com/ "Sam's stick figures."), draw the comic [Dog Hates Me](http://www.doghatesme.com "Sam's comic."), and put some doodles up on the internet at [http://explodingdog.tumblr.com](http://explodingdog.tumblr.com "Sam's doodles.").
 
 ### What hardware do you use?
 
