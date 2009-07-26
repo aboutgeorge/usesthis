@@ -14,7 +14,7 @@ task :publish do
         contents = File.read(path)
     
         unless contents.empty?
-            contents.sub!(/^(.+)/, '\1' + " @ #{DateTime.now.to_s}")
+            contents.sub!(/^(.+)/, '\1' + " - #{DateTime.now.to_s}")
             contents.gsub!(/### Question (\d)/) do |match|
                 "### #{questions[$1.to_i-1]}"
             end
@@ -35,8 +35,6 @@ task :publish do
             File.open(new_path, "w+") do |f|
                 f.write(contents)
             end 
-        
-            File.unlink(path)
         end
     end
 end
