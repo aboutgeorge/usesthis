@@ -34,7 +34,7 @@
 "binsearch": {title: "binsearch", description: "An online newsgroup search engine.", url: "http://binsearch.info/"}
 "blip.tv": {title: "Blip.tv", description: "A media sharing and distribution web service.", url: "http://blip.tv/"}
 "bloglines": {title: "Bloglines", description: "A web-based feed reader.", url: "http://bloglines.com/"}
-"bloom": {title: "Bloom", description: "An ambient musician machine/artwork iPhone application.", url: "http://generativemusic.com/"}
+"bloom-iphone": {title: "Bloom (iPhone)", description: "An ambient musician machine/artwork iPhone application.", url: "http://generativemusic.com/"}
 "bluebird": {title: "Bluebird", description: "A fresh Twitter client for the Mac.", url: "http://www.bluebirdapp.com/"}
 "boot-camp": {title: "Boot Camp", description: "Software to allow Macs to run Windows natively.", url: "http://www.apple.com/macosx/what-is-macosx/compatibility.html"}
 "busysync": {title: "BusySync", description: "A application to sync iCal and Google Calendar, for the Mac.", url: "http://busymac.com/"}
@@ -82,8 +82,8 @@
 "eee-pc-901": {title: "EEE PC 901", description: "A 9&quot; netbook.", url: "http://www.asus.com/product.aspx?P_ID=1sRO7tW9B0OdR9yz"}
 "ef-28mm": {title: "EF 28mm Wide-Angle Lens", description: "A lens for SLR cameras.", url: "http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=151&amp;modelid=7302"}
 "ef-50mm": {title: "EF 50mm", description: "A lens for SLR cameras.", url: "http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&amp;fcategoryid=152&amp;modelid=7307"}
-"ego": {title: "Ego", description: "An iPhone application for checking web statistics.", url: "http://www.ego-app.com/"}
-"eliss": {title: "Eliss", description: "A clever little game for the iPhone.", url: "http://toucheliss.com/"}
+"ego-iphone": {title: "Ego (iPhone)", description: "An iPhone application for checking web statistics.", url: "http://www.ego-app.com/"}
+"eliss-iphone": {title: "Eliss (iPhone)", description: "A clever little game for the iPhone.", url: "http://toucheliss.com/"}
 "emailer": {title: "Claris Emailer", description: "A popular old email client for the Mac.", url: "http://en.wikipedia.org/wiki/Claris_Emailer"}
 "entourage": {title: "Entourage", description: "A Mac email client included with Office.", url: "http://www.microsoft.com/mac/products/entourage2008/default.mspx"}
 "esquire": {title: "Esquire", description: "A classic 50's bass.", url: "http://www.fender.com/products/search.php?partno=0131502303"}
@@ -96,7 +96,7 @@
 "facebook": {title: "Facebook", description: "A popular social networking site.", url: "http://facebook.com/"}
 "facebook-iphone": {title: "Facebook (iPhone)", description: "An iPhone app for accessing Facebook.", url: "http://www.facebook.com/apps/application.php?id=6628568379"}
 "fastscripts": {title: "FastScripts", description: "System-wide access to Applescripts, for the Mac.", url: "http://red-sweater.com/fastscripts/"}
-"fieldrunners": {title: "Fieldrunners", description: "A very popular tower defense-style game for the iPhone.", url: "http://fieldrunners.com/"}
+"fieldrunners-iphone": {title: "Fieldrunners (iPhone)", description: "A very popular tower defense-style game for the iPhone.", url: "http://fieldrunners.com/"}
 "filemaker-pro": {title: "Filemaker Pro", description: "A database application.", url: "http://filemaker.com/products/filemaker-pro/"}
 "final-cut-pro": {title: "Final Cut Pro", description: "A nonlinear video editor.", url: "http://www.apple.com/finalcutstudio/finalcutpro/"}
 "fios": {title: "FiOS", description: "Fibre optic Internet connection.", url: "http://www.verizon.com/fios/"}
@@ -129,12 +129,12 @@
 "google-reader": {title: "Google Reader", description: "A web-based feed reader.", url: "http://reader.google.com/"}
 "gr-digital": {title: "GR Digital", description: "An 8 megapixel digital camera.", url: "http://www.ricoh.com/r_dc/gr/gr_digital/"}
 "grabup": {title: "GrabUp", description: "A screenshot sharing service.", url: "http://www.grabup.com/"}
-"groceries": {title: "Groceries", description: "A smart shopping list for the iPhone.", url: "http://www.groceriesapp.com/"}
+"groceries-iphone": {title: "Groceries (iPhone)", description: "A smart shopping list for the iPhone.", url: "http://www.groceriesapp.com/"}
 "growl": {title: "Growl", description: "A notification system for Mac OS X.", url: "http://growl.info/"}
 "hardwaregrowler": {title: "HardwareGrowler", description: "A Growl-based utility for notifying you when devices are connected/disconnected.", url: "http://growl.info/documentation/hardwaregrowler.php"}
 "helio-ocean": {title: "Virgin Helio Ocean", description: "A smartphone with a 2MP camera.", url: "http://www.helio.com/#/mobile-devices/ocean/"}
 "hex-fiend": {title: "Hex Fiend", description: "An open-source hex editor for the Mac.", url: "http://www.ridiculousfish.com/hexfiend/"}
-"horror-vacui": {title: "Horror Vacui", description: "A two-player abstract strategy board game for the iPhone.", url: "http://www.shauninman.com/horrorvacui/"}
+"horror-vacui-iphone": {title: "Horror Vacui (iPhone)", description: "A two-player abstract strategy board game for the iPhone.", url: "http://www.shauninman.com/horrorvacui/"}
 "i-rocks": {title: "i-rocks", description: "A USB 2.0 hub.", url: "http://www.i-rocks.com/Product_List.aspx?CLASS_ID=1036"}
 "ical": {title: "iCal", description: "Calendaring software included with Mac OS X.", url: "http://www.apple.com/macosx/features/300.html#ical"}
 "ichat": {title: "iChat", description: "An AIM/Jabber client included with Mac OS X.", url: "http://www.apple.com/macosx/features/ichat.html"}
@@ -206,7 +206,7 @@
 "merb": {title: "Merb", description: "A lightweight but powerful Ruby framework.", url: "http://www.merbivore.com/"}
 "messagepad-120": {title: "Newton MessagePad 120", description: "A much-loved PDA device.", url: "http://www.everymac.com/systems/apple/messagepad/stats/newton_mp_120.html"}
 "mighty-mouse": {title: "Mighty Mouse", description: "The wireless mouse with the nipple.", url: "http://www.apple.com/mightymouse/"}
-"mlb-at-bat": {title: "MLB at Bat", description: "An iPhone baseball app for viewing scores and streaming matches.", url: "http://mlb.mlb.com/mobile/iphone/"}
+"mlb-at-bat-iphone": {title: "MLB at Bat (iPhone)", description: "An iPhone baseball app for viewing scores and streaming matches.", url: "http://mlb.mlb.com/mobile/iphone/"}
 "mobile-me": {title: "MobileMe", description: "An online 'cloud' service (mail, calendar, etc).", url: "http://www.me.com/"}
 "moleskine-soft-cover": {title: "Moleskine Soft Cover", description: "A popular line of paper notebooks (with a soft cover).", url: "http://moleskineus.com/moleskine-softcover-notebook.html"}
 "momentile": {title: "Momentile", description: "A web service for capturing and sharing 'moments'.", url: "http://www.momentile.com/"}
@@ -266,7 +266,7 @@
 "processing": {title: "Processing", description: "A programming language/environment.", url: "http://processing.org/"}
 "ps3": {title: "Playstation 3", description: "A shiny gaming console from Sony.", url: "http://www.us.playstation.com/PS3"}
 "qik": {title: "Qik", description: "A web service for streaming live video from your mobile phone.", url: "http://qik.com/"}
-"quadcamera": {title: "QuadCamera", description: "An iPhone app for taking four photos at once.", url: "http://artandmobile.com/quadcamera/"}
+"quadcamera-iphone": {title: "QuadCamera (iPhone)", description: "An iPhone app for taking four photos at once.", url: "http://artandmobile.com/quadcamera/"}
 "quicksilver": {title: "Quicksilver", description: "The ultimate data manipulator/launcher for the Mac.", url: "http://code.google.com/p/blacktree-alchemy/"}
 "readynas-nv-plus": {title: "ReadyNAS NV+", description: "A backup/storage solution.", url: "http://www.readynas.com/?cat=4"}
 "reason": {title: "Reason", description: "A virtual studio rack for creating music.", url: "http://propellerheads.se/products/reason/"}
@@ -326,7 +326,7 @@
 "tiger": {title: "Tiger", description: "Version 10.4 of the operating system for the Mac.", url: "http://www.apple.com/support/tiger/"}
 "time-capsule": {title: "Time Capsule", description: "A WiFi access point and backup system.", url: "http://www.apple.com/timecapsule/"}
 "time-machine": {title: "Time Machine", description: "Backup software for the masses, included with Mac OS X 10.5.", url: "http://www.apple.com/macosx/features/timemachine.html"}
-"tipulator": {title: "Tipulator", description: "A tipping calculator for the iPhone.", url: "http://www.tipulatorapp.com/"}
+"tipulator-iphone": {title: "Tipulator (iPhone)", description: "A tipping calculator for the iPhone.", url: "http://www.tipulatorapp.com/"}
 "tm-git-bundle": {title: "TextMate Git bundle", description: "A bundle for TextMate to add Git support.", url: "http://gitorious.org/projects/git-tmbundle"}
 "todo.sh": {title: "todo.sh", description: "A command-line interface for your todo.txt file.", url: "http://ginatrapani.github.com/todo.txt-cli/"}
 "tomato": {title: "Tomato", description: "Replacement firmware for the Linksys WRT54GL.", url: "http://polarcloud.com/tomato/"}
@@ -337,7 +337,7 @@
 "tweetdeck": {title: "TweetDeck", description: "A popular multi-column Twitter client.", url: "http://tweetdeck.com/"}
 "tweetie": {title: "Tweetie", description: "A Twitter client for the Mac.", url: "http://www.atebits.com/tweetie-mac/"}
 "tweetie-iphone": {title: "Tweetie (iPhone)", description: "A very popular Twitter client for the iPhone.", url: "http://www.atebits.com/tweetie-iphone/"}
-"twitkitteh": {title: "Twitkitteh", description: "An iPhone Twitter client. For cats.", url: "http://twitkitteh.com/"}
+"twitkitteh-iphone": {title: "Twitkitteh (iPhone)", description: "An iPhone Twitter client. For cats.", url: "http://twitkitteh.com/"}
 "twitter": {title: "Twitter", description: "An online micro-blogging platform.", url: "http://twitter.com/"}
 "twitterrific": {title: "Twitterrific", description: "A popular Twitter Mac client.", url: "http://iconfactory.com/software/twitterrific"}
 "twitterrific-iphone": {title: "Twitterrific (iPhone)", description: "A popular Twitter Mac client for the iPhone.", url: "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=284540316&mt=8"}
