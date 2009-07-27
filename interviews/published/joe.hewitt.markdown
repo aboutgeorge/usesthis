@@ -58,7 +58,7 @@ I dreamed of my current setup for years until I finally got it last year, so now
 [safari]: http://www.apple.com/safari/ "A fast web browser."
 [mac-os-x]: http://www.apple.com/macosx/ "The operating system for the Mac platform."
 [mail]: http://www.apple.com/macosx/features/mail.html "The default Mac OS X mail client."
-[tweetie]: http://atebits.com/software/tweetie/ "A very popular Twitter client for the iPhone."
+[tweetie]: http://atebits.com/tweetie-mac/ "A Twitter client for the Mac."
 [ichat]: http://www.apple.com/macosx/features/ichat.html "An AIM/Jabber client included with Mac OS X."
 [lightroom]: http://www.adobe.com/products/photoshoplightroom/ "Photo management and editing software."
 [imovie]: http://www.apple.com/ilife/imovie/ "An OS X video editor, included in iLife."

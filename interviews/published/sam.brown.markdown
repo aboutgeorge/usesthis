@@ -8,7 +8,7 @@ I am Sam Brown, I draw stick figures at [Explodingdog](http://www.explodingdog.c
 
 I use an old [Power Mac G5][power-mac-g5]. It's got the two 2GHz processors. The G5 has never worked quite right and I never wanted to buy it. I had a book scheduled to be at the printer and my G4 completely died. I ran out and got this G5 at the Apple Store so I could have the book at the printer the next day. The computer was refurbished and it always worked kinda clunky. Plus it only has two hard drive bays. I love hard drives, so I hate that. 
 
-Connected to the G5 I have a stack of 5 external hard drives. A Wacom [Cintiq][], the 12 inch one. Even though my Cintiq some how got dust in between the LCD screen and the drawing surface. Wacom tablets are great. I had a 12x12 inch [Intuos][], it was one of the first ones to be USB, and I drew with it almost every day until about a year ago. And other than the occasional driver hiccup, I never had a problem with it. I used it for 8 years, in that time I went through more than ten mice, 6 keyboards, and probably four or five computers, but only one Tablet.
+Connected to the G5 I have a stack of 5 external hard drives. A Wacom [Cintiq][cintiq-12wx], the 12 inch one. Even though my Cintiq some how got dust in between the LCD screen and the drawing surface. Wacom tablets are great. I had a 12x12 inch [Intuos][intuos-12x12], it was one of the first ones to be USB, and I drew with it almost every day until about a year ago. And other than the occasional driver hiccup, I never had a problem with it. I used it for 8 years, in that time I went through more than ten mice, 6 keyboards, and probably four or five computers, but only one Tablet.
 
 Also connected to the G5 is an old Canon scanner I bought for $50 at the Circut City in Union Square about 9 years ago. The funny thing is that I bought the first Canon Digital Elph that came out right around the same time. I paid like $500 to have it as soon as it came out (as did most of every one else that worked at the .com I was at). I still use the $50 scanner every day, but have long since replaced the digital camera.
 
@@ -29,8 +29,8 @@ A top of the line [Mac Pro][mac-pro] filled with as much memory and drive space 
 I draw my pictures at a 10000x10000 pixels and that is about the best my G5 can handle with out being useless. I want to draw them 3 times as big, or bigger. I am a resolution junkie. I want a 100 megapixel camera. I want to scan paper at 12000dpi. I know many people say we have reached the peak and don't need any more detail. But I think if insanely high resolutions become normal we will see some amazing things come out of it. I want the digital to go far beyond what was available before.
 
 [power-mac-g5]: http://en.wikipedia.org/wiki/Power_Mac_G5 "A desktop Mac with an IBM PowerPC G5 CPU."
-[cintiq]: http://wacom.com/cintiq/ "The computer screen you can draw on."
-[intuos]: http://wacom.com/intuos/ "A line of popular input tablets."
+[cintiq-12wx]: http://wacom.com/cintiq/cintiq-12wx.php "The 12 inch computer screen you can draw on."
+[intuos-12x12]: http://www.amazon.com/Wacom-Intuos3-12X12-Tablet-PTZ1230/dp/B000E6EIJY "A 12 x 12 inch drawing tablet."
 [macbook]: http://www.apple.com/macbook/ "The consumer Mac laptop."
 [powerbook-g4]: http://en.wikipedia.org/wiki/PowerBook_G4 "An older, popular Mac laptop with the PowerPC G4 CPU."
 [mac-mini]: http://www.apple.com/macmini/ "The lil' Intel-based Mac."

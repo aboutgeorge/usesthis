@@ -6,7 +6,7 @@ I'm [David Lanham](http://dlanham.com/ "David's personal site.") and I make draw
 
 ### What hardware are you using?
 
-Big screens and dark rooms seem to work out best. I'm on a [Mac Pro][mac-pro] dual core at home and 8-core at work, both with 4GB of RAM. For design and icon illustration I use a 6"x8" [Wacom Intuos][intuos] tablet and two monitors: a 20" and a 30". For drawing and other illustration I use a 21" [Cintiq monitor][cintiq]. Before I use any computer hardware I work most of it out on pen and paper in my sketchbook. My recent pens of choice have been the Foray .5mm and a Zebra brush pen.
+Big screens and dark rooms seem to work out best. I'm on a [Mac Pro][mac-pro] dual core at home and 8-core at work, both with 4GB of RAM. For design and icon illustration I use a 6"x8" [Wacom Intuos][intuos-6x8] tablet and two monitors: a 20" and a 30". For drawing and other illustration I use a 21" [Cintiq monitor][cintiq-21ux]. Before I use any computer hardware I work most of it out on pen and paper in my sketchbook. My recent pens of choice have been the Foray .5mm and a Zebra brush pen.
 
 ### And what software?
 
@@ -17,8 +17,8 @@ Most of my software time is spent in [Adobe Illustrator][illustrator] with [Phot
 I don't have too many unfulfilled needs right now, an extra 30" would of course be fantastic, but mainly I just want my software to be intuitive and responsive. It still seems like I'm waiting around a lot for drawings to render out or tasks and filters to do their job. I don't know exactly how much of that is software and how much is hardware, but I suspect the majority is software based. I'd like to think that an 8-core Mac Pro could handle just about anything you throw at it if the software is taking full advantage of the processors. Otherwise my ultimate setup would have hardware and software that can read my mind and throw down the drawings I have in my head without me lifting a finger. It's not too much to ask, right?
 
 [mac-pro]: http://www.apple.com/macpro/ "The Intel-based Mac tower computer."
-[intuos]: http://wacom.com/intuos/ "A line of popular input tablets."
-[cintiq]: http://wacom.com/cintiq/ "The computer screen you can draw on."
+[intuos-6x8]: http://www.amazon.com/Wacom-Intuos3-8-Inch-Pen-Tablet/dp/B00030097G "A 6x8 inch drawing tablet."
+[cintiq-21ux]: http://wacom.com/cintiq/cintiq-21ux.php "The 21 inch computer screen you can draw on."
 [illustrator]: http://adobe.com/products/illustrator/ "A popular vector graphics editor."
 [photoshop]: http://adobe.com/products/photoshop/ "The infamous graphic editor."
 [iconbuilder]: http://iconfactory.com/software/iconbuilder/ "The icon plugin for Photoshop."

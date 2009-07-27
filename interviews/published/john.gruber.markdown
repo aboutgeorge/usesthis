@@ -22,7 +22,7 @@ I use [MarsEdit][] for posting articles and links to Daring Fireball. [TypeIt4Me
 
 I use both [FastScripts][] and [Keyboard Maestro][keyboard-maestro] for executing scripts and macros I've created to automate frequent tasks. I have a handful of custom system-wide Services menu items I created using [ThisService][], which lets you creates services from simple AppleScript and shell scripts. I started using [Dropbox][] recently, but because I spend nearly all my time on a single computer, I don't seem to use it much. For tracking tasks, I use a baffling, embarrassing mish-mash of [OmniOutliner Pro][omnioutliner-pro], [Things][], and, for the past week, Potion Factory's just-hit-beta [The Hit List][the-hit-list]. Using more than one piece of software for this is madness, but there are things I both like and dislike very much about all three of these apps.
 
-On my iPhone: [Tweetie][], [Things][things-iphone], [Instapaper][], and [NetNewsWire][netnewswire-iphone]. (And MobileSafari and MobileMail, of course.)
+On my iPhone: [Tweetie][tweetie-iphone], [Things][things-iphone], [Instapaper][], and [NetNewsWire][netnewswire-iphone]. (And MobileSafari and MobileMail, of course.)
 
 Server-side, Daring Fireball runs [Movable Type][movable-type], but, in the words of Han Solo, I've made a lot of special modifications myself. Not the least of which is Markdown, which I use for everything I write. Six Apart offers a very nice "[iMT][]" plugin for Movable Type which provides an iPhone-optimized web interface.
 
@@ -76,7 +76,7 @@ Hardware-wise, a 30-inch display and a Canon 5D Mark II would be nice.
 [omnioutliner-pro]: http://omnigroup.com/applications/omnioutliner/pro/ "The 800lb gorilla of task managers for the Mac."
 [things]: http://culturedcode.com/things/ "A popular task management application for the Mac."
 [the-hit-list]: http://potionfactory.com/thehitlist/ "A fancy task manager for the Mac."
-[tweetie]: http://atebits.com/software/tweetie/ "A very popular Twitter client for the iPhone."
+[tweetie-iphone]: http://atebits.com/tweetie-iphone/ "A very popular Twitter client for the iPhone."
 [things-iphone]: http://culturedcode.com/things/iphone/ "A popular task management application for the iPhone."
 [instapaper]: http://instapaper.com/ "A web tool for saving pages to read later."
 [netnewswire-iphone]: http://newsgator.com/individuals/netnewswireiphone/ "A popular feed reader for the iPhone."

@@ -22,7 +22,7 @@ I edit video in [Final Cut Pro][final-cut-pro] and audio in [Pro Tools LE][pro-t
 
 My [site](http://maniacalrage.net "Garrett's website.") uses [Tumblr][], which I absolutely love. I can't imagine using anything else at this point, even though I spent years building all sorts of CMSs.
 
-On my iPhone, I use [Ego][], [Tweetie][], [NetNewsWire][netnewswire-iphone] and [Things][things-iphone] the most. I also play a lot of [Horror Vacui][horror-vacui] and [Fieldrunners][].
+On my iPhone, I use [Ego][], [Tweetie][tweetie-iphone], [NetNewsWire][netnewswire-iphone] and [Things][things-iphone] the most. I also play a lot of [Horror Vacui][horror-vacui] and [Fieldrunners][].
 
 ### What would be your dream setup?
 
@@ -64,7 +64,7 @@ I'm very happy with my current setup. I wouldn't mind having a 30-inch LED Cinem
 [podcast-maker]: http://www.lemonzdream.com/podcastmaker/ "A podcast feed creation application for the Mac."
 [tumblr]: http://www.tumblr.com/ "An online personal publishing platform."
 [ego]: http://www.ego-app.com/ "An iPhone applications for checking web statistics."
-[tweetie]: http://atebits.com/software/tweetie/ "A very popular Twitter client for the iPhone."
+[tweetie-iphone]: http://atebits.com/tweetie-iphone/ "A very popular Twitter client for the iPhone."
 [netnewswire-iphone]: http://newsgator.com/individuals/netnewswireiphone/ "A popular feed reader for the iPhone."
 [things-iphone]: http://culturedcode.com/things/iphone/ "A popular task management application for the iPhone."
 [horror-vacui]: http://www.shauninman.com/horrorvacui/ "A two-player abstract strategy board game for the iPhone."
