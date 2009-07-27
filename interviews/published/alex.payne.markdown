@@ -24,7 +24,7 @@ I also run some of the usual "power user" Mac enhancements: [TextExpander][] to 
 
 We use [Dropbox][] at Twitter to share documents, and we make pretty extensive use of [Google Apps][google-apps]. We use [Trac][] for ticketing internally, but I keep API-related tickets public on [Google Code](http://code.google.com/p/twitter-api/issues/list "The Twitter API issue list."). We do code reviews with [Review Board][review-board] and browse our [Git][] repositories with [cgit][].
 
-I've usually got [iTunes][] or [Last.fm][] playing, though lately I've been listening to [Bloom][] play itself when I need to focus. Speaking of focus, I use [Isolator][] to get distractions out of the way. When I need distractions again, I see what's on my [Instapaper][] or [Google Reader][google-reader].
+I've usually got [iTunes][] or [Last.fm][] playing, though lately I've been listening to [Bloom][bloom-iphone] play itself when I need to focus. Speaking of focus, I use [Isolator][] to get distractions out of the way. When I need distractions again, I see what's on my [Instapaper][] or [Google Reader][google-reader].
 
 ### What would be your dream setup?
 
@@ -79,7 +79,7 @@ I want better software: more usable, more accessible, more open, more secure, mo
 [cgit]: http://hjemli.net/git/cgit/ "A Git repository viewer."
 [itunes]: http://www.apple.com/itunes/ "The infamous jukebox application."
 [last.fm]: http://last.fm/ "An online radio/tool for tracking your listening habits."
-[bloom]: http://generativemusic.com/ "An ambient musician machine/artwork iPhone application."
+[bloom-iphone]: http://generativemusic.com/ "An ambient musician machine/artwork iPhone application."
 [isolator]: http://www.willmore.eu/software/isolator/ "A Mac application designed to help you focus on a single task."
 [instapaper]: http://instapaper.com/ "A web tool for saving pages to read later."
 [google-reader]: http://reader.google.com/ "A web-based feed reader."

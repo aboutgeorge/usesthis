@@ -2,7 +2,7 @@ Sophia Teutschler: Indie Mac developer (CoverSutra, Groceries, Tipulator) - 2009
 
 ### Who are you and what do you do?
 
-I'm Sophia Teutschler and I run [Sophiestication Software](http://sophiestication.com "Sophia's software website.") where I make simply beautiful Mac and iPhone apps. So far I released applications like [CoverSutra][] for Mac OS X and [Groceries][] and [Tipulator][] for the iPhone.
+I'm Sophia Teutschler and I run [Sophiestication Software](http://sophiestication.com "Sophia's software website.") where I make simply beautiful Mac and iPhone apps. So far I released applications like [CoverSutra][] for Mac OS X and [Groceries][groceries-iphone] and [Tipulator][tipulator-iphone] for the iPhone.
 
 ### What hardware are you using?
 
@@ -25,8 +25,8 @@ My other daily use apps are the usual suspects like [iChat][] for chats, [Mail][
 I'm pretty happy with my current configuration. A nice to have would be some sort of "Private Cloud" that keeps all of my files and such in a central place. I currently use [MobileMe][mobile-me] to achieve that but it's still far too slow and limited for my likes. It would be also great if I could have a [Mighty Mouse][mighty-mouse] that has a scroll nipple that I would not need to clean every morning... sigh.
 
 [coversutra]: http://www.coversutra.com/ "An iTunes controller for the Mac."
-[groceries]: http://www.groceriesapp.com/ "A smart shopping list for the iPhone."
-[tipulator]: http://www.tipulatorapp.com/ "A tipping calculator for the iPhone."
+[groceries-iphone]: http://www.groceriesapp.com/ "A smart shopping list for the iPhone."
+[tipulator-iphone]: http://www.tipulatorapp.com/ "A tipping calculator for the iPhone."
 [imac]: http://www.apple.com/imac/ "The all-in-one Mac."
 [macbook-pro]: http://www.apple.com/macbookpro/ "The popular Intel-based Mac laptop."
 [time-capsule]: http://www.apple.com/timecapsule/ "A WiFi access point and backup system."

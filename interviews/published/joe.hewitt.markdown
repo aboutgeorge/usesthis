@@ -24,7 +24,7 @@ I also use Textmate for all non-iPhone programming tasks, which usually means Py
 
 Safari 4 is my web browser. I used to use Firefox, but I got tired of its [Mac OS X][mac-os-x] weirdness, and I don't use any extensions other than Firebug. I use [Mail.app][mail], [Tweetie][], and [iChat][]. My photos are managed in [Lightroom][] and my videos in [iMovie '09][imovie]. I have a bunch of [Fluid][] apps, mainly for various media players, like Pandora, MLB.tv, and ESPN Radio.
 
-On my iPhone, my most used apps are [Instapaper][instapaper-iphone], [QuadCamera][], [Yelp][yelp-iphone], [MLB At Bat][mlb-at-bat], [Pandora][pandora-iphone], [Kindle][kindle-iphone], [Twitterrific][twitterrific-iphone], and (of course) [Facebook][facebook-iphone]. However, the main thing I do with my iPhone is not actually an app, but the web-based [Google Reader][google-reader].
+On my iPhone, my most used apps are [Instapaper][instapaper-iphone], [QuadCamera][quadcamera-iphone], [Yelp][yelp-iphone], [MLB At Bat][mlb-at-bat-iphone], [Pandora][pandora-iphone], [Kindle][kindle-iphone], [Twitterrific][twitterrific-iphone], and (of course) [Facebook][facebook-iphone]. However, the main thing I do with my iPhone is not actually an app, but the web-based [Google Reader][google-reader].
 
 ### What would be your dream setup?
 
@@ -64,9 +64,9 @@ I dreamed of my current setup for years until I finally got it last year, so now
 [imovie]: http://www.apple.com/ilife/imovie/ "An OS X video editor, included in iLife."
 [fluid]: http://fluidapp.com/ "A WebKit-based application for creating Site Specific Browsers."
 [instapaper-iphone]: http://www.instapaper.com/iphone "An iPhone app for reading Instapaper saved pages."
-[quadcamera]: http://artandmobile.com/quadcamera/ "An iPhone app for taking four photos at once."
+[quadcamera-iphone]: http://artandmobile.com/quadcamera/ "An iPhone app for taking four photos at once."
 [yelp-iphone]: http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=284910350&mt=8 "An iPhone app for access Yelp reviews."
-[mlb-at-bat]: http://mlb.mlb.com/mobile/iphone/ "An iPhone baseball app for viewing scores and streaming matches."
+[mlb-at-bat-iphone]: http://mlb.mlb.com/mobile/iphone/ "An iPhone baseball app for viewing scores and streaming matches."
 [pandora-iphone]: http://www.pandora.com/on-the-iphone "An iPhone app for streaming your personal Pandora radio station."
 [kindle-iphone]: http://www.amazon.com/gp/feature.html?docId=1000301301 "An iPhone app for accessing Kindle content from Amazon."
 [twitterrific-iphone]: http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=284540316&mt=8 "A popular Twitter Mac client for the iPhone."

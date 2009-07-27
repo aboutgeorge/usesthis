@@ -2,7 +2,7 @@ Steph Thirion: Indie game developer, creator of Eliss - 2009-03-27T22:09:03+10:0
 
 ### Who are you and what do you do?
 
-I'm [Steph Thirion](http://trsp.net "Steph's website."). Since recently I've been designing iPhone toys. I've just made my number one release, a game called [Eliss][]; which in a way sums up most of what I do, as it assembles user interfaces, code graphics, sound and music. And I sometimes [teach](http://www.trsp.net/teaching/gamemod/) how to get creative with code without necessarily understanding it.
+I'm [Steph Thirion](http://trsp.net "Steph's website."). Since recently I've been designing iPhone toys. I've just made my number one release, a game called [Eliss][eliss-iphone]; which in a way sums up most of what I do, as it assembles user interfaces, code graphics, sound and music. And I sometimes [teach](http://www.trsp.net/teaching/gamemod/) how to get creative with code without necessarily understanding it.
 
 ### What hardware are you using?
 
@@ -34,7 +34,7 @@ A computer that every time I lose focus while browsing the web, gives me a big s
 
 But as long as I can work with OSX I'm good. I could say that thinking about having a MacBook Air with a solid state drive gives me sensations that are wrong and that I would only confess to if completely drunk. Also, the SK-10 is cool, but if someone begged me to swap it with his acoustic piano, on a good day, maybe I'd give in.
 
-[eliss]: http://toucheliss.com/ "A clever little game for the iPhone."
+[eliss-iphone]: http://toucheliss.com/ "A clever little game for the iPhone."
 [macbook-pro]: http://www.apple.com/macbookpro/ "The popular Intel-based Mac laptop."
 [e2007wfp]: http://dell.com/content/products/productdetails.aspx/monitor_2007wfp?c=au&amp;l=en&amp;s=bsd&amp;cs=aubsd1 "A 20&quot; LCD screen with USB ports."
 [ipod-touch]: http://www.apple.com/ipodtouch/ "It's like an iPhone, without the phone bit."

@@ -22,7 +22,7 @@ I use [BBEdit][] for all my stunt text editing, [Dreamweaver][] for any HTML edi
 
 [Adium][] is always running on my MacBook, as are [Twitterrific][], [iTunes][], [Mail][] and [Safari][] (4, but with all the new UI stuff switched off, because I Clearly Fear Change). Oh, and [DragThing][] and [PCalc][] of course. Well, I think of them as part of the OS.
 
-On the iPhone, I'm using [PCalc][pcalc-iphone] again too, as well as [Twitkitteh][] naturally, and just most of the built-in apps at this stage. I hear there's some kind of app store where you can get new stuff, I should really check it out one day. Oh, and [Fieldrunners][] when I need to unwind on the move.
+On the iPhone, I'm using [PCalc][pcalc-iphone] again too, as well as [Twitkitteh][twitkitteh-iphone] naturally, and just most of the built-in apps at this stage. I hear there's some kind of app store where you can get new stuff, I should really check it out one day. Oh, and [Fieldrunners][] when I need to unwind on the move.
 
 ### What would be your dream setup?
 
@@ -30,7 +30,7 @@ Aside from the stuck pixel and the bits of plastic falling off my MacBook, I thi
 
 [dragthing]: http://dragthing.com/ "A popular dock application for the Mac."
 [pcalc]: http://pcalc.com/ "A scientific calculator for the Mac."
-[twitkitteh]: http://twitkitteh.com/ "An iPhone Twitter client. For cats."
+[twitkitteh-iphone]: http://twitkitteh.com/ "An iPhone Twitter client. For cats."
 [mac-pro]: http://www.apple.com/macpro/ "The Intel-based Mac tower computer."
 [l245wp]: http://www.lge.com/products/model/detail/l245wp.jhtml "An LCD screen."
 [ipod-touch]: http://www.apple.com/ipodtouch/ "It's like an iPhone, without the phone bit."

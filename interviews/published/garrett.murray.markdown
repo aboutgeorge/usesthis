@@ -22,13 +22,13 @@ I edit video in [Final Cut Pro][final-cut-pro] and audio in [Pro Tools LE][pro-t
 
 My [site](http://maniacalrage.net "Garrett's website.") uses [Tumblr][], which I absolutely love. I can't imagine using anything else at this point, even though I spent years building all sorts of CMSs.
 
-On my iPhone, I use [Ego][], [Tweetie][tweetie-iphone], [NetNewsWire][netnewswire-iphone] and [Things][things-iphone] the most. I also play a lot of [Horror Vacui][horror-vacui] and [Fieldrunners][].
+On my iPhone, I use [Ego][ego-iphone], [Tweetie][tweetie-iphone], [NetNewsWire][netnewswire-iphone] and [Things][things-iphone] the most. I also play a lot of [Horror Vacui][horror-vacui-iphone] and [Fieldrunners][fieldrunners-iphone].
 
 ### What would be your dream setup?
 
 I'm very happy with my current setup. I wouldn't mind having a 30-inch LED Cinema Display instead of this 24-incher, though. And I want a leftie MX Revolution mouse.
 
-[ego]: http://www.ego-app.com/ "An iPhone applications for checking web statistics."
+[ego-iphone]: http://www.ego-app.com/ "An iPhone applications for checking web statistics."
 [xpad]: http://www.getxpad.com/ "A flexible notepad for the Mac."
 [macbook-pro]: http://www.apple.com/macbookpro/ "The popular Intel-based Mac laptop."
 [cinema-display]: http://www.apple.com/displays/cinema/ "The LCD display line."
@@ -63,9 +63,9 @@ I'm very happy with my current setup. I wouldn't mind having a 30-inch LED Cinem
 [lightroom]: http://www.adobe.com/products/photoshoplightroom/ "Photo management and editing software."
 [podcast-maker]: http://www.lemonzdream.com/podcastmaker/ "A podcast feed creation application for the Mac."
 [tumblr]: http://www.tumblr.com/ "An online personal publishing platform."
-[ego]: http://www.ego-app.com/ "An iPhone applications for checking web statistics."
+[ego]: http://www.ego-app.com/ "An iPhone application for checking web statistics."
 [tweetie-iphone]: http://atebits.com/tweetie-iphone/ "A very popular Twitter client for the iPhone."
 [netnewswire-iphone]: http://newsgator.com/individuals/netnewswireiphone/ "A popular feed reader for the iPhone."
 [things-iphone]: http://culturedcode.com/things/iphone/ "A popular task management application for the iPhone."
-[horror-vacui]: http://www.shauninman.com/horrorvacui/ "A two-player abstract strategy board game for the iPhone."
-[fieldrunners]: http://fieldrunners.com/ "A very popular tower defense-style game for the iPhone."
+[horror-vacui-iphone]: http://www.shauninman.com/horrorvacui/ "A two-player abstract strategy board game for the iPhone."
+[fieldrunners-iphone]: http://fieldrunners.com/ "A very popular tower defense-style game for the iPhone."
