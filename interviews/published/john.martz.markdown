@@ -34,7 +34,7 @@ My favourite iPhone apps are [2Across][2across-iphone] (the only app/game I use 
 
 Apart from maybe a nice 30" Cinema display and top-of-the-line Macs, I'm fairly close to having my dream setup.
 
-I love my Cintiq, and I love what Wacom has done with its latest Intuos tablets -- buttons with dynamic labels (http://intuos.wacom.com/americas/key-displays.php) so I am already drooling at the idea of a new Cintiq model that incorporates this.
+I love my Cintiq, and I love what Wacom has done with its latest Intuos tablets -- [buttons with dynamic labels](http://intuos.wacom.com/americas/key-displays.php "Info on dynamic button labels on Intous tablets.") -- so I am already drooling at the idea of a new Cintiq model that incorporates this.
 
 My dream future-world setup would include a big-as-life touch display, lightning fast broadband, endless storage with fast, easy, redundant backups -- and instant syncing/sharing of everything -- my documents, software, media, the works -- from my desktop/laptop/phone/TV/microchip-in-my-brain/you name it.
 
