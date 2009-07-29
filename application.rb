@@ -81,10 +81,11 @@ module Setup
             @interview = Interview.with_slug(slug)
             raise not_found unless @interview
             
-            haml :interview, :locals => {:title => "TEST"}
+            haml :interview
         end
 
         get '/stylesheets/:filename/?' do |filename|
+            response['Expires'] = (Time.now + ((60 * 60 * 24 * 7) * 8)).httpdate
             content_type 'text/css', :charset => 'utf-8'
             sass filename.to_sym
         end
