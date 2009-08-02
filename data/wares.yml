@@ -14,6 +14,7 @@
 "af-50mm": {title: "AF 50mm", description: "A lens for SLR cameras.", url: "http://www.nikonusa.com/Find-Your-Nikon/ProductDetail.page?pid=2137"}
 "after-effects": {title: "After Effects", description: "Motion graphics and video editing software.", url: "http://www.adobe.com/products/aftereffects/"}
 "ag-hvx200a": {title: "AG-HVX200A", description: "A HD video camera.", url: "http://catalog2.panasonic.com/webapp/wcs/stores/servlet/ModelDetail?storeId=11201&amp;catalogId=13051&amp;itemId=243668&amp;surfModel=AG-HVX200A"}
+"age-of-empires": {title: "Age of Empires", description: "An RTS game spanning 10,000 years of history.", url: "http://www.microsoft.com/games/empires/"}
 "airport-express": {title: "Airport Express", description: "A small wireless access point.", url: "http://www.apple.com/airportexpress/"}
 "airport-extreme": {title: "Airport Extreme", description: "A wireless access point.", url: "http://www.apple.com/airportextreme/"}
 "android": {title: "Android", description: "A mobile phone platform.", url: "http://code.google.com/android/"}
@@ -21,6 +22,7 @@
 "app-engine": {title: "Google App Engine", description: "Hosting for web applications.", url: "http://code.google.com/appengine/"}
 "app-engine-launcher": {title: "Google App Engine Launcher", description: "An SDK/launcher for the App Engine, for the Mac.", url: "http://code.google.com/appengine/downloads.html"}
 "apple-tv": {title: "Apple TV", description: "The media station device.", url: "http://www.apple.com/appletv/"}
+"appleworks": {title: "AppleWorks", description: "An old office suite for the Mac.", url: "http://en.wikipedia.org/wiki/AppleWorks"}
 "apture": {title: "Apture", description: "A web service for adding social-y media to weblogs.", url: "http://www.apture.com/"}
 "area-51": {title: "Alienware Area-51 Desktop",  description: "A souped-up gaming PC computer.", url: "http://www.alienware.com/products/area-51-desktop.aspx"}
 "asm": {title: "ASM", description: "A menu-based application switcher for OS X.", url: "http://vercruesse.de/software/asm" }
@@ -175,6 +177,8 @@
 "knox": {title: "Knox", description: "A Mac application for creating and easily mounting secure disk images.", url: "http://knoxformac.com/"}
 "ksm32": {title: "KSM32", description: "A studio microphone.", url: "http://shure.com/ProAudio/Products/WiredMicrophones/us_pro_KSM32-CG_content"}
 "l245wp": {title: "L245WP Wide LCD Monitor", description: "An LCD screen.", url: "http://www.lge.com/products/model/detail/l245wp.jhtml"}
+"laserjet-1200": {title: "LaserJet 1200", description: "A black and white laser printer.", url: "http://h10010.www1.hp.com/wwpc/us/en/sm/WF10a/18972-18972-3328059-14638-3328066-29789.html"}
+"laserjet-cp1210": {title: "LaserJet CP1210", description: "A colour laser printer.", url: "http://h10010.www1.hp.com/wwpc/us/en/sm/WF05a/18972-18972-3328060-15077-3328070-3422474.html"}
 "last.fm": {title: "Last.fm", description: "An online radio/tool for tracking your listening habits.", url: "http://last.fm/"}
 "launchbar": {title: "Launchbar", description: "An application launcher and data manager for the Mac.", url: "http://obdev.at/products/launchbar/"}
 "layers": {title: "Layers", description: "A Mac screen-capture tool that saves files as a layered .psd file.", url: "http://layersapp.com/"}
@@ -238,6 +242,7 @@
 "openssh": {title: "OpenSSH", description: "A popular collection of SSH tools.", url: "http://www.openssh.com/"}
 "opera": {title: "Opera", description: "A popular, cross-platform web browser.", url: "http://www.opera.com/"}
 "pandora-iphone": {title: "Pandora (iPhone)", description: "An iPhone app for streaming your personal Pandora radio station.", url: "http://www.pandora.com/on-the-iphone"}
+"parallels-desktop": {title: "Parallels Desktop", description: "A PC emulator for the Mac.", url: "http://www.parallels.com/products/desktop/"}
 "path-finder": {title: "Path Finder", description: "A replacement for OS X's Finder file browser.", url: "http://www.cocoatech.com/"}
 "pcalc": {title: "PCalc", description: "A scientific calculator for the Mac.", url: "http://pcalc.com/"}
 "pcalc-iphone": {title: "PCalc (iPhone)", description: "A scientific calculator for the iPhone.", url: "http://pcalc.com/iphone/"}
@@ -249,6 +254,7 @@
 "pf": {title: "PF", description: "A TCP packet filter included with OpenBSD.", url: "http://www.openbsd.org/faq/pf/filter.html"}
 "photoshop": {title: "Photoshop", description: "The infamous graphic editor.", url: "http://adobe.com/products/photoshop/"}
 "photoshop-elements": {title: "Photoshop Elements", description: "A cut-down version of the popular image editor.", url: "http://www.adobe.com/products/photoshopel/"}
+"photosmart-c4280": {title: "Photosmart C4280", description: "An all-in-one printer/scanner/copier.", url: "http://h10010.www1.hp.com/wwpc/ca/en/sm/WF10a/12144670-12145036-12145202-12145202-12430864-80134444.html"}
 "phr-100af": {title: "PHR-100AF", description: "An external Firewire hard drive enclosure.", url: "http://www.macally.com/en/product/ArticleShow.asp?ArticleID=104"}
 "picasa": {title: "Picasa", description: "A photo client and web service.", url: "http://picasa.google.com/"}
 "picwing": {title: "Picwing", description: "An online photo sharing service.", url: "http://picwing.com/"}
@@ -279,6 +285,7 @@
 "safari-4-reload-fix": {title: "Safari 4 Reload Fix", description: "A hack to change the 'Add Bookmark' button into a 'Reload' button.", url: "http://earthlingsoft.net/ssp/tidbits/#safari4reloadfix"}
 "safari-adblock": {title: "Safari AdBlock", description: "Just like the name says.", url: "http://burgersoftware.com/en/safariadblock"}
 "safari-iphone": {title: "Safari (iPhone)", description: "The iPhone version of Safari.", url: "http://www.apple.com/iphone/iphone-3g/safari.html"}
+"savitar": {title: "Savitar", description: "A MUD/MUSH/MOO client for the Mac.", url: "http://www.heynow.com/savitar/"}
 "screenflow": {title: "ScreenFlow", description: "A screencasting studio for the Mac.", url: "http://www.telestream.net/screen-flow/overview.htm"}
 "scribbles": {title: "Scribbles", description: "A simple drawing program for the Mac.", url: "http://www.atebits.com/scribbles/"}
 "script-debugger": {title: "Script Debugger", description: "An AppleScript IDE for the Mac.", url: "http://latenightsw.com/sd4/"}
@@ -302,6 +309,7 @@
 "spamsieve": {title: "SpamSieve", description: "Bayesian spam filtering for Mac mail clients.", url: "http://c-command.com/spamsieve/"}
 "spreedly": {title: "Spreedly", description: "A web-based service for collecting subscription payments for anything.", url: "http://www.spreedly.com/"}
 "sshfs": {title: "SSH FS", description: "An SSH file system for MacFUSE.", url: "http://code.google.com/p/macfuse/wiki/MACFUSE_FS_SSHFS"}
+"starcraft": {title: "StarCraft", description: "An immensely popular sci-fi RTS game.", url: "http://www.blizzard.com/us/starcraft/"}
 "strat": {title: "Stratocaster", description: "The official list of Fender Strats.", url: "http://fender.com/products/search.php?section=guitars&amp;amp;cat=stratocaster"}
 "studio-display": {title: "Studio Display", description: "Apple's older line of LCD/CRT screens.", url: "http://www.everymac.com/monitors/apple/studio_cinema/specs/apple_studio_display_17_fp.html"}
 "stylus-1050-sw": {title: "Stylus 1050 SW", description: "A 10.1MP shock and waterproof digital camera.", url:"http://www.olympusamerica.com/cpg_section/product.asp?product=1395"}
@@ -364,6 +372,7 @@
 "xcode": {title: "XCode", description: "An IDE for Mac developers.", url: "http://developer.apple.com/technology/tools.html"}
 "xpad": {title: "xPad", description: "A flexible notepad for the Mac.", url: "http://www.getxpad.com/"}
 "xscope": {title: "xScope", description: "A Mac tool for on-screen measuring and aligning.", url: "http://iconfactory.com/software/xscope"}
+"xywrite": {title: "XyWrite", description: "An old word processor for DOS and Windows.", url: "http://en.wikipedia.org/wiki/XyWrite"}
 "yahoo-pipes": {title: "Yahoo! Pipes", description: "A service for mixing up web content.", url: "http://pipes.yahoo.com/"}
 "yelp-iphone": {title: "Yelp (iPhone)", description: "An iPhone app for access Yelp reviews.", url: "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=284910350&mt=8"}
 "yep": {title: "Yep", description: "A Mac application for storing your PDF documents.", url: "http://yepthat.com/yep/"}
