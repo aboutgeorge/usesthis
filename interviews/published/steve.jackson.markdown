@@ -1,8 +1,8 @@
-Steve Jackson: Game designer, munchkin (Credit: Image is (c) copyright Steve Jackson Games) - 2009-08-02T22:03:59+10:00
+Steve Jackson: Game designer (Credit: Image is (c) copyright Steve Jackson Games) - 2009-08-02T22:03:59+10:00
 
 ### Who are you and what do you do?
 
-I design games - not computer games, but card games, board games, RPGs - all sorts of stuff printed on dead trees. The ones you might have heard of, working backwards, include Munchkin Quest, Munchkin, GURPS, Illuminati, Car Wars, The Fantasy Trip, and Ogre. I've been doing this since before personal computers (scary thought). I like having a computer. I live and work in Austin, Texas.
+I [design games](http://sjgames.com/ "The official Steve Jackson Games website.") - not computer games, but card games, board games, RPGs - all sorts of stuff printed on dead trees. The ones you might have heard of, working backwards, include Munchkin Quest, Munchkin, GURPS, Illuminati, Car Wars, The Fantasy Trip, and Ogre. I've been doing this since before personal computers (scary thought). I like having a computer. I live and work in Austin, Texas.
 
 ### What hardware do you use?
 
