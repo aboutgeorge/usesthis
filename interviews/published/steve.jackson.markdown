@@ -1,4 +1,4 @@
-Steve Jackson: Game designer (Credit: Image is (c) copyright Steve Jackson Games) - 2009-08-02T22:03:59+10:00
+Steve Jackson: Game designer (Credit: Image is © copyright Steve Jackson Games) - 2009-08-02T22:03:59+10:00
 
 ### Who are you and what do you do?
 
