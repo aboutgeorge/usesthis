@@ -1,4 +1,4 @@
-Danah Boyd: Researcher, Microsoft Research New England (Credit: Portrait by [Adam Tinworth](http://www.flickr.com/people/adders/ "Adam's photos on Flickr.")) - 2009-08-12T19:46:50+10:00
+danah boyd: Researcher, Microsoft Research New England (Credit: Portrait by [Adam Tinworth](http://www.flickr.com/people/adders/ "Adam's photos on Flickr.")) - 2009-08-12T19:46:50+10:00
 
 ### Who are you and what do you do?
 
