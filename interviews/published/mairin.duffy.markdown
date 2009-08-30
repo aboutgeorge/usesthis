@@ -1,4 +1,4 @@
-Máirín Duffy: UI designer, usability tester - 2009-08-30T20:34:09+10:00
+Máirín Duffy: UI designer, usability tester (Red Hat, Fedora) - 2009-08-30T20:34:09+10:00
 
 ### Who are you and what do you do?
 
