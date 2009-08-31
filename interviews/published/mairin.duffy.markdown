@@ -49,7 +49,7 @@ One major problem with my current setup is the backup and synchronization of dat
 
 One final aspect I'd love in a dream setup is an always-on internet connection. Maybe a broadband card. It would be awesome if I could then automatically mount all of my files and access my systems.
 
-[fedora]: http://fedora.org/ "A popular Linux distribution."
+[fedora]: http://fedoraproject.org/ "A popular Linux distribution."
 [thinkpad-x61]: http://www-307.ibm.com/pc/support/site.wss/document.do?sitestyle=lenovo&lndocid=MIGR-68040 "A tablet PC."
 [precision-470]: http://support.dell.com/support/edocs/systems/ws470/en/ug_en/abtdev.htm#wp1050681 "A PC workstation."
 [rhel]: http://www.redhat.com/rhel/ "A certified version of the Linux distribution."
