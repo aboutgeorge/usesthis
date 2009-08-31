@@ -109,7 +109,7 @@
 "facebook": {title: "Facebook", description: "A popular social networking site.", url: "http://facebook.com/"}
 "facebook-iphone": {title: "Facebook (iPhone)", description: "An iPhone app for accessing Facebook.", url: "http://www.facebook.com/apps/application.php?id=6628568379"}
 "fastscripts": {title: "FastScripts", description: "System-wide access to Applescripts, for the Mac.", url: "http://red-sweater.com/fastscripts/"}
-"fedora": {title: "Fedora", description: "A popular Linux distribution.", url: "http://fedora.org/"}
+"fedora": {title: "Fedora", description: "A popular Linux distribution.", url: "http://fedoraproject.org/"}
 "fieldrunners-iphone": {title: "Fieldrunners (iPhone)", description: "A very popular tower defense-style game for the iPhone.", url: "http://fieldrunners.com/"}
 "filemaker-pro": {title: "Filemaker Pro", description: "A database application.", url: "http://filemaker.com/products/filemaker-pro/"}
 "final-cut-pro": {title: "Final Cut Pro", description: "A nonlinear video editor.", url: "http://www.apple.com/finalcutstudio/finalcutpro/"}

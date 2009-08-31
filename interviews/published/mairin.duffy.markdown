@@ -66,7 +66,7 @@ One final aspect I'd love in a dream setup is an always-on internet connection. 
 [lide-30]: http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&fcategoryid=119&modelid=6623 "A USB flatbed scanner."
 [sansa-clip]: http://www.sandisk.com/products/sansa-music-and-video-players/sandisk-sansa-clip-mp3-players.aspx "A small portable music player."
 [flasher-v7]: http://www.virginmobileusa.com/phones/phoneDetail.do?skuId=VM8910 "A basic mobile phone with a VGA camera."
-[fedora]: http://fedora.org/ "A popular Linux distribution."
+[fedora]: http://fedoraproject.org/ "A popular Linux distribution."
 [rhel]: http://www.redhat.com/rhel/ "A certified version of the Linux distribution."
 [red-hat-network]: http://rhn.redhat.com/ "A platform for system software updates and provisioning."
 [gnome]: http://www.gnome.org/ "A desktop system for *nix operating systems."
