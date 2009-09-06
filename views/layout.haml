@@ -4,11 +4,11 @@
     %title= "#{@interview.person + " on " if @interview}The Setup"
     %link{:href => '/stylesheets/screen', :media => 'screen', :rel => 'stylesheet', :type => 'text/css'}
     %link{:href => '/stylesheets/mobile', :media => 'only screen and (max-device-width: 480px)', :rel => 'stylesheet', :type => 'text/css'}
-    %link{:href => 'http://usesthis.com/feed', :type => 'application/atom+xml', :rel => 'alternate', :title => "Atom feed"}
+    %link{:href => '/feed', :type => 'application/atom+xml', :rel => 'alternate', :title => "Atom feed"}
     %meta{:charset => "utf8"}
   %body
     %h1
-      %a{:href => 'http://usesthis.com/', :title => "This is The Setup."}The Setup
+      %a{:href => '/', :title => "This is The Setup."}The Setup
       is a bunch of nerdy interviews
     %p What do people use to get the job done?
     = yield
