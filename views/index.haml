@@ -3,7 +3,7 @@
     - @interviews.each do |interview|
       %li
         %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}."}
-          %img{:src => "http://localhost/images/#{interview.slug}.thumb.jpg", :width => 100, :height => 100, :alt => interview.person, :class => 'thumbnail'}
+          %img{:src => "/images/#{interview.slug}.thumb.jpg", :width => 100, :height => 100, :alt => interview.person, :class => 'thumbnail'}
         %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}.", :class => 'name'}
           = interview.person
         %br
