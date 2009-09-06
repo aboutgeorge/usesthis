@@ -1,157 +1,131 @@
 a
-  color: #aaa
-  
+  color: #000
+
 a:hover
-  color: #888
+  color: #fe2e9a
 
-article
-  p, ul
-    padding: 12px 20px
-    margin: 0
-    background:
-      color: #1a1a1a
-    color: #bbb
-    font:
-      size: 85%
-    line:
-      height: 20px
-  
-body
-  width: 508px
-  padding: 40px
-  margin: 0
-  background:
-    color: #111
-  color: #fff
-  font:
-    family: helvetica
-    size: 16px
+  img
+    opacity: 0.8
 
-footer
-  display: block
-  padding: 10px 0
-  margin: 10px 0
-  color: #333
-  font:
-    size: 70%
-  border:
-    top: solid 1px #222
-
-  a
-    color: #555
-		
-h1
-  padding: 0
-  margin: 0
-  text:
-    transform: uppercase
-  color: #333
-  font:
-    size: 120%
-
-  a
-    color: #444
-
-h1 + p
-  padding: 0 0 15px 0
-  margin: 5px 0 20px 0
-  font:
-    size: 80%
-  border:
-    bottom: solid 1px #222
-  
-h2
-  padding: 0
-  margin: 0
-  background: transparent
-  color: #df0174
-  font:
-    size: 230%
-
-h2 + p
-  margin: 5px 0 30px 0
-  font:
-    size: 85%
+article p
+  line:
+    height: 26px
     
-h3
-  text:
-    transform: uppercase
-  color: #555
-  font:
-    size: 140%
-    weight: normal
-
-img
-  border: solid 4px #000
-  padding: 4px
+body
+  width: 504px
   background:
     color: #fff
+  color: #000
+  padding: 50px 30px
+  margin: auto
+  text:
+    align: left
+  font:
+    family: georgia
 
-img + p
+footer
+  color: #444
   font:
-    size: 70%
-  color: #aaa
+    size: 90%
     
-p.summary
+  p:first-child
+    border:
+      top: double 5px #ccc
+    padding:
+      top: 20px
+
+h1
+  text:
+    transform: uppercase
+  padding: 0
+  margin: 0
+  color: #fe2e9a
   font:
-    size: 80%
-  margin: 5px 0 30px 0
+    size: 250%
+    weight: normal
+  
+  a
+    color: #fe2e9a
+    text:
+      decoration: none
+
+h1:hover
+  a
+    text:
+      decoration: underline
+
+h1 + p
+  color: #000
+  padding: 5px 0 10px 0
+  margin: 0
+  font:
+    size: 120%
+  border:
+    bottom: double 5px #ccc
+
+h2
+  padding: 0
+  margin: 20px 0 0 0
+  font:
+    size: 250%
+    weight: normal
+
+h2 + p
+  padding: 0
+  margin: 0 0 20px 0
   color: #666
 
-p.date
-  float: right
-  text:
-    align: right
+h3
   padding: 0
-  margin: 17px
+  margin: 20px 0 0 0
   font:
-    size: 110%
-  
-ul
-  list:
-    style: 
-      position: inside
-  
+    size: 200%
+    weight: normal
+
+html
+  text:
+    align: center
+
+img
+  border: solid 2px #000
+
+img.portrait + p
+  padding: 0
+  margin: 5px 0
+  font:
+    size: 85%
+
+time
+  color: #aaa
+  font:
+    size: 80%
+
 ul#interviews
   list:
     style: none
-  padding: 0
+  padding: 0 0 15px 0
   margin: 0
 
   li
-    clear: left
-    padding: 0
-    margin: 0
-  
-    a
-      display: block
-      padding: 0
-      margin: 0 0 15px 0
-      
-      text:
-        decoration: none
-      
-      
-      h2
-        font:
-          weight: normal
-      
-      p.date
-        display: none
-      
-      p.summary
-        margin: 0
+    clear: both
+    padding: 15px
+    color: #666
+    font:
+      size: 90%
+    border:
+      top: solid 1px #ccc
     
-    a:hover
-      background:
-        color: #fe2e9a
-      color: #fff
+    a
+      font:
+        size: 220%
       
-      h2
-        color: #fff
-      
-      p.date
-        display: block
-        
-      p.summary
-        color: #ddd
+    
+    img
+      float: left
+      margin:
+        right: 30px
+        bottom: 15px
+    
+  li:first-child
+    border:
+      top: 0
