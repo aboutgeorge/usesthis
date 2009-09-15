@@ -11,3 +11,14 @@
         %br
         %time
           = interview.created_at.strftime("%Y-%m-%d")
+          
+  %p.pagination
+    - if (@page - 1) > 0
+      %a{:href => @page - 1 == 1 ? "/" : "/?page=#{@page - 1}"} &laquo; Previous
+    - else
+      &laquo; Previous
+    = " | Page #{@page} of #{@count} | "
+    - if @page < @count
+      %a{:href => "/?page=#{@page + 1}"} Next &raquo;
+    - else
+      Next &raquo;
