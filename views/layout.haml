@@ -1,21 +1,21 @@
 !!! Strict
 %html{html_attrs}
   %head
-    %title= "#{@interview.person + " on " if @interview}The Setup"
+    %title= "#{@interview.person + " on " if @interview && @interview.person}The Setup"
     %link{:href => '/stylesheets/screen', :media => 'screen', :rel => 'stylesheet', :type => 'text/css'}
     %link{:href => '/stylesheets/mobile', :media => 'only screen and (max-device-width: 480px)', :rel => 'stylesheet', :type => 'text/css'}
-    %link{:href => '/feed', :type => 'application/atom+xml', :rel => 'alternate', :title => "Atom feed"}
-    %meta{:charset => "utf8"}
+    %link{:href => '/feed', :type => 'application/atom+xml', :rel => 'alternate', :title => 'Atom feed'}
+    %meta{:charset => 'utf8'}
   %body
-    %h1
-      %a{:href => 'http://usesthis.com/', :title => "This is The Setup."}The Setup
-      is a bunch of nerdy interviews
-    %p What do people use to get the job done?
+    %header{:class => @interview ? 'small' : 'large'}
+      %h1
+        %a{:href => "http://usesthis.com/", :title => "This is The Setup, a bunch of nerdy interviews."} The Setup
+      %p.tagline What do people use to get the job done?
     = yield
     %footer
       :markdown
-        This is some sort of [waferbaby](http://waferbaby.com/ "Some website.") shindig, running on [Sinatra](http://www.sinatrarb.com/ "A lovely little Ruby web thingy."). Grab the [source code](http://github.com/waferbaby/usesthis/tree/master "View the source code for usesthis.com.") if you're so inclined.
+        This is some sort of [waferbaby](http://waferbaby.com/ "Some website.") shindig, running on [Sinatra](http://www.sinatrarb.com/ "A lovely little Ruby web thingy."). Grab the [source code](http://github.com/waferbaby/usesthis/tree/master "View the source code for usesthis.com.") if you're so inclined. Follow us [on Twitter](http://twitter.com/usesthis/ "Follow @usesthis on Twitter."), or subscribe to the [feed](http://usesthis.com/feed/ "Subscribe to the Atom feed.").
         
-        Follow us [on Twitter](http://twitter.com/usesthis/ "Follow @usesthis on Twitter."), or subscribe to the [feed](http://usesthis.com/feed/ "Subscribe to the Atom feed.").
-
+        The site uses the [Nevis](http://www.tenbytwenty.com/products/typefaces/nevis "This is the font used in the headers.") typeface. It's purty.
+        
         Unless noted otherwise, everything on the site is available via the [Attribution-Share Alike](http://creativecommons.org/licenses/by-sa/2.5/au/ "A Creative Commons license.") license. _Sharing is fucking **cool**_.
