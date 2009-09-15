@@ -10,8 +10,7 @@ class Interview
     include DataMapper::Resource
     is_paginated
     
-    property :id,           Serial
-    property :slug,         String
+    property :slug,         String, :key => true
     property :person,       String
     property :summary,      String
     property :credits,      String
@@ -21,4 +20,7 @@ class Interview
     property :dream_setup,  Text
     
     timestamps :at
+    
+    validates_is_unique :slug
+    validates_present :person, :summary, :who, :hardware, :software, :dream_setup
 end
