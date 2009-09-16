@@ -1,0 +1,22 @@
+%h2 Interview editor
+
+- if @interview.errors.count > 0
+  %ul
+  - @interview.errors.each do |e|
+    %li= e
+
+%form{:method => 'post', :action => @path}
+  %p
+    %label{:for => 'person'}Name:
+    %input{:type => 'text', :name => 'person', :id => 'person', :value => @interview.person}
+  %p
+    %label{:for => 'slug'}Slug:
+    %input{:type => 'text', :name => 'slug', :id => 'slug', :value => @interview.slug}
+  %p
+    %label{:for => 'summary'}Summary:
+    %input{:type => 'text', :name => 'summary', :id => 'summary', :value => @interview.summary}
+  %p
+    %label{:for => 'contents'}Interview:
+    %textarea{:name => 'contents', :id => 'contents'}= @interview.contents
+  %p
+    %input{:type => 'submit', :value => "Go"}
