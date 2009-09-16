@@ -8,10 +8,15 @@ require 'datamapper'
 class Ware
     include DataMapper::Resource
     
-    property :id,           Serial
+    property :slug,         String, :key => true
     property :title,        String
     property :url,          String, :length => 100
-    property :description,  String
+    property :description,  String, :length => 100
     
     timestamps :at
+    
+    validates_is_unique :slug
+    validates_present :title, :url, :description
+    
+    has n, :interviews, :through => Resource
 end
