@@ -16,14 +16,14 @@ require 'lib/ware'
 set :haml, {:format => :html5}
 
 configure do
-    DataMapper.setup(:default, "sqlite3:///#{Dir.pwd}/database/usesthis.db")
-    DataMapper.auto_upgrade!
-    
     begin
         @config = YAML.load_file('config/application.yml')
     rescue
-        @config = {}
+        puts "Error: Unable to read config file."
+        exit
     end
+    
+    DataMapper.setup(:default, @config[:database])
     
     set :config, @config
 end
@@ -44,11 +44,14 @@ helpers do
 
         markdown.to_html
     end
+    
+    def current_page
+        @page = params[:page] && params[:page].match(/\d+/) ? params[:page].to_i : 1
+    end
 end
 
 get '/' do
-    @page = (params[:page].nil? ? 1 : params[:page]).to_i
-    @count, @interviews = Interview.paginated(:page => @page, :per_page => 1)
+    @count, @interviews = Interview.paginated(:page => current_page, :per_page => 1, :order => [:created_at.desc])
     haml :index
 end
 
@@ -59,7 +62,7 @@ end
 get '/feed/?' do
     content_type 'application/atom+xml', :charset => 'utf-8'
 
-    @interviews = Interview.all
+    @interviews = Interview.all(:order => [:created_at.desc])
     haml :feed, {:format => :xhtml, :layout => false}
 end
 
@@ -78,19 +81,30 @@ end
 
 ### Admin
 
+get '/admin/wares/?' do
+    needs_auth
+    
+    @wares = Ware.all(:order => [:slug.asc])
+    haml :'wares/index'
+end
+
 get '/admin/interviews/?' do
     needs_auth
     
-    @interviews = Interview.all
+    @interviews = Interview.all(:order => [:created_at.desc])
     haml :'interviews/index'
 end
 
 get '/admin/interviews/new' do
+    needs_auth
+    
     @interview = Interview.new
     haml :'interviews/form', :locals => {:path => '/admin/new'}
 end
 
 post '/admin/interviews/new' do
+    needs_auth
+    
     @interview = Interview.new(params)
 
     if @interview.save
@@ -101,6 +115,8 @@ post '/admin/interviews/new' do
 end
 
 get '/admin/interviews/:slug' do
+    needs_auth
+    
     @interview = Interview.first(:slug => params[:slug])
     raise not_found unless @interview
 
@@ -108,11 +124,13 @@ get '/admin/interviews/:slug' do
 end
 
 post '/admin/interviews/:slug' do
+    needs_auth
+    
     @interview = Interview.first(:slug => params[:slug])
     raise not_found unless @interview
 
-    if @interview.update_attributes(params)
-        redirect "/admin/interviews"
+    if @interview.update(params)
+        redirect '/admin/interviews'
     else
         haml :'interviews/form', :locals => {:path => "/admin/#{params[:slug]}"}
     end
@@ -121,9 +139,9 @@ end
 ### Errors
 
 not_found do
-    haml :error, :locals => { :message => "Sorry, but I can't seem to find what you're looking for!" }
+    haml :error, :locals => { :message => "Man, I suck. I can't find what you're looking for." }
 end
 
 error do
-    haml :error, :locals => { :message => "Something bad happened. It's not you, it's me." }
+    haml :error, :locals => { :message => "Something bad happened. It's not you, it's me. Probably." }
 end
