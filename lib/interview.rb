@@ -4,9 +4,12 @@
 #
 
 require 'datamapper'
+require 'dm-is-paginated'
 
 class Interview
     include DataMapper::Resource
+    
+    is :paginated
     
     property :slug,         String, :key => true
     property :person,       String
