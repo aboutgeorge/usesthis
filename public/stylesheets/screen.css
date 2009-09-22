@@ -1,0 +1,92 @@
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.interview {
+	font-size: 130%
+}
+    
+article p {
+	line-height: 25px;
+}
+      
+body {
+	width: 505px;
+	padding: 50px 0;
+	background-color: #fff;
+	color: #000;
+	margin: auto;
+	text-align: left;
+	font-family: helvetica, arial
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font-size: 175%;
+	font-weight: normal;
+}
+
+h1 a {
+	color: #fe2e9a
+}
+    
+h2 {
+	padding: 0;
+	margin: 20px 0 5px 0;
+	color: #fe2e9a;
+	font-family: helvetica;
+	font-size: 180%;
+	font-weight: normal;
+}
+
+h2 + p {
+	padding: 0;
+	margin: 0;
+	color: #555;
+	font-size: 110%;
+}
+
+h3 {
+	color: #444;
+	font-size: 130%;
+	font-weight: normal;
+}
+
+img {
+	border: 0;
+}
+
+img.thumbnail {
+	margin: 15px 0 5px 0;
+}
+
+p.summary {
+	padding: 2px 0 0 0;
+	margin: 0;
+	font-size: 75%;
+}
+
+p.tagline {
+	padding: 5px 0;
+	margin: 0 0 10px;
+	color: #888;
+	font-size: 90%;
+}
+
+p.pagination {
+	text-align: center;
+}
+
+time {
+	float: right;
+	padding: 8px 0;
+	color: #aaa;
+	font-size: 90%;
+}
