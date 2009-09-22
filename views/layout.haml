@@ -2,15 +2,15 @@
 %html{html_attrs}
   %head
     %title= "#{@interview.person + " on " if @interview && @interview.person}The Setup"
-    %link{:href => '/stylesheets/screen', :media => 'screen', :rel => 'stylesheet', :type => 'text/css'}
-    %link{:href => '/stylesheets/mobile', :media => 'only screen and (max-device-width: 480px)', :rel => 'stylesheet', :type => 'text/css'}
+    %link{:href => '/stylesheets/screen.css', :media => 'screen', :rel => 'stylesheet', :type => 'text/css'}
     %link{:href => '/feed', :type => 'application/atom+xml', :rel => 'alternate', :title => 'Atom feed'}
     %meta{:charset => 'utf8'}
   %body
     %header{:class => @interview ? 'small' : 'large'}
       %h1
-        %a{:href => "http://usesthis.com/", :title => "This is The Setup, a bunch of nerdy interviews."} The Setup
+        %a{:href => "http://usesthis.com/", :title => "This is The Setup, a bunch of nerdy interviews."} the setup
+        is a bunch of nerdy interviews
       %p.tagline What do people use to get the job done?
     = yield
     %footer
-      Unless otherwise noted, everything on this here website is available via the <a href="http://creativecommons.org/licenses/by-sa/2.5/au/" title="A Creative Commons license.">Attribution-Share Alike</a> license. Sharing is fucking *cool*.
+      %p Unless otherwise noted, everything on this here website is available via the <a href="http://creativecommons.org/licenses/by-sa/2.5/au/" title="A Creative Commons license.">Attribution-Share Alike</a> license. Sharing is fucking *cool*.
