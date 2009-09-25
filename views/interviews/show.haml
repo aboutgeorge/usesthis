@@ -4,7 +4,7 @@
     - if @interview.credits
       = markup(@interview.credits)
 
-    %h2= "An interview with ", @interview.person
+    %h2= @interview.person
     %p.summary= @interview.summary
     %time= @interview.created_at.strftime("%y-%m-%d")
     
