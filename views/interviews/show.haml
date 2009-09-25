@@ -1,0 +1,11 @@
+%section
+  %article.interview{:id => @interview.slug}
+    %img{:src => "/images/portraits/#{@interview.slug}.jpg", :width => 500, :height => 335, :alt => @interview.person, :class => 'portrait'}
+    - if @interview.credits
+      = markup(@interview.credits)
+
+    %h2= @interview.person
+    %p.summary= @interview.summary
+    %time= @interview.created_at.strftime("%y-%m-%d")
+    
+    = markup(@interview.contents_with_wares)

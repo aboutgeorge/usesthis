@@ -15,11 +15,11 @@ role :web, "usesthis.com"
 
 namespace :deploy do
     task :start, :roles => :app do
-        run "cd #{deploy_to}/current && nohup thin -s 3 -R config.ru start"
+        run "cd #{deploy_to}/current && nohup thin -s 3 -R config/rack.ru start"
     end
     
     task :stop, :roles => :app do
-        run "cd #{deploy_to}/current && nohup thin -s 3 -R config.ru stop"
+        run "cd #{deploy_to}/current && nohup thin -s 3 -R config/rack.ru stop"
     end
     
     task :restart, :roles => :app do
