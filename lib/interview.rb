@@ -13,8 +13,8 @@ class Interview
     
     property :slug,         String, :key => true
     property :person,       String
-    property :summary,      String
-    property :credits,      String
+    property :summary,      String, :length => 100
+    property :credits,      String, :length => 80
     property :contents,     Text
     
     timestamps :at
