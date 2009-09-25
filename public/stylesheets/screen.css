@@ -1,18 +1,36 @@
 a {
 	color: #666;
-	text-decoration: none;
-}
-
-a:hover {
 	text-decoration: underline;
 }
 
-a.interview {
-	font-size: 130%
+a:hover {
+	color: #888 !important;
 }
-    
+
+a.interview {
+	color: #111;
+	font-size: 150%
+}
+ 
+article a {
+	padding: 2px;
+	background-color: #ececec;
+}
+
 article p {
 	line-height: 25px;
+}
+
+article p.summary {
+	font-size: 120%;
+}
+
+article time {
+	font-size: 85%;
+}
+
+article time:before {
+	content: "Published ";
 }
       
 body {
@@ -25,6 +43,11 @@ body {
 	font-family: helvetica, arial
 }
 
+footer {
+	color: #777;
+	font-size: 70%;
+}
+
 h1 {
 	padding: 0;
 	margin: 0;
@@ -34,7 +57,8 @@ h1 {
 }
 
 h1 a {
-	color: #fe2e9a
+	color: #fe2e9a;
+	text-decoration: none;
 }
     
 h2 {
@@ -54,8 +78,10 @@ h2 + p {
 }
 
 h3 {
-	color: #444;
-	font-size: 130%;
+	padding: 0;
+	margin: 20px 0 5px 0;
+	color: #222;
+	font-size: 160%;
 	font-weight: normal;
 }
 
@@ -68,9 +94,10 @@ img.thumbnail {
 }
 
 p.summary {
-	padding: 2px 0 0 0;
+	padding: 2px 0;
 	margin: 0;
-	font-size: 75%;
+	color: #555;
+	font-size: 85%;
 }
 
 p.tagline {
@@ -85,8 +112,6 @@ p.pagination {
 }
 
 time {
-	float: right;
-	padding: 8px 0;
 	color: #aaa;
-	font-size: 90%;
+	font-size: 75%;
 }
