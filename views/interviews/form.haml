@@ -17,6 +17,6 @@
     %input{:type => 'text', :name => 'summary', :id => 'summary', :value => @interview.summary}
   %p
     %label{:for => 'contents'}Interview:
-    %textarea{:name => 'contents', :id => 'contents'}= @interview.contents
+    %textarea{:name => 'contents', :id => 'contents', :rows => 40, :cols => 68}= @interview.contents
   %p
     %input{:type => 'submit', :value => "Go"}
