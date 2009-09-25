@@ -51,7 +51,7 @@ helpers do
 end
 
 get '/' do
-    @count, @interviews = Interview.paginated(:page => current_page, :per_page => 1, :order => [:created_at.desc])
+    @count, @interviews = Interview.paginated(:page => current_page, :per_page => 5, :order => [:created_at.desc])
     haml :index
 end
 
