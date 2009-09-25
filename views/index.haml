@@ -1,12 +1,12 @@
 - if @interviews && @interviews.length > 0
-  - @interviews.each do |interview|
-    %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}."}
-      %img{:src => "/images/interviews/#{interview.slug}.thumb.jpg", :width => 100, :height => 100, :alt => interview.person, :class => 'thumbnail'}
-    %h2
-      %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}.", :class => 'interview'}= interview.person
-    %p.summary= interview.summary
-    %time= interview.created_at.strftime("%Y-%m-%d")
-    
+  %section
+    - @interviews.each do |interview|
+      %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}."}
+        %img{:src => "/images/thumbnails/#{interview.slug}.jpg", :width => 500, :height => 100, :alt => interview.person, :class => 'thumbnail'}
+      %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}.", :class => "interview"}= interview.person
+      %p.summary= interview.summary
+      %time= interview.created_at.strftime("%y-%m-%d")
+
   - if @count > 1
     %p.pagination
       = haml :pagination, :locals => {:path => '/'}, :layout => false
