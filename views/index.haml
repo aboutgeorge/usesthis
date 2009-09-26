@@ -5,7 +5,7 @@
         %img{:src => "/images/thumbnails/#{interview.slug}.jpg", :width => 500, :height => 100, :alt => interview.person, :class => 'thumbnail'}
         = interview.person
       %p.summary= interview.summary
-      %time= interview.created_at.strftime("%y-%m-%d")
+      %time{:pubdate => 'true', :datetime => interview.created_at.strftime("%Y-%m-%d")}= interview.created_at.strftime("%b %d, %Y")
 
   - if @count > 1
     %p.pagination
