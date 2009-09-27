@@ -18,5 +18,5 @@
       %content{:type => "xhtml"}
         %div{:xmlns => "http://www.w3.org/1999/xhtml"}
           %p
-            %img{:src => "/images/#{interview.slug}.jpg", :width => 500, :height => 335, :alt => interview.person}
-          = markup(interview.contents)
+            %img{:src => "http://usesthis.com/images/portraits/#{interview.slug}.jpg", :width => 500, :height => 335, :alt => interview.person}
+          = markup(interview.contents_with_wares)
