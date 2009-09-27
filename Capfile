@@ -15,15 +15,21 @@ role :web, "usesthis.com"
 
 namespace :deploy do
     task :start, :roles => :app do
-        run "cd #{deploy_to}/current && nohup thin -s 3 -R config/rack.ru start"
+        run "cd #{deploy_to}/current && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/rack.ru start"
     end
     
     task :stop, :roles => :app do
-        run "cd #{deploy_to}/current && nohup thin -s 3 -R config/rack.ru stop"
+        run "cd #{deploy_to}/current && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/rack.ru stop"
     end
     
     task :restart, :roles => :app do
         deploy.stop
         deploy.start
     end
+    
+    task :symlink do
+      run "ln -nfs #{shared_path}/config/application.yml #{current_path}/config/application.yml"
+    end
 end
+
+after "deploy:update", "deploy:symlink"
