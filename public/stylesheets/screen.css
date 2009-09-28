@@ -17,6 +17,10 @@ color: #111;
 font-size: 150%;
 }
 
+a.interview img {
+margin-bottom: 9px;
+}
+
 a.interview:hover {
 text-decoration: none;
 }
@@ -45,7 +49,7 @@ content: "Published ";
 }
  
 body {
-width: 505px;
+width: 502px;
 padding: 50px 0;
 background-color: #fff;
 color: #000;
