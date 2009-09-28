@@ -16,6 +16,7 @@ class Interview
     property :summary,      String, :length => 100
     property :credits,      String, :length => 80
     property :contents,     Text
+    property :is_public,    Boolean, :default => false
     
     timestamps :at
     
