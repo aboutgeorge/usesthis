@@ -51,7 +51,7 @@ helpers do
 end
 
 get '/' do
-    @count, @interviews = Interview.paginated(:page => current_page, :per_page => 5, :order => [:created_at.desc])
+    @count, @interviews = Interview.paginated(:is_public => true, :page => current_page, :per_page => 5, :order => [:created_at.desc])
     haml :index
 end
 
@@ -67,16 +67,10 @@ get '/feed/?' do
 end
 
 get '/:slug/?' do
-    @interview = Interview.first(:slug => params[:slug])
+    @interview = Interview.first(:slug => params[:slug], :is_public => true)
     raise not_found unless @interview
 
     haml :'interviews/show'
-end
-
-get '/stylesheets/:filename/?' do
-    response['Expires'] = (Time.now + ((60 * 60 * 24 * 7) * 8)).httpdate
-    content_type 'text/css', :charset => 'utf-8'
-    sass :"styles/#{params[:filename]}"
 end
 
 ### Admin
