@@ -85,7 +85,7 @@ end
 get '/admin/interviews/?' do
     needs_auth
     
-    @interviews = Interview.all(:order => [:created_at.desc])
+    @count, @interviews = Interview.paginated(:page => current_page, :per_page => 10, :order => [:created_at.desc])
     haml :'interviews/index'
 end
 
