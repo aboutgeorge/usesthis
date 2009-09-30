@@ -30,8 +30,7 @@ namespace :deploy do
     end
     
     task :symlink do
-      run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
-      run "ln -nfs #{shared_path}/config/auth.yml #{release_path}/config/auth.yml"
+      run "ln -nfs #{shared_path}/config.yml #{release_path}/config.yml"
     end
 end
 
