@@ -13,23 +13,49 @@ set :use_sudo,          false
 role :app, "usesthis.com"
 role :web, "usesthis.com"
 
+namespace :main
+  task :start do
+    run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/application.ru start"
+  end
+  
+  task :stop do
+    run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/application.ru stop"
+  end
+  
+  task :symlink do
+    run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
+  end  
+end
+
+namespace :admin
+  task :start do
+    run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/admin.ru start"
+  end
+
+  task :stop do
+    run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/admin.ru stop"
+  end
+  
+  task :symlink do
+    run "ln -nfs #{shared_path}/config/admin.yml #{release_path}/config/admin.yml"
+  end
+end
+
 namespace :deploy do
     task :start, :roles => :app do
-        run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/rack.ru start"
+        main.start
+        admin.start
     end
     
     task :stop, :roles => :app do
-        run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/rack.ru stop"
+        main.stop
+        admin.stop
     end
     
     task :restart, :roles => :app do
         deploy.stop
         deploy.start
-    end
-    
-    task :symlink do
-      run "ln -nfs #{shared_path}/config/application.yml #{release_path}/config/application.yml"
-    end
+    end    
 end
 
-after "deploy:update", "deploy:symlink"
+after "deploy:update", "main:symlink", "admin:symlink"
