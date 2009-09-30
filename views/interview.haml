@@ -2,10 +2,11 @@
   %article.interview{:id => @interview.slug}
     %img{:src => "/images/portraits/#{@interview.slug}.jpg", :width => 500, :height => 335, :alt => @interview.person, :class => 'portrait'}
     - if @interview.credits
-      = markup(@interview.credits)
+      :markdown
+        #{@interview.credits}
 
     %h2= @interview.person
     %p.summary= @interview.summary
     %time{:pubdate => 'true', :datetime => @interview.created_at.strftime("%Y-%m-%d")}= @interview.created_at.strftime("%b %d, %Y") 
-    
-    = markup(@interview.contents_with_wares)
+    :markdown
+      #{@interview.contents_with_wares}
