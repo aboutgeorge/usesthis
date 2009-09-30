@@ -29,9 +29,9 @@ namespace :deploy do
         deploy.start
     end
     
-    task :symlink do
-      run "ln -nfs #{shared_path}/config.yml #{release_path}/config.yml"
+    task :symlink_config do
+      run "ln -nfs #{shared_path}/usesthis.yml #{release_path}/usesthis.yml"
     end
 end
 
-after "deploy:update", "deploy:symlink"
+after "deploy:finalize_update", "deploy:symlink_config"
