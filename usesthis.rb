@@ -10,7 +10,8 @@ end
 set :haml, {:format => :html5}
 
 configure do
-    DataMapper.setup(:default, YAML.load_file(File.join(File.dirname(__FILE__), 'config', 'database.yml')))
+    @config = YAML.load_file('usesthis.yml')
+    DataMapper.setup(:default, @config[:database])
 end
 
 helpers do
