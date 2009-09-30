@@ -13,13 +13,13 @@ set :use_sudo,          false
 role :app, "usesthis.com"
 role :web, "usesthis.com"
 
-namespace :main
+namespace :main do
   task :start do
-    run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/application.ru start"
+    run "cd #{current_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/application.ru start"
   end
   
   task :stop do
-    run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/application.ru stop"
+    run "cd #{current_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/application.ru stop"
   end
   
   task :symlink do
@@ -27,13 +27,13 @@ namespace :main
   end  
 end
 
-namespace :admin
+namespace :admin do
   task :start do
-    run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/admin.ru start"
+    run "cd #{current_path} && nohup /var/lib/gems/1.8/bin/thin -s 1 -p 4000 -R config/admin.ru start"
   end
 
   task :stop do
-    run "cd #{release_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R config/admin.ru stop"
+    run "cd #{current_path} && nohup /var/lib/gems/1.8/bin/thin -s 1 -p 4000 -R config/admin.ru stop"
   end
   
   task :symlink do
