@@ -15,13 +15,13 @@ role :web, "usesthis.com"
 
 namespace :deploy do
     task :start, :roles => :app do
-        run "cd #{current_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R usesthis.ru start"
-        run "cd #{current_path} && nohup /var/lib/gems/1.8/bin/thin -s 1 -p 4000 -R admin.ru start"
+        run "cd #{current_path}/main/ && nohup /var/lib/gems/1.8/bin/thin -s 3 -R rack.ru start"
+        run "cd #{current_path}/admin/ && nohup /var/lib/gems/1.8/bin/thin -s 1 -p 4000 -R rack.ru start"
     end
     
     task :stop, :roles => :app do
-        run "cd #{current_path} && nohup /var/lib/gems/1.8/bin/thin -s 3 -R usesthis.ru stop"
-        run "cd #{current_path} && nohup /var/lib/gems/1.8/bin/thin -s 1 -p 4000 -R admin.ru stop"
+        run "cd #{current_path}/main/ && nohup /var/lib/gems/1.8/bin/thin -s 3 -R rack.ru stop"
+        run "cd #{current_path}/admin/ && nohup /var/lib/gems/1.8/bin/thin -s 1 -p 4000 -R rack.ru stop"
     end
     
     task :restart, :roles => :app do
@@ -30,7 +30,8 @@ namespace :deploy do
     end
     
     task :symlink_config do
-      run "ln -nfs #{shared_path}/usesthis.yml #{release_path}/usesthis.yml"
+      run "ln -nfs #{shared_path}/usesthis.yml #{release_path}/main/usesthis.yml"
+      run "ln -nfs #{shared_path}/usesthis.yml #{release_path}/admin/usesthis.yml"
     end
 end
 
