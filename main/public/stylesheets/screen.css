@@ -1,0 +1,144 @@
+a {
+color: #666;
+text-decoration: none;
+}
+
+a:hover {
+color: #fe2e9a !important;
+text-decoration: underline;
+}
+
+a:hover img {
+opacity: 0.8;
+}
+
+a.interview {
+color: #111;
+font-size: 150%;
+}
+
+a.interview img {
+margin-bottom: 9px;
+}
+
+a.interview:hover {
+text-decoration: none;
+}
+
+article a {
+padding: 2px;
+background-color: #ececec;
+}
+
+article p {
+line-height: 25px;
+}
+
+article p.summary {
+font-size: 120%;
+}
+
+article time {
+left: 0;
+top: 0;
+font-size: 85%;
+}
+
+article time:before {
+content: "Published ";
+}
+ 
+body {
+width: 502px;
+padding: 50px 0;
+background-color: #fff;
+color: #000;
+margin: auto;
+text-align: left;
+font-family: helvetica, arial
+}
+
+footer {
+color: #777;
+font-size: 70%;
+}
+
+h1 {
+padding: 0;
+margin: 0;
+color: #000;
+font-size: 175%;
+font-weight: normal;
+}
+
+h1 a {
+color: #fe2e9a;
+}
+
+h1 a:hover {
+text-decoration: underline;
+}
+
+h2 {
+padding: 0;
+margin: 20px 0 5px 0;
+font-family: helvetica;
+font-size: 190%;
+font-weight: normal;
+}
+
+h2 + p {
+padding: 0;
+margin: 0;
+color: #555;
+font-size: 110%;
+}
+
+h3 {
+padding: 0 0 5px 0;
+margin: 20px 0 5px 0;
+color: #555;
+font-size: 140%;
+font-weight: normal;
+border-bottom: solid 1px #ccc;
+}
+
+img {
+border: solid 1px #000;
+}
+
+img.thumbnail {
+margin-bottom: 3px;
+}
+
+img.portrait + p {
+padding: 0;
+margin: 0;
+font-size: 80%;
+}
+
+p.summary {
+padding: 2px 0;
+margin: 0;
+color: #555;
+font-size: 85%;
+}
+
+p.tagline {
+padding: 5px 0;
+margin: 0 0 10px;
+color: #888;
+font-size: 90%;
+}
+
+p.pagination {
+text-align: center;
+}
+
+time {
+position: relative;
+bottom: 46px;
+left: 395px;
+color: #aaa;
+font-size: 110%;
+}
