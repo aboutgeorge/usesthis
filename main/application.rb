@@ -21,7 +21,7 @@ helpers do
 end
 
 get '/' do
-    @count, @interviews = Interview.paginated(:is_public => true, :page => current_page, :per_page => 5, :order => [:created_at.desc])
+    @count, @interviews = Interview.paginated(:published_at.not => nil, :page => current_page, :per_page => 5, :order => [:created_at.desc])
     haml :index
 end
 
@@ -32,7 +32,7 @@ end
 get '/feed/?' do
     content_type 'application/atom+xml', :charset => 'utf-8'
 
-    @interviews = Interview.all(:is_public => true, :order => [:created_at.desc])
+    @interviews = Interview.all(:published_at.not => nil, :order => [:created_at.desc])
     haml :feed, {:format => :xhtml, :layout => false}
 end
 
