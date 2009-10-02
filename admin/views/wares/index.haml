@@ -1,15 +1,11 @@
+%p
+  %a{:href => "/wares/new"} Add new wares
 %table
   %tr
     %th Name
     %th Date
-    %th Actions
   - @wares.each do |ware|
     %tr
-      %td.title= ware.title
+      %td.title
+        %a{:href => "/wares/#{ware.slug}", :title => "Edit #{ware.title}."}= ware.title
       %td.date= ware.created_at.strftime("%Y/%m/%d")
-      %td.actions
-        %a{:href => "/admin/wares/#{ware.slug}"}Edit
-        |
-        %a{:href => "/admin/wares/#{ware.slug}/publish"}Publish
-        |
-        %a{:href => "/admin/wares/#{ware.slug}/delete"}Delete
