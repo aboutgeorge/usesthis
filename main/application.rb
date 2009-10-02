@@ -32,7 +32,7 @@ end
 get '/feed/?' do
     content_type 'application/atom+xml', :charset => 'utf-8'
 
-    @interviews = Interview.all(:order => [:created_at.desc])
+    @interviews = Interview.all(:is_public => true, :order => [:created_at.desc])
     haml :feed, {:format => :xhtml, :layout => false}
 end
 
