@@ -1,18 +1,11 @@
 %p
-  %a{:href => "/admin/interviews/new"} Add an interview
+  %a{:href => "/interviews/new"} Add a new interview
 %table
   %tr
     %th Name
     %th Date
-    %th Published
-    %th Actions
   - @interviews.each do |interview|
     %tr
       %td.person
-        %a{:href => "http://#{interview.slug}.usesthis.com/"}= interview.person
+        %a{:href => "/interviews/#{interview.slug}", :title => "Edit the interview with #{interview.person}."}= interview.person
       %td.date= interview.created_at.strftime("%Y/%m/%d")
-      %td.published ...
-      %td.actions
-        %a{:href => "/admin/interviews/#{interview.slug}"}Edit
-        |
-        %a{:href => "/admin/interviews/#{interview.slug}/delete"}Delete
