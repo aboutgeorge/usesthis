@@ -4,9 +4,12 @@
 #
 
 require 'datamapper'
+require 'dm-is-paginated'
 
 class Ware
     include DataMapper::Resource
+    
+    is :paginated
     
     property :slug,         String, :key => true
     property :title,        String
