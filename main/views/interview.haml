@@ -7,6 +7,7 @@
 
     %h2= @interview.person
     %p.summary= @interview.summary
-    %time{:datetime => @interview.published_at.strftime("%Y-%m-%d")}= @interview.published_at.strftime("%b %d, %Y") unless @interview.published_at.nil?
+    - unless @interview.published_at.nil?
+      %time{:datetime => @interview.published_at.strftime("%Y-%m-%d")}= @interview.published_at.strftime("%b %d, %Y")
     :markdown
       #{@interview.contents_with_wares}
