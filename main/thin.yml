@@ -1,5 +1,4 @@
 ---
-chdir: /usr/local/www/usesthis.com/current/main/
 daemonize: true
 log: log/thin.log
 pid: tmp/pids/thin.pid
