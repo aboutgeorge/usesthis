@@ -28,8 +28,41 @@ get '/' do
 end
 
 get '/wares/?' do
-    @wares = Ware.all(:order => [:slug.asc])
+    @count, @wares = Ware.paginated(:page => current_page, :per_page => 10, :order => [:created_at.desc])
     haml :'wares/index'
+end
+
+get '/wares/new' do
+    @ware = Ware.new
+    haml :'wares/form', :locals => {:path => '/wares/new'}
+end
+
+post '/wares/new' do
+    @ware = Ware.new(params)
+
+    if @ware.save
+        redirect '/wares'
+    else
+        haml :'wares/form', :locals => {:path => '/wares/new'}
+    end
+end
+
+get '/wares/:slug' do
+    @ware = Ware.first(:slug => params[:slug])
+    raise not_found unless @ware
+
+    haml :'wares/form', :locals => {:path => "/wares/#{params[:slug]}"}
+end
+
+post '/wares/:slug' do
+    @ware = Ware.first(:slug => params[:slug])
+    raise not_found unless @ware
+
+    if @ware.update(params)
+        redirect '/wares'
+    else
+        haml :'wares/form', :locals => {:path => "/#{params[:slug]}"}
+    end
 end
 
 get '/interviews/?' do
@@ -66,6 +99,6 @@ post '/interviews/:slug' do
     if @interview.update(params)
         redirect '/interviews'
     else
-        haml :'interviews/form', :locals => {:path => "/admin/#{params[:slug]}"}
+        haml :'interviews/form', :locals => {:path => "/#{params[:slug]}"}
     end
 end
