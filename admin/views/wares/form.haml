@@ -1,0 +1,22 @@
+%h2 Wares editor
+
+- if @ware.errors.count > 0
+  %ul
+  - @ware.errors.each do |e|
+    %li= e
+
+%form{:method => 'post', :action => @path}
+  %p
+    %label{:for => 'title'}Name:
+    %input{:type => 'text', :name => 'title', :id => 'title', :value => @ware.title}
+  %p
+    %label{:for => 'slug'}Slug:
+    %input{:type => 'text', :name => 'slug', :id => 'slug', :value => @ware.slug}
+  %p
+    %label{:for => 'url'}URL:
+    %input{:type => 'text', :name => 'url', :id => 'url', :value => @ware.url}
+  %p
+    %label{:for => 'description'}Description:
+    %input{:type => 'text', :name => 'description', :id => 'description', :value => @ware.description}
+  %p
+    %input{:type => 'submit', :value => "Go"}
