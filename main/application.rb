@@ -21,7 +21,7 @@ helpers do
 end
 
 get '/' do
-    @count, @interviews = Interview.paginated(:published_at.not => nil, :page => current_page, :per_page => 5, :order => [:published_at.desc])
+    @count, @interviews = Interview.paginated(:published_at.not => nil, :page => current_page, :per_page => 10, :order => [:published_at.desc])
     haml :index
 end
 
