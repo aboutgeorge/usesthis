@@ -14,14 +14,10 @@ role :app, "usesthis.com"
 role :web, "usesthis.com"
 
 namespace :deploy do
-    task :start, :roles => :app do
-        run "cd #{current_path}/main && nohup /var/lib/gems/1.8/bin/thin -s 3 -R rack.ru start"
-        run "cd #{current_path}/admin && nohup /var/lib/gems/1.8/bin/thin -s 1 -p 8080 -R rack.ru start"
-    end
-    
-    task :stop, :roles => :app do
-        run "cd #{current_path}/main && nohup /var/lib/gems/1.8/bin/thin -s 3 -R rack.ru stop"
-        run "cd #{current_path}/admin && nohup /var/lib/gems/1.8/bin/thin -s 1 -p 8080 -R rack.ru stop"
+    %w(start stop restart).each do |action|
+        task action.to_sym do
+            find_and_execute_task("thin:#{action}")
+        end
     end
     
     task :restart, :roles => :app do
@@ -30,9 +26,18 @@ namespace :deploy do
     end
     
     task :symlink_config do
-      run "ln -nfs #{shared_path}/usesthis.yml #{current_path}/main/usesthis.yml"
-      run "ln -nfs #{shared_path}/usesthis.yml #{current_path}/admin/usesthis.yml"
+      run "ln -nfs #{shared_path}/usesthis.yml #{deploy_to}/current/main/usesthis.yml"
+      run "ln -nfs #{shared_path}/usesthis.yml #{deploy_to}/current/admin/usesthis.yml"
     end
 end
 
-after "deploy:finalize_update", "deploy:symlink_config"
+namespace :thin do
+    %w(start stop restart).each do |action|
+        task action.to_sym, :roles => :app do
+            run "/var/lib/gems/1.8/bin/thin #{action} -R rack.ru -c #{deploy_to}/current/main -C #{deploy_to}/current/main/thin.yml"
+            run "/var/lib/gems/1.8/bin/thin #{action} -R rack.ru -c #{deploy_to}/current/admin -C #{deploy_to}/current/admin/thin.yml"
+        end
+    end
+end
+
+after "deploy:symlink", "deploy:symlink_config"
