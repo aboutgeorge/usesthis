@@ -40,7 +40,7 @@ text-decoration: none;
 
 a.interview + p.summary {
 padding: 0 0 15px 0;
-margin: 4px 0 20px 0;
+margin: 6px 0 20px 0;
 border-bottom: solid 1px #ddd;
 }
 
