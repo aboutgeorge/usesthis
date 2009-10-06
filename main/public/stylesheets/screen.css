@@ -17,12 +17,31 @@ color: #111;
 font-size: 150%;
 }
 
+a.interview h2 {
+float: left;
+padding: 0;
+margin: 0 7px 0 0;
+font-size: 90%;
+vertical-align: bottom;
+}
+
+a.interview h2:after {
+content: " /";
+color: #ccc;
+}
+
 a.interview img {
 margin-bottom: 9px;
 }
 
 a.interview:hover {
 text-decoration: none;
+}
+
+a.interview + p.summary {
+padding: 0 0 15px 0;
+margin: 4px 0 20px 0;
+border-bottom: solid 1px #ddd;
 }
 
 article a {
@@ -34,20 +53,6 @@ article p {
 line-height: 25px;
 }
 
-article p.summary {
-font-size: 120%;
-}
-
-article time {
-left: 0;
-top: 0;
-font-size: 85%;
-}
-
-article time:before {
-content: "Published ";
-}
- 
 body {
 width: 502px;
 padding: 50px 0;
@@ -55,12 +60,12 @@ background-color: #fff;
 color: #000;
 margin: auto;
 text-align: left;
-font-family: helvetica, arial
+font-family: helvetica, serif;
 }
 
 footer {
-color: #777;
-font-size: 70%;
+color: #999;
+font-size: 80%;
 }
 
 h1 {
@@ -82,7 +87,6 @@ text-decoration: underline;
 h2 {
 padding: 0;
 margin: 20px 0 5px 0;
-font-family: helvetica;
 font-size: 190%;
 font-weight: normal;
 }
@@ -118,10 +122,7 @@ font-size: 80%;
 }
 
 p.summary {
-padding: 2px 0;
-margin: 0;
 color: #555;
-font-size: 85%;
 }
 
 p.tagline {
@@ -136,9 +137,10 @@ text-align: center;
 }
 
 time {
-position: relative;
-bottom: 46px;
-left: 395px;
+font-size: 85%;
 color: #aaa;
-font-size: 110%;
+}
+
+time:before {
+content: "Published ";
 }
