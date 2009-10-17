@@ -1,6 +1,0 @@
----
-daemonize: true
-log: log/thin.log
-pid: tmp/pids/thin.pid
-port: 4000
-servers: 1
