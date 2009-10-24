@@ -1,6 +1,18 @@
 $(document).ready(function(){
 	var edit_url = '/' + slug + '/edit/';
 	
+	$('a#publish').click(function(){
+		if(!window.confirm('Publish this interview?')) {
+			return false;
+		}
+		
+		$.post(edit_url + 'published_at', { published_at: Date() }, function(result){
+			$('p.unpublished').replaceWith("<time>" + result + "</time>");
+		});
+		
+		return true;
+	});
+	
 	$('h2.person').editable(edit_url + 'person', {
 		cssclass: 'editor',
 		name: 'person',
@@ -11,6 +23,7 @@ $(document).ready(function(){
 		cssclass: 'editor',
 		name: 'credits',
 		id: '',
+		loadurl: '/' + slug + '/credits',
 	});
 	
 	$('p.summary').editable(edit_url + 'summary', {
