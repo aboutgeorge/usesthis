@@ -59,6 +59,12 @@ get '/login/?' do
     redirect '/'
 end
 
+get '/logout/?' do
+    session[:admin] = nil
+
+    redirect '/'
+end
+
 get '/new/?' do
     needs_auth
     
