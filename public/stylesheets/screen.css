@@ -121,6 +121,11 @@ margin: 0;
 font-size: 80%;
 }
 
+form.editor input {
+font-size: 95%;
+color: inherit;
+}
+
 p.summary {
 color: #555;
 }
