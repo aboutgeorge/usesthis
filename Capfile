@@ -25,8 +25,9 @@ namespace :deploy do
         deploy.start
     end
     
-    task :symlink_config do
+    task :symlink_shared do
       run "ln -nfs #{shared_path}/usesthis.yml #{deploy_to}/current/usesthis.yml"
+      run "ln -nfs #{shared_path}/javascripts/jquery.* #{deploy_to}/current/public/javascripts/"
     end
 end
 
@@ -38,4 +39,4 @@ namespace :thin do
     end
 end
 
-after "deploy:symlink", "deploy:symlink_config"
+after "deploy:symlink", "deploy:symlink_shared"
