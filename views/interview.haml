@@ -1,13 +1,22 @@
-%section
-  %article.interview{:id => @interview.slug}
+- if session[:admin]
+  %script{:type => 'text/javascript'}
+    var slug = "#{@interview.slug}";
+%section{:id => @interview.slug}
+  %article.overview
     %img{:src => "/images/portraits/#{@interview.slug}.jpg", :width => 500, :height => 335, :alt => @interview.person, :class => 'portrait'}
     - if @interview.credits
       :markdown
         #{@interview.credits}
 
-    %h2= @interview.person
+    %h2.person= @interview.person
     %p.summary= @interview.summary
-    - unless @interview.published_at.nil?
+    - if @interview.published_at
       %time{:datetime => @interview.published_at.strftime("%Y-%m-%d")}= @interview.published_at.strftime("%b %d, %Y")
+    - else
+      %p.unpublished
+        Not published.
+        - if session[:admin]
+          %a{:href => '#', :id => 'publish'} Publish now
+  %article.contents
     :markdown
       #{@interview.contents_with_wares}
