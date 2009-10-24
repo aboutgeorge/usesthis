@@ -26,16 +26,14 @@ namespace :deploy do
     end
     
     task :symlink_config do
-      run "ln -nfs #{shared_path}/usesthis.yml #{deploy_to}/current/main/usesthis.yml"
-      run "ln -nfs #{shared_path}/usesthis.yml #{deploy_to}/current/admin/usesthis.yml"
+      run "ln -nfs #{shared_path}/usesthis.yml #{deploy_to}/current/usesthis.yml"
     end
 end
 
 namespace :thin do
     %w(start stop restart).each do |action|
         task action.to_sym, :roles => :app do
-            run "cd #{deploy_to}/current/main && /var/lib/gems/1.8/bin/thin #{action} -R rack.ru -C thin.yml"
-            run "cd #{deploy_to}/current/admin &&/var/lib/gems/1.8/bin/thin #{action} -R rack.ru -C thin.yml"
+            run "cd #{deploy_to}/current/ && /var/lib/gems/1.8/bin/thin #{action} -R rack.ru -C thin.yml"
         end
     end
 end
