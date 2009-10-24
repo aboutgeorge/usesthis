@@ -25,7 +25,7 @@ helpers do
     def needs_auth
         admin = request.env['rack.session'][:admin]
         unless admin && admin[:name] == options.admin[:name] && admin[:password] == options.admin[:password]
-            throw :halt, 500
+            raise not_found
         end
     end
 end
@@ -59,22 +59,13 @@ get '/login/?' do
     redirect '/'
 end
 
-get '/:slug/?' do
-    @interview = Interview.first(:slug => params[:slug])
-    raise not_found unless @interview
-
-    haml :interview
-end
-
-#
-#   Admin
-#
-
-get '/interviews/new/?' do
+get '/new/?' do
     needs_auth
+    
+    haml :new
 end
 
-post '/interviews/new/?' do
+post '/new/?' do
     needs_auth
     
     @interview = Interview.new
@@ -100,13 +91,13 @@ END
     end
 end
 
-get '/:slug/contents/?' do
+get '/:slug/:key/?' do |slug, key|
     needs_auth
     
-    @interview = Interview.first(:slug => params[:slug])
+    @interview = Interview.first(:slug => slug)
     raise not_found unless @interview
     
-    @interview.contents
+    eval("@interview.#{key}")
 end
 
 post '/:slug/edit/:key/?' do |slug, key|
@@ -116,8 +107,25 @@ post '/:slug/edit/:key/?' do |slug, key|
     raise not_found unless @interview
     
     if @interview.update!(key => params[key])
-        key == 'contents' ? RDiscount.new(params[key]).to_html : params[key]
+        result = case key
+            when 'contents'
+            when 'credits'
+                RDiscount.new(params[key]).to_html
+            when 'published_at'
+                @interview.published_at.strftime("%b %d, %Y")
+            else
+                params[key]
+            end
     end
+    
+    result
+end
+
+get '/:slug/?' do
+    @interview = Interview.first(:slug => params[:slug])
+    raise not_found unless @interview
+
+    haml :interview
 end
 
 not_found do
