@@ -3,3 +3,4 @@ daemonize: true
 log: log/thin.log
 pid: tmp/pids/thin.pid
 port: 3000
+servers: 3
