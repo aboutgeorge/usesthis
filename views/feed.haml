@@ -10,8 +10,8 @@
   - @interviews.each do |interview|
     %entry
       %title= interview.person
-      %link{:href => "http://#{interview.slug}.usesthis.com/"}
-      %id= "http://#{interview.slug}.usesthis.com/"
+      %link{:href => interview_url(interview)}
+      %id= interview_url(interview)
       %published= interview.created_at
       %updated= interview.updated_at
       %content{:type => "xhtml"}
