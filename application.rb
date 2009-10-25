@@ -22,6 +22,10 @@ helpers do
         @page = params[:page] && params[:page].match(/\d+/) ? params[:page].to_i : 1
     end
     
+    def interview_url(interview)
+        ENV['RACK_ENV'] == 'production' ? "http://#{interview.slug}.usesthis.com/" : "/#{interview.slug}/"
+    end
+    
     def needs_auth
         admin = request.env['rack.session'][:admin]
         unless admin && admin[:name] == options.admin[:name] && admin[:password] == options.admin[:password]
@@ -112,18 +116,18 @@ post '/:slug/edit/:key/?' do |slug, key|
     @interview = Interview.first(:slug => slug)
     raise not_found unless @interview
     
-    if @interview.update!(key => params[key])
-        result = case key
-            when 'contents'
-            when 'credits'
-                RDiscount.new(params[key]).to_html
-            when 'published_at'
-                @interview.published_at.strftime("%b %d, %Y")
-            else
-                params[key]
-            end
-    end
-    
+    @interview.update!(key => params[key])
+    result = case key
+        when 'contents', 'credits'
+            RDiscount.new(params[key]).to_html
+        when 'published_at'
+            @interview.published_at.strftime("%b %d, %Y")
+        else
+            params[key]
+        end
+
+    @interview.link_to_wares
+
     result
 end
 
