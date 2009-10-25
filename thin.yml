@@ -1,6 +1,8 @@
 ---
+chdir: /usr/local/www/usesthis.com/current
+pid: /usr/local/www/usesthis.com/current/tmp/pids/thin.pid
+rackup: /usr/local/www/usesthis.com/current/rack.ru
+log: /usr/local/www/usesthis.com/current/log/thin.log
 daemonize: true
-log: log/thin.log
-pid: tmp/pids/thin.pid
 port: 3000
 servers: 3
