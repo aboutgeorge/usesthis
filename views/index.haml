@@ -1,7 +1,7 @@
 - if @interviews && @interviews.length > 0
   %section
     - @interviews.each do |interview|
-      %a{:href => "http://#{interview.slug}.usesthis.com/", :title => "View an interview with #{interview.person}.", :class => 'interview'}
+      %a{:href => interview_url(interview), :title => "View an interview with #{interview.person}.", :class => 'interview'}
         %img{:src => "/images/thumbnails/#{interview.slug}.jpg", :width => 500, :height => 100, :alt => interview.person, :class => 'thumbnail'}
         %h2= interview.person
       %p.summary= interview.summary
