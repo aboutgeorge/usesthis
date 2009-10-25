@@ -14,11 +14,15 @@
       %h1
         %a{:href => "http://usesthis.com/", :title => "This is The Setup, a bunch of nerdy interviews."} the setup
         is a bunch of nerdy interviews
-      %p.tagline What do people use to get the job done?
+      %p#tagline What do people use to get the job done?
+      - if session[:admin]
+        %p#admin
+          = "Logged in as #{session[:admin][:name]}"
+          %a{:href => '/logout', :title => 'Give it up.'} (Logout)
     = yield
     %footer
       :markdown
-        This is some sort of **waferbaby** shindig. Sorry about that.
+        This is some sort of [waferbaby](http://waferbaby.com/ "Some website.") shindig. Sorry about that.
         
         Follow us [on Twitter](http://twitter.com/usesthis/ "Our Twitter account.") or subscribe to [the feed](/feed/ "The Atom feed for the site.") to keep up.
         
