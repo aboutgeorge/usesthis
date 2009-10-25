@@ -3,12 +3,14 @@
   %head
     %title= "#{@interview.person + " on " if @interview && @interview.person}The Setup"
     %link{:href => '/stylesheets/screen.css', :media => 'screen', :rel => 'stylesheet', :type => 'text/css'}
+    %link{:href => '/stylesheets/mobile.css', :media => 'only screen and (max-device-width: 480px)', :rel => 'stylesheet', :type => 'text/css'}
     %link{:href => '/feed', :type => 'application/atom+xml', :rel => 'alternate', :title => 'Atom feed'}
     - if session[:admin]
       %script{:type => 'text/javascript', :src => '/javascripts/jquery.min.js'}
       %script{:type => 'text/javascript', :src => '/javascripts/jquery.jeditable.mini.js'}
       %script{:type => 'text/javascript', :src => '/javascripts/usesthis.js'}
     %meta{:charset => 'utf8'}
+    %meta{:name => 'viewport', :content => 'initial-scale = 0.59'}
   %body
     %header{:class => @interview ? 'small' : 'large'}
       %h1
