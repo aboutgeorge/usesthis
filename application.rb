@@ -116,17 +116,23 @@ post '/:slug/edit/:key/?' do |slug, key|
     @interview = Interview.first(:slug => slug)
     raise not_found unless @interview
     
-    @interview.update!(key => params[key])
-    result = case key
-        when 'contents', 'credits'
-            RDiscount.new(params[key]).to_html
-        when 'published_at'
-            @interview.published_at.strftime("%b %d, %Y")
-        else
-            params[key]
-        end
+    @interview.update!(key => params[key]) unless params[key] == 'contents'
+    
+    case key
+        when 'contents'
+            @interview.contents = params[key]
 
-    @interview.link_to_wares
+            @interview.link_to_wares
+            @interview.save!
+            
+            result = RDiscount.new(@interview.contents_with_wares).to_html
+        when 'credits'
+            result = RDiscount.new(@interview.credits).to_html
+        when 'published_at'
+            result = @interview.published_at.strftime("%b %d, %Y")
+        else
+            result = eval("@interview.#{key}")
+        end
 
     result
 end
