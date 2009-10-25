@@ -34,7 +34,7 @@ end
 namespace :thin do
     %w(start stop restart).each do |action|
         task action.to_sym, :roles => :app do
-            run "cd #{deploy_to}/current/ && /var/lib/gems/1.8/bin/thin #{action} -R rack.ru -C thin.yml"
+            run "/var/lib/gems/1.8/bin/thin #{action} -c #{deploy_to}/current/ -R rack.ru -C #{deploy_to}/current/thin.yml"
         end
     end
 end
